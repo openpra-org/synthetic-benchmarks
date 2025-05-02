@@ -1,0 +1,27 @@
+tool	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye
+run set	xfta.combined-and-or	xfta.combined-and-or	xfta.combined-and-or	xfta.combined-and-or
+models/models3/xfta/	status	cputime (s)	walltime (s)	memory (MB)
+xfta-ft-openpsa-1000Gates.xml	ERROR	0.117848465	0.14321788400411606	8.376320
+xfta-ft-openpsa-100Gates.xml	ERROR	0.016061591	0.05520612932741642	2.355200
+xfta-ft-openpsa-11Gates.xml	ERROR	0.006415086	0.046930523589253426	1.826816
+xfta-ft-openpsa-1Gates.xml	ERROR	0.004855756	0.03146465681493282	1.699840
+xfta-ft-openpsa-2000Gates.xml	ERROR	0.229216259	0.2637487929314375	15.056896
+xfta-ft-openpsa-200Gates.xml	ERROR	0.02650901	0.054947298020124435	3.010560
+xfta-ft-openpsa-21Gates.xml	ERROR	0.007190597	0.03932077996432781	1.830912
+xfta-ft-openpsa-3000Gates.xml	ERROR	0.358417698	0.3868313003331423	21.741568
+xfta-ft-openpsa-300Gates.xml	ERROR	0.036697452	0.07107224687933922	3.784704
+xfta-ft-openpsa-31Gates.xml	ERROR	0.008178502	0.04272767715156078	1.957888
+xfta-ft-openpsa-4000Gates.xml	ERROR	0.507180177	0.5468226838856936	28.426240
+xfta-ft-openpsa-400Gates.xml	ERROR	0.048091224	0.0873186606913805	4.444160
+xfta-ft-openpsa-41Gates.xml	ERROR	0.009321823	0.04284346662461758	1.961984
+xfta-ft-openpsa-5000Gates.xml	SEGMENTATION FAULT	0.498036497	0.7037356831133366	34.852864
+xfta-ft-openpsa-500Gates.xml	ERROR	0.059885817	0.08721383474767208	5.095424
+xfta-ft-openpsa-51Gates.xml	ERROR	0.010213253	0.05144766345620155	1.961984
+xfta-ft-openpsa-600Gates.xml	ERROR	0.070086158	0.10688540525734425	5.754880
+xfta-ft-openpsa-61Gates.xml	ERROR	0.011312102	0.04718955047428608	2.093056
+xfta-ft-openpsa-700Gates.xml	ERROR	0.083049126	0.12696457654237747	6.410240
+xfta-ft-openpsa-71Gates.xml	ERROR	0.012211426	0.05587315373122692	2.224128
+xfta-ft-openpsa-800Gates.xml	ERROR	0.09309573	0.1394770760089159	7.192576
+xfta-ft-openpsa-81Gates.xml	ERROR	0.013146085	0.05594785138964653	2.224128
+xfta-ft-openpsa-900Gates.xml	ERROR	0.104777756	0.13490689173340797	7.720960
+xfta-ft-openpsa-91Gates.xml	ERROR	0.014407947	0.05900866724550724	2.355200

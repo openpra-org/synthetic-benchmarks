@@ -1,0 +1,217 @@
+   BENCHMARK INFORMATION
+benchmark definition:    scram-bench.xml
+name:                    scram-bench
+run sets:                scram.mocus.trunc.rare-event.combined-and-or, scram.mocus.trunc.mcub.combined-and-or, scram.mocus.trunc.exact.combined-and-or
+date:                    Tue, 2022-04-26 21:33:54 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:                 -l 2000000 --mocus --probability --cut-off 1e-14
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+scram.mocus.trunc.rare-event.combined-and-or
+Run set 1 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14 --rare-event' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.14        0.16        None
+ft-10-01-or.xml         done                             0.14        0.17        None
+ft-10-05-and.xml        done                             0.14        0.16        None
+ft-10-05-or.xml         done                             0.14        0.16        None
+ft-100-01-and.xml       done                             0.14        0.16        None
+ft-100-01-or.xml        unknown                          0.14        0.17        None
+ft-100-01.xml           done                             0.15        0.19        None
+ft-100-02.xml           done                             0.19        0.21        None
+ft-100-03.xml           done                             0.15        0.16        None
+ft-100-04.xml           done                             0.15        0.17        None
+ft-100-05.xml           done                             0.15        0.16        None
+ft-100-06.xml           done                             0.16        0.18        None
+ft-100-07.xml           done                             0.15        0.17        None
+ft-100-08.xml           done                             0.19        0.21        None
+ft-100-09.xml           done                             0.20        0.22        None
+ft-1000-01-and.xml      done                             0.22        0.24        None
+ft-1000-01-or.xml       unknown                          0.22        0.24        None
+ft-1000-01.xml          TIMEOUT                        900.50      904.30        None
+ft-1000-02.xml          TIMEOUT                        900.31      901.10        None
+ft-1000-03.xml          TIMEOUT                        900.84      901.34        None
+ft-1000-04.xml          TIMEOUT                        900.64      900.73        None
+ft-1000-05.xml          TIMEOUT                        901.25      901.84        None
+ft-1000-06.xml          TIMEOUT                        900.54      901.13        None
+ft-1000-07.xml          TIMEOUT                        901.12      901.27        None
+ft-1000-08.xml          TIMEOUT                        900.40      900.93        None
+ft-1000-09.xml          TIMEOUT                        900.98      901.51        None
+ft-10000-01-and.xml     done                             0.65        0.69        None
+ft-10000-01-or.xml      unknown                          0.66        0.68        None
+ft-10000-01.xml         TIMEOUT                        900.77      900.88        None
+ft-10000-02.xml         TIMEOUT                        900.67      907.92        None
+ft-10000-03.xml         TIMEOUT                        901.16      902.59        None
+ft-10000-04.xml         TIMEOUT                        901.02      902.38        None
+ft-10000-05.xml         TIMEOUT                        901.09      902.57        None
+ft-10000-06.xml         TIMEOUT                        900.82      902.27        None
+ft-10000-07.xml         TIMEOUT                        901.12      902.50        None
+ft-10000-08.xml         TIMEOUT                        901.15      902.49        None
+ft-10000-09.xml         TIMEOUT                        901.23      902.41        None
+ft-100000-01-and.xml    done                            10.14       10.18        None
+ft-100000-01-or.xml     unknown                         10.30       10.34        None
+ft-100000-01.xml        TIMEOUT                        900.78      902.28        None
+ft-100000-02.xml        TIMEOUT                        901.35      902.67        None
+ft-100000-03.xml        TIMEOUT                        901.44      902.78        None
+ft-100000-04.xml        TIMEOUT                        900.79      901.92        None
+ft-100000-05.xml        TIMEOUT                        900.85      902.14        None
+ft-100000-06.xml        TIMEOUT                        900.75      901.94        None
+ft-100000-07.xml        TIMEOUT                        900.68      901.93        None
+ft-100000-08.xml        TIMEOUT                        900.84      902.04        None
+ft-100000-09.xml        TIMEOUT                        900.57      901.65        None
+ft-2-01-and.xml         done                             0.15        0.16        None
+ft-2-01-or.xml          done                             0.14        0.16        None
+-------------------------------------------------------------------------------------
+Run set 1               done                         24350.27    24423.45           -
+
+
+scram.mocus.trunc.mcub.combined-and-or
+Run set 2 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14 --mcub' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.15        0.17        None
+ft-10-01-or.xml         done                             0.15        0.16        None
+ft-10-05-and.xml        done                             0.15        0.16        None
+ft-10-05-or.xml         done                             0.15        0.18        None
+ft-100-01-and.xml       done                             0.15        0.18        None
+ft-100-01-or.xml        done                             0.15        0.17        None
+ft-100-01.xml           done                             0.16        0.18        None
+ft-100-02.xml           done                             0.19        0.21        None
+ft-100-03.xml           done                             0.16        0.18        None
+ft-100-04.xml           done                             0.16        0.18        None
+ft-100-05.xml           done                             0.15        0.18        None
+ft-100-06.xml           done                             0.16        0.20        None
+ft-100-07.xml           done                             0.16        0.19        None
+ft-100-08.xml           done                             0.20        0.22        None
+ft-100-09.xml           done                             0.21        0.22        None
+ft-1000-01-and.xml      done                             0.23        0.28        None
+ft-1000-01-or.xml       unknown                          0.23        0.25        None
+ft-1000-01.xml          TIMEOUT                        900.49      901.64        None
+ft-1000-02.xml          TIMEOUT                        900.31      901.16        None
+ft-1000-03.xml          TIMEOUT                        900.86      902.28        None
+ft-1000-04.xml          TIMEOUT                        900.66      902.08        None
+ft-1000-05.xml          TIMEOUT                        901.10      902.45        None
+ft-1000-06.xml          TIMEOUT                        900.67      902.01        None
+ft-1000-07.xml          TIMEOUT                        901.18      902.64        None
+ft-1000-08.xml          TIMEOUT                        900.47      901.84        None
+ft-1000-09.xml          TIMEOUT                        901.24      902.42        None
+ft-10000-01-and.xml     done                             1.00        1.02        None
+ft-10000-01-or.xml      unknown                          1.01        1.03        None
+ft-10000-01.xml         TIMEOUT                        900.85      902.20        None
+ft-10000-02.xml         TIMEOUT                        900.74      902.06        None
+ft-10000-03.xml         TIMEOUT                        901.12      902.51        None
+ft-10000-04.xml         TIMEOUT                        901.23      902.50        None
+ft-10000-05.xml         TIMEOUT                        901.10      902.25        None
+ft-10000-06.xml         TIMEOUT                        900.84      902.06        None
+ft-10000-07.xml         TIMEOUT                        901.12      902.27        None
+ft-10000-08.xml         TIMEOUT                        901.14      902.58        None
+ft-10000-09.xml         TIMEOUT                        901.22      902.50        None
+ft-100000-01-and.xml    done                            10.15       10.19        None
+ft-100000-01-or.xml     unknown                         10.39       10.43        None
+ft-100000-01.xml        TIMEOUT                        900.79      902.01        None
+ft-100000-02.xml        TIMEOUT                        901.36      902.70        None
+ft-100000-03.xml        TIMEOUT                        901.46      902.79        None
+ft-100000-04.xml        TIMEOUT                        900.79      901.99        None
+ft-100000-05.xml        TIMEOUT                        900.85      902.06        None
+ft-100000-06.xml        TIMEOUT                        900.75      901.92        None
+ft-100000-07.xml        TIMEOUT                        900.68      901.87        None
+ft-100000-08.xml        TIMEOUT                        900.86      902.14        None
+ft-100000-09.xml        TIMEOUT                        900.56      901.68        None
+ft-2-01-and.xml         done                             0.15        0.16        None
+ft-2-01-or.xml          done                             0.15        0.18        None
+-------------------------------------------------------------------------------------
+Run set 2               done                         24352.00    24421.65           -
+
+
+scram.mocus.trunc.exact.combined-and-or
+Run set 3 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.15        0.16        None
+ft-10-01-or.xml         done                             0.15        0.16        None
+ft-10-05-and.xml        done                             0.15        0.17        None
+ft-10-05-or.xml         done                             0.15        0.16        None
+ft-100-01-and.xml       done                             0.15        0.17        None
+ft-100-01-or.xml        unknown                          0.15        0.18        None
+ft-100-01.xml           done                             0.16        0.18        None
+ft-100-02.xml           done                             0.19        0.22        None
+ft-100-03.xml           done                             0.16        0.17        None
+ft-100-04.xml           done                             0.16        0.18        None
+ft-100-05.xml           done                             0.15        0.18        None
+ft-100-06.xml           done                             0.16        0.18        None
+ft-100-07.xml           done                             0.16        0.19        None
+ft-100-08.xml           done                             0.20        0.22        None
+ft-100-09.xml           done                             0.21        0.25        None
+ft-1000-01-and.xml      done                             0.23        0.25        None
+ft-1000-01-or.xml       unknown                          0.23        0.25        None
+ft-1000-01.xml          TIMEOUT                        900.49      901.79        None
+ft-1000-02.xml          TIMEOUT                        900.31      901.26        None
+ft-1000-03.xml          TIMEOUT                        900.89      901.94        None
+ft-1000-04.xml          TIMEOUT                        900.66      902.06        None
+ft-1000-05.xml          TIMEOUT                        901.11      902.59        None
+ft-1000-06.xml          TIMEOUT                        900.67      901.88        None
+ft-1000-07.xml          TIMEOUT                        901.20      902.57        None
+ft-1000-08.xml          TIMEOUT                        900.48      901.64        None
+ft-1000-09.xml          TIMEOUT                        901.24      902.72        None
+ft-10000-01-and.xml     done                             1.01        1.03        None
+ft-10000-01-or.xml      unknown                          1.03        1.05        None
+ft-10000-01.xml         TIMEOUT                        900.85      902.23        None
+ft-10000-02.xml         TIMEOUT                        900.73      902.19        None
+ft-10000-03.xml         TIMEOUT                        901.10      902.53        None
+ft-10000-04.xml         TIMEOUT                        901.22      902.47        None
+ft-10000-05.xml         TIMEOUT                        901.10      902.34        None
+ft-10000-06.xml         TIMEOUT                        900.83      902.31        None
+ft-10000-07.xml         TIMEOUT                        901.13      902.38        None
+ft-10000-08.xml         TIMEOUT                        901.15      902.49        None
+ft-10000-09.xml         TIMEOUT                        901.24      902.44        None
+ft-100000-01-and.xml    done                            10.19       10.23        None
+ft-100000-01-or.xml     unknown                         10.41       10.45        None
+ft-100000-01.xml        TIMEOUT                        900.81      902.04        None
+ft-100000-02.xml        TIMEOUT                        901.35      902.56        None
+ft-100000-03.xml        TIMEOUT                        901.45      902.77        None
+ft-100000-04.xml        TIMEOUT                        900.79      902.00        None
+ft-100000-05.xml        TIMEOUT                        900.87      901.95        None
+ft-100000-06.xml        TIMEOUT                        900.75      901.94        None
+ft-100000-07.xml        TIMEOUT                        900.68      901.99        None
+ft-100000-08.xml        TIMEOUT                        900.86      902.05        None
+ft-100000-09.xml        TIMEOUT                        900.57      901.70        None
+ft-2-01-and.xml         done                             0.15        0.16        None
+ft-2-01-or.xml          done                             0.15        0.16        None
+-------------------------------------------------------------------------------------
+Run set 3               done                         24352.23    24422.29           -
+
+Statistics:            150 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              92

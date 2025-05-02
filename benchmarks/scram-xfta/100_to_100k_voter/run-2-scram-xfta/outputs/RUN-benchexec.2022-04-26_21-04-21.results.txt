@@ -1,0 +1,53 @@
+   BENCHMARK INFORMATION
+benchmark definition:    RUN-benchexec.xml
+name:                    RUN-benchexec
+run sets:                scram.mocus.trunc.rare-event.combined-and-or, scram.mocus.trunc.mcub.combined-and-or, scram.mocus.trunc.exact.combined-and-or
+date:                    Tue, 2022-04-26 21:04:21 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /opt/scram/bin/scram
+options:                 -l 2000000
+parallel runs:           12
+resource limits:
+- memory:                5375.0 MB
+- time:                  900 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                5375.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+scram.mocus.trunc.rare-event.combined-and-or
+Run set 1 of 3: skipped because it has no files
+
+
+scram.mocus.trunc.mcub.combined-and-or
+Run set 2 of 3: skipped because it has no files
+
+
+scram.mocus.trunc.exact.combined-and-or
+Run set 3 of 3: skipped because it has no files
+
+Statistics:              0 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               0

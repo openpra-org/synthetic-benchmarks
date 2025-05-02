@@ -1,0 +1,72 @@
+   BENCHMARK INFORMATION
+benchmark definition:    xfta-bench.xml
+name:                    xfta-bench
+run sets:                xfta.combined-and-or
+date:                    Fri, 2022-07-22 12:36:59 EDT
+tool:                    xfta XFTA: an Open-PSA Fault Tree engine
+version 1.0
+Copyrights (c) Antoine B. Rauzy 2011
+bye
+tool executable:         /home/bench/ft-bench/bin/amd64/xfta
+options:
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+xfta.combined-and-or
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                        status                       cpu time   wall time        host
+----------------------------------------------------------------------------------------------
+xfta-ft-openpsa-1000Gates.xml    ERROR                            0.11        0.13        None
+xfta-ft-openpsa-100Gates.xml     ERROR                            0.02        0.04        None
+xfta-ft-openpsa-11Gates.xml      ERROR                            0.01        0.02        None
+xfta-ft-openpsa-1Gates.xml       ERROR                            0.01        0.01        None
+xfta-ft-openpsa-2000Gates.xml    ERROR                            0.22        0.23        None
+xfta-ft-openpsa-200Gates.xml     ERROR                            0.03        0.04        None
+xfta-ft-openpsa-21Gates.xml      ERROR                            0.01        0.02        None
+xfta-ft-openpsa-3000Gates.xml    ERROR                            0.35        0.36        None
+xfta-ft-openpsa-300Gates.xml     ERROR                            0.04        0.05        None
+xfta-ft-openpsa-31Gates.xml      ERROR                            0.01        0.02        None
+xfta-ft-openpsa-4000Gates.xml    ERROR                            0.50        0.51        None
+xfta-ft-openpsa-400Gates.xml     ERROR                            0.05        0.06        None
+xfta-ft-openpsa-41Gates.xml      ERROR                            0.01        0.02        None
+xfta-ft-openpsa-5000Gates.xml    SEGMENTATION FAULT               0.49        0.68        None
+xfta-ft-openpsa-500Gates.xml     ERROR                            0.06        0.07        None
+xfta-ft-openpsa-51Gates.xml      ERROR                            0.01        0.02        None
+xfta-ft-openpsa-600Gates.xml     ERROR                            0.07        0.08        None
+xfta-ft-openpsa-61Gates.xml      ERROR                            0.01        0.02        None
+xfta-ft-openpsa-700Gates.xml     ERROR                            0.08        0.09        None
+xfta-ft-openpsa-71Gates.xml      ERROR                            0.02        0.02        None
+xfta-ft-openpsa-800Gates.xml     ERROR                            0.09        0.10        None
+xfta-ft-openpsa-81Gates.xml      ERROR                            0.02        0.03        None
+xfta-ft-openpsa-900Gates.xml     ERROR                            0.10        0.11        None
+xfta-ft-openpsa-91Gates.xml      ERROR                            0.02        0.02        None
+----------------------------------------------------------------------------------------------
+Run set 1                        done                             2.37        5.95           -
+
+Statistics:             24 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              24

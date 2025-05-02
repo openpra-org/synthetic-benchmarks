@@ -1,0 +1,691 @@
+   BENCHMARK INFORMATION
+Run Scram
+benchmark definition:    SCRAM-benchexec-2.xml
+name:                    SCRAM-benchexec-2
+run sets:                MCS.bdd.ft-generated, MCS.bdd.prob.exact.ft-generated, MCS.bdd.prob.mcub.ft-generated, MCS.bdd.prob.rare.ft-generated, MCS.zbdd.prob.exact.ft-generated, MCS.zbdd.prob.mcub.ft-generated, MCS.zbdd.prob.rare.ft-generated, MCS.mocus.prob.exact.ft-generated, MCS.mocus.prob.mcub.ft-generated, MCS.mocus.prob.rare.ft-generated, ft-generated
+date:                    Tue, 2022-04-26 14:50:05 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:
+parallel runs:           12
+resource limits:
+- memory:                2688.0 MB
+- time:                  3600 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                2688.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+MCS.bdd.ft-generated
+Run set 1 of 11 with options '--verbosity 7 -l 1000000 --bdd' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.08        0.32        None
+ft-10-01-or.xml         done                             0.09        0.34        None
+ft-10-05-and.xml        done                             0.09        0.47        None
+ft-10-05-or.xml         done                             0.09        0.49        None
+ft-100-01-and.xml       done                             0.09        0.49        None
+ft-100-01-or.xml        done                             0.10        0.48        None
+ft-100-01.xml           done                             0.10        0.38        None
+ft-100-02.xml           done                             0.11        0.46        None
+ft-100-03.xml           done                             0.10        0.56        None
+ft-100-04.xml           done                             0.10        0.56        None
+ft-100-05.xml           done                             0.09        0.45        None
+ft-100-06.xml           done                             0.10        0.38        None
+ft-100-07.xml           done                             0.10        0.48        None
+ft-100-08.xml           done                             0.12        0.49        None
+ft-100-09.xml           done                             0.12        0.49        None
+ft-1000-01-and.xml      done                             0.18        0.46        None
+ft-1000-01-or.xml       done                             0.17        0.49        None
+ft-1000-01.xml          OUT OF MEMORY                   74.70       74.82        None
+ft-1000-02.xml          OUT OF MEMORY                   38.81       38.91        None
+ft-1000-03.xml          OUT OF MEMORY                   40.20       40.28        None
+ft-1000-04.xml          OUT OF MEMORY                   48.26       48.70        None
+ft-1000-05.xml          OUT OF MEMORY                   81.48       81.62        None
+ft-1000-06.xml          OUT OF MEMORY                   41.95       42.06        None
+ft-1000-07.xml          OUT OF MEMORY                   56.44       56.55        None
+ft-1000-08.xml          OUT OF MEMORY                   92.72       93.13        None
+ft-1000-09.xml          OUT OF MEMORY                   51.88       51.98        None
+ft-10000-01-and.xml     done                             0.90        0.96        None
+ft-10000-01-or.xml      done                             0.91        1.29        None
+ft-10000-01.xml         OUT OF MEMORY                   40.06       40.16        None
+ft-10000-02.xml         OUT OF MEMORY                   42.05       42.14        None
+ft-10000-03.xml         OUT OF MEMORY                   37.48       38.06        None
+ft-10000-04.xml         OUT OF MEMORY                   64.19       64.32        None
+ft-10000-05.xml         OUT OF MEMORY                   39.02       39.12        None
+ft-10000-06.xml         OUT OF MEMORY                   96.93       97.08        None
+ft-10000-07.xml         OUT OF MEMORY                   48.32       48.43        None
+ft-10000-08.xml         OUT OF MEMORY                   42.80       42.89        None
+ft-10000-09.xml         OUT OF MEMORY                   43.54       43.63        None
+ft-100000-01-and.xml    SEGMENTATION FAULT               7.41        7.86        None
+ft-100000-01-or.xml     SEGMENTATION FAULT               7.47        7.77        None
+ft-100000-01.xml        OUT OF MEMORY                   63.47       63.61        None
+ft-100000-02.xml        OUT OF MEMORY                  109.18      109.35        None
+ft-100000-03.xml        OUT OF MEMORY                   75.82       75.97        None
+ft-100000-04.xml        OUT OF MEMORY                  123.55      123.73        None
+ft-100000-05.xml        OUT OF MEMORY                  161.46      161.72        None
+ft-100000-06.xml        OUT OF MEMORY                  132.12      132.35        None
+ft-100000-07.xml        OUT OF MEMORY                  223.04      223.31        None
+ft-100000-08.xml        OUT OF MEMORY                  202.50      202.79        None
+ft-100000-09.xml        OUT OF MEMORY                  261.80      262.08        None
+ft-2-01-and.xml         done                             0.08        0.12        None
+ft-2-01-or.xml          done                             0.08        0.14        None
+-------------------------------------------------------------------------------------
+Run set 1               done                          2354.32      367.54           -
+
+
+MCS.bdd.prob.exact.ft-generated
+Run set 2 of 11 with options '--verbosity 7 -l 1000000 --bdd --probability' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.39        None
+ft-10-01-or.xml         done                             0.09        0.31        None
+ft-10-05-and.xml        done                             0.09        0.47        None
+ft-10-05-or.xml         done                             0.09        0.50        None
+ft-100-01-and.xml       done                             0.10        0.52        None
+ft-100-01-or.xml        done                             0.10        0.51        None
+ft-100-01.xml           done                             0.10        0.51        None
+ft-100-02.xml           done                             0.12        0.37        None
+ft-100-03.xml           done                             0.10        0.34        None
+ft-100-04.xml           done                             0.10        0.35        None
+ft-100-05.xml           done                             0.10        0.52        None
+ft-100-06.xml           done                             0.11        0.49        None
+ft-100-07.xml           done                             0.10        0.48        None
+ft-100-08.xml           done                             0.12        0.35        None
+ft-100-09.xml           done                             0.13        0.56        None
+ft-1000-01-and.xml      done                             0.17        0.53        None
+ft-1000-01-or.xml       done                             0.17        0.49        None
+ft-1000-01.xml          OUT OF MEMORY                   74.83       74.96        None
+ft-1000-02.xml          OUT OF MEMORY                   38.91       39.01        None
+ft-1000-03.xml          OUT OF MEMORY                   40.30       40.39        None
+ft-1000-04.xml          OUT OF MEMORY                   48.45       48.55        None
+ft-1000-05.xml          OUT OF MEMORY                   77.61       77.75        None
+ft-1000-06.xml          OUT OF MEMORY                   42.11       42.37        None
+ft-1000-07.xml          OUT OF MEMORY                   58.76       58.88        None
+ft-1000-08.xml          OUT OF MEMORY                   87.89       88.03        None
+ft-1000-09.xml          OUT OF MEMORY                   51.38       51.50        None
+ft-10000-01-and.xml     done                             0.94        0.98        None
+ft-10000-01-or.xml      done                             0.93        1.26        None
+ft-10000-01.xml         OUT OF MEMORY                   40.51       41.07        None
+ft-10000-02.xml         OUT OF MEMORY                   42.31       42.40        None
+ft-10000-03.xml         OUT OF MEMORY                   36.76       36.86        None
+ft-10000-04.xml         OUT OF MEMORY                   68.42       68.57        None
+ft-10000-05.xml         OUT OF MEMORY                   40.25       40.35        None
+ft-10000-06.xml         OUT OF MEMORY                  100.19      100.36        None
+ft-10000-07.xml         OUT OF MEMORY                   47.30       47.41        None
+ft-10000-08.xml         OUT OF MEMORY                   44.36       44.75        None
+ft-10000-09.xml         OUT OF MEMORY                   44.89       45.07        None
+ft-100000-01-and.xml    SEGMENTATION FAULT               7.62        7.97        None
+ft-100000-01-or.xml     SEGMENTATION FAULT               7.45        7.80        None
+ft-100000-01.xml        OUT OF MEMORY                   63.79       63.93        None
+ft-100000-02.xml        OUT OF MEMORY                  113.43      113.61        None
+ft-100000-03.xml        OUT OF MEMORY                   72.29       72.44        None
+ft-100000-04.xml        OUT OF MEMORY                  140.41      140.66        None
+ft-100000-05.xml        OUT OF MEMORY                  159.19      159.45        None
+ft-100000-06.xml        OUT OF MEMORY                  133.09      133.27        None
+ft-100000-07.xml        OUT OF MEMORY                  195.49      195.74        None
+ft-100000-08.xml        OUT OF MEMORY                  186.84      187.08        None
+ft-100000-09.xml        OUT OF MEMORY                  287.62      288.16        None
+ft-2-01-and.xml         done                             0.08        0.11        None
+ft-2-01-or.xml          done                             0.08        0.13        None
+-------------------------------------------------------------------------------------
+Run set 2               done                          2358.33      393.18           -
+
+
+MCS.bdd.prob.mcub.ft-generated
+Run set 3 of 11 with options '--verbosity 7 -l 1000000 --bdd --probability --mcub' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.30        None
+ft-10-01-or.xml         done                             0.09        0.30        None
+ft-10-05-and.xml        done                             0.09        0.51        None
+ft-10-05-or.xml         done                             0.09        0.51        None
+ft-100-01-and.xml       done                             0.10        0.50        None
+ft-100-01-or.xml        done                             0.10        0.43        None
+ft-100-01.xml           done                             0.10        0.52        None
+ft-100-02.xml           done                             0.12        0.47        None
+ft-100-03.xml           done                             0.10        0.51        None
+ft-100-04.xml           done                             0.10        0.36        None
+ft-100-05.xml           done                             0.10        0.38        None
+ft-100-06.xml           done                             0.10        0.38        None
+ft-100-07.xml           done                             0.11        0.35        None
+ft-100-08.xml           done                             0.12        0.34        None
+ft-100-09.xml           done                             0.13        0.38        None
+ft-1000-01-and.xml      done                             0.17        0.54        None
+ft-1000-01-or.xml       unknown                          0.17        0.39        None
+ft-1000-01.xml          OUT OF MEMORY                   74.29       74.43        None
+ft-1000-02.xml          OUT OF MEMORY                   38.63       38.71        None
+ft-1000-03.xml          OUT OF MEMORY                   40.25       40.32        None
+ft-1000-04.xml          OUT OF MEMORY                   48.41       48.50        None
+ft-1000-05.xml          OUT OF MEMORY                   77.99       78.13        None
+ft-1000-06.xml          OUT OF MEMORY                   41.57       41.68        None
+ft-1000-07.xml          OUT OF MEMORY                   57.91       58.03        None
+ft-1000-08.xml          OUT OF MEMORY                   87.72       87.87        None
+ft-1000-09.xml          OUT OF MEMORY                   50.66       50.77        None
+ft-10000-01-and.xml     done                             0.92        0.95        None
+ft-10000-01-or.xml      unknown                          0.95        1.34        None
+ft-10000-01.xml         OUT OF MEMORY                   40.37       40.79        None
+ft-10000-02.xml         OUT OF MEMORY                   42.59       42.70        None
+ft-10000-03.xml         OUT OF MEMORY                   37.07       37.71        None
+ft-10000-04.xml         OUT OF MEMORY                   68.31       68.43        None
+ft-10000-05.xml         OUT OF MEMORY                   40.12       40.19        None
+ft-10000-06.xml         OUT OF MEMORY                   94.50       94.64        None
+ft-10000-07.xml         OUT OF MEMORY                   47.63       47.72        None
+ft-10000-08.xml         OUT OF MEMORY                   44.21       44.32        None
+ft-10000-09.xml         OUT OF MEMORY                   45.72       45.81        None
+ft-100000-01-and.xml    SEGMENTATION FAULT               7.50        7.80        None
+ft-100000-01-or.xml     SEGMENTATION FAULT               7.41        7.76        None
+ft-100000-01.xml        OUT OF MEMORY                   61.57       61.70        None
+ft-100000-02.xml        OUT OF MEMORY                  121.32      121.52        None
+ft-100000-03.xml        OUT OF MEMORY                   73.73       73.90        None
+ft-100000-04.xml        OUT OF MEMORY                  139.41      139.61        None
+ft-100000-05.xml        OUT OF MEMORY                  139.08      139.26        None
+ft-100000-06.xml        OUT OF MEMORY                  162.22      162.46        None
+ft-100000-07.xml        OUT OF MEMORY                  225.81      226.12        None
+ft-100000-08.xml        OUT OF MEMORY                  208.06      208.33        None
+ft-100000-09.xml        OUT OF MEMORY                  261.46      261.78        None
+ft-2-01-and.xml         done                             0.09        0.12        None
+ft-2-01-or.xml          done                             0.08        0.12        None
+-------------------------------------------------------------------------------------
+Run set 3               done                          2391.53      365.22           -
+
+
+MCS.bdd.prob.rare.ft-generated
+Run set 4 of 11 with options '--verbosity 7 -l 1000000 --bdd --probability --rare-event' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.32        None
+ft-10-01-or.xml         done                             0.09        0.34        None
+ft-10-05-and.xml        done                             0.09        0.55        None
+ft-10-05-or.xml         done                             0.09        0.48        None
+ft-100-01-and.xml       done                             0.10        0.46        None
+ft-100-01-or.xml        unknown                          0.10        0.45        None
+ft-100-01.xml           done                             0.10        0.30        None
+ft-100-02.xml           done                             0.12        0.48        None
+ft-100-03.xml           done                             0.10        0.44        None
+ft-100-04.xml           done                             0.10        0.53        None
+ft-100-05.xml           done                             0.10        0.46        None
+ft-100-06.xml           done                             0.11        0.35        None
+ft-100-07.xml           done                             0.10        0.36        None
+ft-100-08.xml           done                             0.13        0.51        None
+ft-100-09.xml           done                             0.13        0.52        None
+ft-1000-01-and.xml      done                             0.17        0.53        None
+ft-1000-01-or.xml       unknown                          0.17        0.57        None
+ft-1000-01.xml          OUT OF MEMORY                   73.58       73.73        None
+ft-1000-02.xml          OUT OF MEMORY                   38.69       38.80        None
+ft-1000-03.xml          OUT OF MEMORY                   40.19       40.28        None
+ft-1000-04.xml          OUT OF MEMORY                   48.37       49.06        None
+ft-1000-05.xml          OUT OF MEMORY                   78.35       78.48        None
+ft-1000-06.xml          OUT OF MEMORY                   41.61       41.71        None
+ft-1000-07.xml          OUT OF MEMORY                   57.67       57.78        None
+ft-1000-08.xml          OUT OF MEMORY                   88.37       88.52        None
+ft-1000-09.xml          OUT OF MEMORY                   51.35       51.46        None
+ft-10000-01-and.xml     done                             0.94        0.98        None
+ft-10000-01-or.xml      unknown                          0.94        1.38        None
+ft-10000-01.xml         OUT OF MEMORY                   40.39       40.98        None
+ft-10000-02.xml         OUT OF MEMORY                   43.20       43.30        None
+ft-10000-03.xml         OUT OF MEMORY                   37.01       37.66        None
+ft-10000-04.xml         OUT OF MEMORY                   67.68       67.80        None
+ft-10000-05.xml         OUT OF MEMORY                   40.27       40.35        None
+ft-10000-06.xml         OUT OF MEMORY                   94.27       94.42        None
+ft-10000-07.xml         OUT OF MEMORY                   46.79       46.88        None
+ft-10000-08.xml         OUT OF MEMORY                   44.71       45.25        None
+ft-10000-09.xml         OUT OF MEMORY                   45.40       45.50        None
+ft-100000-01-and.xml    SEGMENTATION FAULT               7.70        8.06        None
+ft-100000-01-or.xml     SEGMENTATION FAULT               7.33        7.70        None
+ft-100000-01.xml        OUT OF MEMORY                   61.95       62.08        None
+ft-100000-02.xml        OUT OF MEMORY                  136.66      136.85        None
+ft-100000-03.xml        OUT OF MEMORY                   71.81       71.96        None
+ft-100000-04.xml        OUT OF MEMORY                  141.85      142.06        None
+ft-100000-05.xml        OUT OF MEMORY                  132.12      132.32        None
+ft-100000-06.xml        OUT OF MEMORY                  179.65      179.90        None
+ft-100000-07.xml        OUT OF MEMORY                  250.66      250.97        None
+ft-100000-08.xml        OUT OF MEMORY                  240.73      241.02        None
+ft-100000-09.xml        OUT OF MEMORY                  332.10      332.53        None
+ft-2-01-and.xml         done                             0.09        0.13        None
+ft-2-01-or.xml          done                             0.09        0.12        None
+-------------------------------------------------------------------------------------
+Run set 4               done                          2546.52      435.98           -
+
+
+MCS.zbdd.prob.exact.ft-generated
+Run set 5 of 11 with options '--verbosity 7 -l 1000000 --zbdd --probability' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.32        None
+ft-10-01-or.xml         done                             0.09        0.33        None
+ft-10-05-and.xml        done                             0.09        0.45        None
+ft-10-05-or.xml         done                             0.09        0.48        None
+ft-100-01-and.xml       done                             0.10        0.48        None
+ft-100-01-or.xml        unknown                          0.10        0.49        None
+ft-100-01.xml           done                             0.10        0.50        None
+ft-100-02.xml           done                             0.12        0.33        None
+ft-100-03.xml           done                             0.10        0.51        None
+ft-100-04.xml           done                             0.10        0.50        None
+ft-100-05.xml           done                             0.10        0.57        None
+ft-100-06.xml           done                             0.10        0.45        None
+ft-100-07.xml           done                             0.10        0.50        None
+ft-100-08.xml           done                             0.14        0.50        None
+ft-100-09.xml           done                             0.13        0.38        None
+ft-1000-01-and.xml      done                             0.17        0.37        None
+ft-1000-01-or.xml       unknown                          0.17        0.50        None
+ft-1000-01.xml          OUT OF MEMORY                   64.99       65.49        None
+ft-1000-02.xml          TIMEOUT                       3600.31     3602.19        None
+ft-1000-03.xml          OUT OF MEMORY                   56.09       56.22        None
+ft-1000-04.xml          OUT OF MEMORY                   97.20       97.34        None
+ft-1000-05.xml          OUT OF MEMORY                   61.97       62.46        None
+ft-1000-06.xml          OUT OF MEMORY                   56.44       56.53        None
+ft-1000-07.xml          OUT OF MEMORY                   60.99       61.58        None
+ft-1000-08.xml          OUT OF MEMORY                  203.46      203.73        None
+ft-1000-09.xml          OUT OF MEMORY                   58.53       58.65        None
+ft-10000-01-and.xml     done                             0.93        0.98        None
+ft-10000-01-or.xml      unknown                          0.97        1.40        None
+ft-10000-01.xml         OUT OF MEMORY                   56.46       56.57        None
+ft-10000-02.xml         OUT OF MEMORY                  122.84      123.03        None
+ft-10000-03.xml         OUT OF MEMORY                   55.01       55.30        None
+ft-10000-04.xml         OUT OF MEMORY                   86.18       86.31        None
+ft-10000-05.xml         OUT OF MEMORY                   67.80       67.95        None
+ft-10000-06.xml         OUT OF MEMORY                  111.05      111.23        None
+ft-10000-07.xml         OUT OF MEMORY                  172.41      172.65        None
+ft-10000-08.xml         OUT OF MEMORY                   60.75       60.85        None
+ft-10000-09.xml         OUT OF MEMORY                   64.20       64.76        None
+ft-100000-01-and.xml    done                            11.86       11.92        None
+ft-100000-01-or.xml     done                            13.07       13.17        None
+ft-100000-01.xml        OUT OF MEMORY                   79.99       80.12        None
+ft-100000-02.xml        OUT OF MEMORY                  114.29      114.46        None
+ft-100000-03.xml        OUT OF MEMORY                  177.62      177.87        None
+ft-100000-04.xml        OUT OF MEMORY                  213.29      213.55        None
+ft-100000-05.xml        OUT OF MEMORY                  179.76      180.00        None
+ft-100000-06.xml        OUT OF MEMORY                  346.25      346.74        None
+ft-100000-07.xml        OUT OF MEMORY                  354.98      355.46        None
+ft-100000-08.xml        OUT OF MEMORY                  420.22      420.90        None
+ft-100000-09.xml        OUT OF MEMORY                  589.56      590.26        None
+ft-2-01-and.xml         done                             0.08        0.13        None
+ft-2-01-or.xml          done                             0.09        0.12        None
+-------------------------------------------------------------------------------------
+Run set 5               done                          7563.70     3611.38           -
+
+
+MCS.zbdd.prob.mcub.ft-generated
+Run set 6 of 11 with options '--verbosity 7 -l 1000000 --zbdd --probability --mcub' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.36        None
+ft-10-01-or.xml         done                             0.09        0.32        None
+ft-10-05-and.xml        done                             0.09        0.32        None
+ft-10-05-or.xml         done                             0.09        0.46        None
+ft-100-01-and.xml       done                             0.10        0.58        None
+ft-100-01-or.xml        done                             0.10        0.52        None
+ft-100-01.xml           done                             0.11        0.47        None
+ft-100-02.xml           done                             0.12        0.33        None
+ft-100-03.xml           done                             0.10        0.35        None
+ft-100-04.xml           done                             0.11        0.48        None
+ft-100-05.xml           done                             0.12        0.37        None
+ft-100-06.xml           done                             0.11        0.35        None
+ft-100-07.xml           done                             0.10        0.35        None
+ft-100-08.xml           done                             0.13        0.37        None
+ft-100-09.xml           done                             0.13        0.36        None
+ft-1000-01-and.xml      done                             0.18        0.48        None
+ft-1000-01-or.xml       unknown                          0.18        0.34        None
+ft-1000-01.xml          OUT OF MEMORY                   66.07       66.19        None
+ft-1000-02.xml          TIMEOUT                       3600.31     3601.97        None
+ft-1000-03.xml          OUT OF MEMORY                   55.95       56.04        None
+ft-1000-04.xml          OUT OF MEMORY                   97.06       97.21        None
+ft-1000-05.xml          OUT OF MEMORY                   62.53       62.64        None
+ft-1000-06.xml          OUT OF MEMORY                   55.82       55.92        None
+ft-1000-07.xml          OUT OF MEMORY                   61.17       61.49        None
+ft-1000-08.xml          OUT OF MEMORY                  201.01      201.27        None
+ft-1000-09.xml          OUT OF MEMORY                   57.82       57.92        None
+ft-10000-01-and.xml     done                             1.04        1.07        None
+ft-10000-01-or.xml      unknown                          1.07        1.47        None
+ft-10000-01.xml         OUT OF MEMORY                   56.27       56.39        None
+ft-10000-02.xml         OUT OF MEMORY                  121.11      121.73        None
+ft-10000-03.xml         OUT OF MEMORY                   55.21       55.60        None
+ft-10000-04.xml         OUT OF MEMORY                   88.93       89.08        None
+ft-10000-05.xml         OUT OF MEMORY                   68.98       69.12        None
+ft-10000-06.xml         OUT OF MEMORY                  115.35      115.52        None
+ft-10000-07.xml         OUT OF MEMORY                  171.97      172.21        None
+ft-10000-08.xml         OUT OF MEMORY                   58.35       58.45        None
+ft-10000-09.xml         OUT OF MEMORY                   62.23       62.37        None
+ft-100000-01-and.xml    done                            12.90       12.95        None
+ft-100000-01-or.xml     done                            12.47       12.51        None
+ft-100000-01.xml        OUT OF MEMORY                   83.71       83.86        None
+ft-100000-02.xml        OUT OF MEMORY                  112.96      113.13        None
+ft-100000-03.xml        OUT OF MEMORY                  175.75      175.99        None
+ft-100000-04.xml        OUT OF MEMORY                  223.81      224.08        None
+ft-100000-05.xml        OUT OF MEMORY                  188.31      188.58        None
+ft-100000-06.xml        OUT OF MEMORY                  311.27      311.59        None
+ft-100000-07.xml        OUT OF MEMORY                  315.66      316.06        None
+ft-100000-08.xml        OUT OF MEMORY                  384.11      384.58        None
+ft-100000-09.xml        OUT OF MEMORY                  558.06      558.71        None
+ft-2-01-and.xml         done                             0.08        0.11        None
+ft-2-01-or.xml          done                             0.08        0.13        None
+-------------------------------------------------------------------------------------
+Run set 6               done                          7441.66     3610.11           -
+
+
+MCS.zbdd.prob.rare.ft-generated
+Run set 7 of 11 with options '--verbosity 7 -l 1000000 --zbdd --probability --rare-event' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.36        None
+ft-10-01-or.xml         done                             0.09        0.34        None
+ft-10-05-and.xml        done                             0.09        0.53        None
+ft-10-05-or.xml         done                             0.09        0.49        None
+ft-100-01-and.xml       ERROR (1)                        0.09        0.48        None
+ft-100-01-or.xml        ERROR (1)                        0.09        0.52        None
+ft-100-01.xml           done                             0.11        0.35        None
+ft-100-02.xml           done                             0.12        0.46        None
+ft-100-03.xml           done                             0.10        0.53        None
+ft-100-04.xml           done                             0.10        0.53        None
+ft-100-05.xml           done                             0.10        0.47        None
+ft-100-06.xml           done                             0.10        0.48        None
+ft-100-07.xml           done                             0.11        0.49        None
+ft-100-08.xml           done                             0.13        0.41        None
+ft-100-09.xml           done                             0.14        0.49        None
+ft-1000-01-and.xml      ERROR (1)                        0.09        0.51        None
+ft-1000-01-or.xml       ERROR (1)                        0.09        0.51        None
+ft-1000-01.xml          OUT OF MEMORY                   65.74       65.91        None
+ft-1000-02.xml          TIMEOUT                       3629.61     3631.09        None
+ft-1000-03.xml          OUT OF MEMORY                   56.03       56.42        None
+ft-1000-04.xml          OUT OF MEMORY                   96.75       96.89        None
+ft-1000-05.xml          OUT OF MEMORY                   62.97       63.08        None
+ft-1000-06.xml          OUT OF MEMORY                   55.73       55.83        None
+ft-1000-07.xml          OUT OF MEMORY                   60.70       60.81        None
+ft-1000-08.xml          OUT OF MEMORY                  201.78      202.09        None
+ft-1000-09.xml          OUT OF MEMORY                   58.20       58.53        None
+ft-10000-01-and.xml     ERROR (1)                        0.09        0.48        None
+ft-10000-01-or.xml      ERROR (1)                        0.08        0.12        None
+ft-10000-01.xml         OUT OF MEMORY                   56.10       56.22        None
+ft-10000-02.xml         OUT OF MEMORY                  123.66      123.85        None
+ft-10000-03.xml         OUT OF MEMORY                   55.46       55.97        None
+ft-10000-04.xml         OUT OF MEMORY                   85.90       86.06        None
+ft-10000-05.xml         OUT OF MEMORY                   68.78       68.90        None
+ft-10000-06.xml         OUT OF MEMORY                  113.79      113.99        None
+ft-10000-07.xml         OUT OF MEMORY                  171.23      171.45        None
+ft-10000-08.xml         OUT OF MEMORY                   58.90       59.00        None
+ft-10000-09.xml         OUT OF MEMORY                   65.25       65.37        None
+ft-100000-01-and.xml    ERROR (1)                        0.09        0.14        None
+ft-100000-01-or.xml     ERROR (1)                        0.08        0.11        None
+ft-100000-01.xml        OUT OF MEMORY                   83.05       83.18        None
+ft-100000-02.xml        OUT OF MEMORY                  119.96      120.22        None
+ft-100000-03.xml        OUT OF MEMORY                  174.51      174.77        None
+ft-100000-04.xml        OUT OF MEMORY                  210.31      210.55        None
+ft-100000-05.xml        OUT OF MEMORY                  188.94      189.21        None
+ft-100000-06.xml        OUT OF MEMORY                  328.22      328.63        None
+ft-100000-07.xml        OUT OF MEMORY                  330.93      331.36        None
+ft-100000-08.xml        OUT OF MEMORY                  377.17      377.75        None
+ft-100000-09.xml        OUT OF MEMORY                  546.50      547.07        None
+ft-2-01-and.xml         done                             0.09        0.13        None
+ft-2-01-or.xml          done                             0.09        0.12        None
+-------------------------------------------------------------------------------------
+Run set 7               done                          7450.87     3641.64           -
+
+
+MCS.mocus.prob.exact.ft-generated
+Run set 8 of 11 with options '--verbosity 7 -l 1000000 --mocus --probability' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.33        None
+ft-10-01-or.xml         done                             0.09        0.31        None
+ft-10-05-and.xml        done                             0.09        0.27        None
+ft-10-05-or.xml         done                             0.09        0.54        None
+ft-100-01-and.xml       ERROR (1)                        0.09        0.55        None
+ft-100-01-or.xml        ERROR (1)                        0.09        0.12        None
+ft-100-01.xml           done                             0.11        0.32        None
+ft-100-02.xml           done                             0.12        0.80        None
+ft-100-03.xml           done                             0.10        0.34        None
+ft-100-04.xml           done                             0.11        0.35        None
+ft-100-05.xml           done                             0.10        0.40        None
+ft-100-06.xml           done                             0.11        0.40        None
+ft-100-07.xml           done                             0.10        0.31        None
+ft-100-08.xml           done                             0.13        0.39        None
+ft-100-09.xml           done                             0.14        0.50        None
+ft-1000-01-and.xml      ERROR (1)                        0.09        0.59        None
+ft-1000-01-or.xml       ERROR (1)                        0.09        0.58        None
+ft-1000-01.xml          OUT OF MEMORY                  314.35      314.71        None
+ft-1000-02.xml          TIMEOUT                       3600.29     3602.27        None
+ft-1000-03.xml          OUT OF MEMORY                  239.42      239.72        None
+ft-1000-04.xml          OUT OF MEMORY                  356.17      356.63        None
+ft-1000-05.xml          OUT OF MEMORY                  113.44      113.59        None
+ft-1000-06.xml          OUT OF MEMORY                  341.82      342.25        None
+ft-1000-07.xml          OUT OF MEMORY                  189.14      189.37        None
+ft-1000-08.xml          OUT OF MEMORY                  342.69      343.08        None
+ft-1000-09.xml          OUT OF MEMORY                  236.48      236.78        None
+ft-10000-01-and.xml     ERROR (1)                        0.08        0.47        None
+ft-10000-01-or.xml      ERROR (1)                        0.08        0.12        None
+ft-10000-01.xml         OUT OF MEMORY                  542.60      543.31        None
+ft-10000-02.xml         OUT OF MEMORY                  109.88      110.51        None
+ft-10000-03.xml         OUT OF MEMORY                  277.88      278.29        None
+ft-10000-04.xml         OUT OF MEMORY                  163.43      163.68        None
+ft-10000-05.xml         OUT OF MEMORY                  193.64      193.90        None
+ft-10000-06.xml         OUT OF MEMORY                  153.12      153.34        None
+ft-10000-07.xml         OUT OF MEMORY                   94.67       94.80        None
+ft-10000-08.xml         OUT OF MEMORY                  129.39      129.55        None
+ft-10000-09.xml         OUT OF MEMORY                  135.23      135.41        None
+ft-100000-01-and.xml    ERROR (1)                        0.08        0.12        None
+ft-100000-01-or.xml     ERROR (1)                        0.08        0.11        None
+ft-100000-01.xml        OUT OF MEMORY                  472.34      472.87        None
+ft-100000-02.xml        OUT OF MEMORY                  260.00      260.32        None
+ft-100000-03.xml        OUT OF MEMORY                  185.33      185.56        None
+ft-100000-04.xml        OUT OF MEMORY                  297.39      297.80        None
+ft-100000-05.xml        OUT OF MEMORY                  370.46      370.86        None
+ft-100000-06.xml        OUT OF MEMORY                  442.98      443.54        None
+ft-100000-07.xml        OUT OF MEMORY                  456.43      456.92        None
+ft-100000-08.xml        OUT OF MEMORY                  416.90      417.38        None
+ft-100000-09.xml        OUT OF MEMORY                  622.58      623.36        None
+ft-2-01-and.xml         done                             0.08        0.11        None
+ft-2-01-or.xml          done                             0.08        0.12        None
+-------------------------------------------------------------------------------------
+Run set 8               done                         11062.71     3611.03           -
+
+
+MCS.mocus.prob.mcub.ft-generated
+Run set 9 of 11 with options '--verbosity 7 -l 1000000 --mocus --probability --mcub' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.31        None
+ft-10-01-or.xml         done                             0.09        0.33        None
+ft-10-05-and.xml        done                             0.09        0.52        None
+ft-10-05-or.xml         done                             0.09        0.53        None
+ft-100-01-and.xml       ERROR (1)                        0.09        0.46        None
+ft-100-01-or.xml        ERROR (1)                        0.09        0.53        None
+ft-100-01.xml           done                             0.11        0.31        None
+ft-100-02.xml           done                             0.12        0.54        None
+ft-100-03.xml           done                             0.10        0.32        None
+ft-100-04.xml           done                             0.10        0.38        None
+ft-100-05.xml           done                             0.10        0.51        None
+ft-100-06.xml           done                             0.11        0.40        None
+ft-100-07.xml           done                             0.10        0.53        None
+ft-100-08.xml           done                             0.13        0.48        None
+ft-100-09.xml           done                             0.13        0.56        None
+ft-1000-01-and.xml      ERROR (1)                        0.09        0.34        None
+ft-1000-01-or.xml       ERROR (1)                        0.09        0.35        None
+ft-1000-01.xml          OUT OF MEMORY                  315.15      315.56        None
+ft-1000-02.xml          TIMEOUT                       3600.30     3602.25        None
+ft-1000-03.xml          OUT OF MEMORY                  242.62      242.92        None
+ft-1000-04.xml          OUT OF MEMORY                  360.71      361.11        None
+ft-1000-05.xml          OUT OF MEMORY                  114.66      114.87        None
+ft-1000-06.xml          OUT OF MEMORY                  340.53      340.97        None
+ft-1000-07.xml          OUT OF MEMORY                  187.23      187.48        None
+ft-1000-08.xml          OUT OF MEMORY                  343.59      344.02        None
+ft-1000-09.xml          OUT OF MEMORY                  237.84      238.17        None
+ft-10000-01-and.xml     ERROR (1)                        0.08        0.47        None
+ft-10000-01-or.xml      ERROR (1)                        0.09        0.12        None
+ft-10000-01.xml         OUT OF MEMORY                  540.87      541.53        None
+ft-10000-02.xml         OUT OF MEMORY                  109.91      110.09        None
+ft-10000-03.xml         OUT OF MEMORY                  274.45      274.78        None
+ft-10000-04.xml         OUT OF MEMORY                  164.77      165.01        None
+ft-10000-05.xml         OUT OF MEMORY                  195.51      195.84        None
+ft-10000-06.xml         OUT OF MEMORY                  151.76      151.96        None
+ft-10000-07.xml         OUT OF MEMORY                   95.11       95.25        None
+ft-10000-08.xml         OUT OF MEMORY                  131.68      131.85        None
+ft-10000-09.xml         OUT OF MEMORY                  137.98      138.15        None
+ft-100000-01-and.xml    ERROR (1)                        0.08        0.10        None
+ft-100000-01-or.xml     ERROR (1)                        0.08        0.11        None
+ft-100000-01.xml        OUT OF MEMORY                  491.29      491.88        None
+ft-100000-02.xml        OUT OF MEMORY                  252.84      253.32        None
+ft-100000-03.xml        OUT OF MEMORY                  182.00      182.21        None
+ft-100000-04.xml        OUT OF MEMORY                  276.98      277.29        None
+ft-100000-05.xml        OUT OF MEMORY                  382.42      382.86        None
+ft-100000-06.xml        OUT OF MEMORY                  396.41      396.91        None
+ft-100000-07.xml        OUT OF MEMORY                  419.36      419.79        None
+ft-100000-08.xml        OUT OF MEMORY                  446.70      447.23        None
+ft-100000-09.xml        OUT OF MEMORY                  596.36      598.32        None
+ft-2-01-and.xml         done                             0.09        0.13        None
+ft-2-01-or.xml          done                             0.09        0.12        None
+-------------------------------------------------------------------------------------
+Run set 9               done                         10993.83     3611.88           -
+
+
+MCS.mocus.prob.rare.ft-generated
+Run set 10 of 11 with options '--verbosity 7 -l 1000000 --mocus --probability --rare-event' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.35        None
+ft-10-01-or.xml         done                             0.09        0.38        None
+ft-10-05-and.xml        done                             0.09        0.44        None
+ft-10-05-or.xml         done                             0.09        0.46        None
+ft-100-01-and.xml       done                             0.10        0.53        None
+ft-100-01-or.xml        unknown                          0.10        0.58        None
+ft-100-01.xml           done                             0.11        0.34        None
+ft-100-02.xml           done                             0.12        0.47        None
+ft-100-03.xml           done                             0.10        0.46        None
+ft-100-04.xml           done                             0.10        0.37        None
+ft-100-05.xml           done                             0.10        0.52        None
+ft-100-06.xml           done                             0.11        0.50        None
+ft-100-07.xml           done                             0.11        0.37        None
+ft-100-08.xml           done                             0.13        0.59        None
+ft-100-09.xml           done                             0.14        0.50        None
+ft-1000-01-and.xml      done                             0.18        0.46        None
+ft-1000-01-or.xml       unknown                          0.18        0.47        None
+ft-1000-01.xml          OUT OF MEMORY                  310.70      311.09        None
+ft-1000-02.xml          TIMEOUT                       3600.30     3602.34        None
+ft-1000-03.xml          OUT OF MEMORY                  243.18      243.51        None
+ft-1000-04.xml          OUT OF MEMORY                  360.88      361.37        None
+ft-1000-05.xml          OUT OF MEMORY                  114.75      114.92        None
+ft-1000-06.xml          OUT OF MEMORY                  339.05      339.48        None
+ft-1000-07.xml          OUT OF MEMORY                  186.90      187.18        None
+ft-1000-08.xml          OUT OF MEMORY                  348.28      348.75        None
+ft-1000-09.xml          OUT OF MEMORY                  233.94      234.26        None
+ft-10000-01-and.xml     done                             0.92        0.94        None
+ft-10000-01-or.xml      unknown                          0.93        1.29        None
+ft-10000-01.xml         OUT OF MEMORY                  559.55      560.19        None
+ft-10000-02.xml         OUT OF MEMORY                  108.29      108.48        None
+ft-10000-03.xml         OUT OF MEMORY                  276.55      276.93        None
+ft-10000-04.xml         OUT OF MEMORY                  162.07      162.31        None
+ft-10000-05.xml         OUT OF MEMORY                  193.51      193.78        None
+ft-10000-06.xml         OUT OF MEMORY                  150.67      151.42        None
+ft-10000-07.xml         OUT OF MEMORY                   94.30       94.46        None
+ft-10000-08.xml         OUT OF MEMORY                  131.75      131.96        None
+ft-10000-09.xml         OUT OF MEMORY                  135.08      135.27        None
+ft-100000-01-and.xml    done                            11.60       11.64        None
+ft-100000-01-or.xml     done                            11.49       11.56        None
+ft-100000-01.xml        OUT OF MEMORY                  505.06      505.63        None
+ft-100000-02.xml        OUT OF MEMORY                  238.02      238.35        None
+ft-100000-03.xml        OUT OF MEMORY                  169.79      170.17        None
+ft-100000-04.xml        OUT OF MEMORY                  292.48      292.86        None
+ft-100000-05.xml        OUT OF MEMORY                  360.68      361.09        None
+ft-100000-06.xml        OUT OF MEMORY                  360.61      361.06        None
+ft-100000-07.xml        OUT OF MEMORY                  473.17      473.96        None
+ft-100000-08.xml        OUT OF MEMORY                  490.52      491.10        None
+ft-100000-09.xml        OUT OF MEMORY                  647.46      648.21        None
+ft-2-01-and.xml         done                             0.08        0.11        None
+ft-2-01-or.xml          done                             0.08        0.11        None
+-------------------------------------------------------------------------------------
+Run set 10              done                         11118.09     3611.57           -
+
+
+ft-generated
+Run set 11 of 11 with options '' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.33        None
+ft-10-01-or.xml         done                             0.09        0.33        None
+ft-10-05-and.xml        done                             0.09        0.45        None
+ft-10-05-or.xml         done                             0.09        0.50        None
+ft-100-01-and.xml       unknown                          0.09        0.45        None
+ft-100-01-or.xml        done                             0.10        0.50        None
+ft-100-01.xml           done                             0.10        0.35        None
+ft-100-02.xml           done                             0.10        0.46        None
+ft-100-03.xml           done                             0.10        0.48        None
+ft-100-04.xml           done                             0.10        0.39        None
+ft-100-05.xml           done                             0.10        0.51        None
+ft-100-06.xml           done                             0.09        0.49        None
+ft-100-07.xml           done                             0.10        0.48        None
+ft-100-08.xml           done                             0.10        0.30        None
+ft-100-09.xml           done                             0.11        0.38        None
+ft-1000-01-and.xml      unknown                          0.14        0.38        None
+ft-1000-01-or.xml       done                             0.14        0.54        None
+ft-1000-01.xml          OUT OF MEMORY                   76.92       77.12        None
+ft-1000-02.xml          OUT OF MEMORY                   40.10       40.24        None
+ft-1000-03.xml          OUT OF MEMORY                   41.81       41.95        None
+ft-1000-04.xml          OUT OF MEMORY                   52.31       52.46        None
+ft-1000-05.xml          OUT OF MEMORY                   85.50       85.66        None
+ft-1000-06.xml          OUT OF MEMORY                   43.56       43.71        None
+ft-1000-07.xml          OUT OF MEMORY                   62.20       63.17        None
+ft-1000-08.xml          OUT OF MEMORY                   94.89       95.10        None
+ft-1000-09.xml          OUT OF MEMORY                   58.00       58.22        None
+ft-10000-01-and.xml     unknown                          0.55        0.58        None
+ft-10000-01-or.xml      done                             0.64        1.15        None
+ft-10000-01.xml         OUT OF MEMORY                   44.31       44.60        None
+ft-10000-02.xml         OUT OF MEMORY                   48.93       49.09        None
+ft-10000-03.xml         OUT OF MEMORY                   42.11       42.64        None
+ft-10000-04.xml         OUT OF MEMORY                   72.07       72.27        None
+ft-10000-05.xml         OUT OF MEMORY                   42.38       42.48        None
+ft-10000-06.xml         OUT OF MEMORY                   96.01       96.17        None
+ft-10000-07.xml         OUT OF MEMORY                   50.88       51.53        None
+ft-10000-08.xml         OUT OF MEMORY                   45.73       45.84        None
+ft-10000-09.xml         OUT OF MEMORY                   46.98       47.06        None
+ft-100000-01-and.xml    unknown                          7.31        7.35        None
+ft-100000-01-or.xml     SEGMENTATION FAULT               7.50        7.73        None
+ft-100000-01.xml        OUT OF MEMORY                   62.47       62.62        None
+ft-100000-02.xml        OUT OF MEMORY                  121.32      121.50        None
+ft-100000-03.xml        OUT OF MEMORY                   74.44       74.58        None
+ft-100000-04.xml        OUT OF MEMORY                  135.65      135.85        None
+ft-100000-05.xml        OUT OF MEMORY                  171.12      171.34        None
+ft-100000-06.xml        OUT OF MEMORY                  125.31      125.48        None
+ft-100000-07.xml        OUT OF MEMORY                  233.13      233.42        None
+ft-100000-08.xml        OUT OF MEMORY                  218.49      218.74        None
+ft-100000-09.xml        OUT OF MEMORY                  296.86      297.30        None
+ft-2-01-and.xml         done                             0.09        0.12        None
+ft-2-01-or.xml          done                             0.08        0.12        None
+-------------------------------------------------------------------------------------
+Run set 11              done                          2504.18      410.93           -
+
+Statistics:            550 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             347

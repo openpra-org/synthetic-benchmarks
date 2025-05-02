@@ -1,0 +1,119 @@
+tool	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4
+run set	mocus.ft-generated	mocus.ft-generated	mocus.ft-generated	mocus.ft-generated
+trees/ft-generated/	status	cputime (s)	walltime (s)	memory (MB)
+ft-10-01-and.xml	ERROR (1)	0.085768759	0.10772403213195503	5.623808
+ft-10-01-or.xml	ERROR (1)	0.085410028	0.11118540400639176	5.754880
+ft-10-05-and.xml	done	0.085469217	0.09909149608574808	5.885952
+ft-10-05-or.xml	done	0.086058267	0.1232670578174293	5.754880
+ft-100-01-KN.xml	done	168.657430462	173.31934974412434	15500.505088
+ft-100-01-all.xml	done	0.351561553	0.38640378788113594	8.507392
+ft-100-01-and.xml	unknown	0.088457325	0.1231519510038197	5.885952
+ft-100-01-or.xml	done	0.090430761	0.11536011495627463	6.279168
+ft-100-01.xml	done	0.094342118	0.11534748016856611	6.541312
+ft-100-02.xml	done	0.098615008	0.12320409109815955	6.934528
+ft-100-03.xml	done	0.091393862	0.12260384997352958	6.148096
+ft-100-04.xml	done	0.093849828	0.11899920599535108	6.279168
+ft-100-05.xml	done	0.091423631	0.11090965592302382	6.017024
+ft-100-06.xml	done	0.093655333	0.12327674985863268	6.148096
+ft-100-07.xml	done	0.095438528	0.12332745315507054	6.148096
+ft-100-08.xml	done	0.100992247	0.1269722068682313	6.541312
+ft-100-09.xml	done	0.11532711	0.14762339391745627	7.852032
+ft-1000-01-KN.xml	OUT OF MEMORY	12310.540901943	12319.251394351013	62999.998464
+ft-1000-01-all.xml	OUT OF MEMORY	6409.196502527	6413.907297144877	62999.998464
+ft-1000-01-and.xml	unknown	0.127991271	0.21118068997748196	10.207232
+ft-1000-01-or.xml	done	0.138632588	0.167517808964476	11.128832
+ft-1000-01.xml	done	39.020863296	39.05545470188372	15.323136
+ft-1000-02.xml	done	2.579508119	2.638774927938357	23.973888
+ft-1000-03.xml	done	1.853296155	1.8780675928574055	102.354944
+ft-1000-04.xml	done	0.250760984	0.2804785640910268	10.211328
+ft-1000-05.xml	done	3.853788167	3.8895585879217833	38.785024
+ft-1000-06.xml	done	0.382281624	0.40858305408619344	11.259904
+ft-1000-07.xml	done	3.209336484	3.226487377891317	26.071040
+ft-1000-08.xml	done	0.377733653	0.40079518500715494	10.735616
+ft-1000-09.xml	done	0.626563537	0.6616155740339309	15.454208
+ft-10000-01-KN.xml	done	1511.312365713	1529.0102113380563	31948.779520
+ft-10000-01-all.xml	OUT OF MEMORY	19530.706455881	19543.707363290014	62999.998464
+ft-10000-01-and.xml	unknown	0.567598095	0.6122259320691228	41.009152
+ft-10000-01-or.xml	done	0.664632464	0.6937527910340577	58.318848
+ft-10000-01.xml	done	3.54147149	3.5895394899416715	40.095744
+ft-10000-02.xml	unknown	4.337292306	4.361478617880493	42.717184
+ft-10000-03.xml	done	1.584067552	1.613194796955213	42.061824
+ft-10000-04.xml	done	1.578595924	1.6093925978057086	42.979328
+ft-10000-05.xml	done	2.453739476	2.4893071509432048	45.600768
+ft-10000-06.xml	done	2.674666058	2.6941884518601	45.731840
+ft-10000-07.xml	done	3.059475903	3.09302619099617	52.285440
+ft-10000-08.xml	done	6.098774817	6.1179422261193395	54.906880
+ft-10000-09.xml	done	3.878770256	3.9302308841142803	54.644736
+ft-100000-01-KN.xml	done	781.684644865	782.5894897531252	1086.705664
+ft-100000-01-all.xml				
+ft-100000-01-and.xml				
+ft-100000-01-or.xml				
+ft-100000-01.xml				
+ft-100000-02.xml				
+ft-100000-03.xml				
+ft-100000-04.xml				
+ft-100000-05.xml				
+ft-100000-06.xml				
+ft-100000-07.xml				
+ft-100000-08.xml				
+ft-100000-09.xml				
+ft-2-01-and.xml				
+ft-2-01-or.xml				
+xfta-config-ft-10-01-and.xml				
+xfta-config-ft-10-01-or.xml				
+xfta-config-ft-10-05-and.xml				
+xfta-config-ft-10-05-or.xml				
+xfta-config-ft-100-01-KN.xml				
+xfta-config-ft-100-01-all.xml				
+xfta-config-ft-100-01-and.xml				
+xfta-config-ft-100-01-or.xml				
+xfta-config-ft-100-01.xml				
+xfta-config-ft-100-02.xml				
+xfta-config-ft-100-03.xml				
+xfta-config-ft-100-04.xml				
+xfta-config-ft-100-05.xml				
+xfta-config-ft-100-06.xml				
+xfta-config-ft-100-07.xml				
+xfta-config-ft-100-08.xml				
+xfta-config-ft-100-09.xml				
+xfta-config-ft-1000-01-KN.xml				
+xfta-config-ft-1000-01-all.xml				
+xfta-config-ft-1000-01-and.xml				
+xfta-config-ft-1000-01-or.xml				
+xfta-config-ft-1000-01.xml				
+xfta-config-ft-1000-02.xml				
+xfta-config-ft-1000-03.xml				
+xfta-config-ft-1000-04.xml				
+xfta-config-ft-1000-05.xml				
+xfta-config-ft-1000-06.xml				
+xfta-config-ft-1000-07.xml				
+xfta-config-ft-1000-08.xml				
+xfta-config-ft-1000-09.xml				
+xfta-config-ft-10000-01-KN.xml				
+xfta-config-ft-10000-01-all.xml				
+xfta-config-ft-10000-01-and.xml				
+xfta-config-ft-10000-01-or.xml				
+xfta-config-ft-10000-01.xml				
+xfta-config-ft-10000-02.xml				
+xfta-config-ft-10000-03.xml				
+xfta-config-ft-10000-04.xml				
+xfta-config-ft-10000-05.xml				
+xfta-config-ft-10000-06.xml				
+xfta-config-ft-10000-07.xml				
+xfta-config-ft-10000-08.xml				
+xfta-config-ft-10000-09.xml				
+xfta-config-ft-100000-01-KN.xml				
+xfta-config-ft-100000-01-all.xml				
+xfta-config-ft-100000-01-and.xml				
+xfta-config-ft-100000-01-or.xml				
+xfta-config-ft-100000-01.xml				
+xfta-config-ft-100000-02.xml				
+xfta-config-ft-100000-03.xml				
+xfta-config-ft-100000-04.xml				
+xfta-config-ft-100000-05.xml				
+xfta-config-ft-100000-06.xml				
+xfta-config-ft-100000-07.xml				
+xfta-config-ft-100000-08.xml				
+xfta-config-ft-100000-09.xml				
+xfta-config-ft-2-01-and.xml				
+xfta-config-ft-2-01-or.xml				

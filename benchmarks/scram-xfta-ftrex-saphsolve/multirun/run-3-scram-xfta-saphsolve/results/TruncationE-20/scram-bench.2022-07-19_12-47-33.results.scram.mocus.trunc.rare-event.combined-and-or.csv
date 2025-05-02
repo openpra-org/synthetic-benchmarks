@@ -1,0 +1,27 @@
+tool	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4
+run set	scram.mocus.trunc.rare-event.combined-and-or	scram.mocus.trunc.rare-event.combined-and-or	scram.mocus.trunc.rare-event.combined-and-or	scram.mocus.trunc.rare-event.combined-and-or
+../models/models3/scram/	status	cputime (s)	walltime (s)	memory (MB)
+ft-openpsa-1000Gates.xml	done	0.54305806	0.5628919806331396	37.081088
+ft-openpsa-100Gates.xml	done	0.096451599	0.11488460935652256	7.200768
+ft-openpsa-11Gates.xml	done	0.088612974	0.1108439564704895	5.885952
+ft-openpsa-1Gates.xml	done	0.083525015	0.10298512317240238	5.754880
+ft-openpsa-2000Gates.xml	done	1.692303139	1.7155911661684513	105.500672
+ft-openpsa-200Gates.xml	done	0.12156548	0.14098064973950386	9.293824
+ft-openpsa-21Gates.xml	done	0.087080514	0.1021051574498415	5.890048
+ft-openpsa-3000Gates.xml	done	3.560201605	3.585991131141782	212.590592
+ft-openpsa-300Gates.xml	done	0.144524287	0.16589399985969067	11.259904
+ft-openpsa-31Gates.xml	done	0.088366617	0.11333990097045898	6.017024
+ft-openpsa-4000Gates.xml	done	6.137197618	6.162205183878541	356.241408
+ft-openpsa-400Gates.xml	done	0.17853472	0.21071057580411434	13.881344
+ft-openpsa-41Gates.xml	done	0.090317088	0.11884262040257454	6.279168
+ft-openpsa-5000Gates.xml	SEGMENTATION FAULT	0.541111141	0.7573199924081564	63.561728
+ft-openpsa-500Gates.xml	done	0.219082008	0.24621427059173584	16.764928
+ft-openpsa-51Gates.xml	done	0.089318542	0.11030163615942001	6.410240
+ft-openpsa-600Gates.xml	done	0.267486493	0.294133422896266	20.172800
+ft-openpsa-61Gates.xml	done	0.09183899	0.10959816910326481	6.541312
+ft-openpsa-700Gates.xml	done	0.322153809	0.34633686393499374	23.842816
+ft-openpsa-71Gates.xml	done	0.093337961	0.10997897014021873	6.672384
+ft-openpsa-800Gates.xml	done	0.385597993	0.4170679058879614	27.906048
+ft-openpsa-81Gates.xml	done	0.096960996	0.12182950973510742	7.069696
+ft-openpsa-900Gates.xml	done	0.454810471	0.489310747012496	32.362496
+ft-openpsa-91Gates.xml	done	0.095476541	0.12111570127308369	7.065600

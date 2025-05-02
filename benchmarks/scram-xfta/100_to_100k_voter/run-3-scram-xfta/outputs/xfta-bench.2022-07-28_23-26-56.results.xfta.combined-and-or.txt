@@ -1,0 +1,98 @@
+   BENCHMARK INFORMATION
+benchmark definition:    models/models1/xfta-bench.xml
+name:                    xfta-bench
+run sets:                xfta.combined-and-or
+date:                    Thu, 2022-07-28 23:26:56 EDT
+tool:                    xfta XFTA: an Open-PSA Fault Tree engine
+version 1.0
+Copyrights (c) Antoine B. Rauzy 2011
+bye
+tool executable:         /home/bench/ft-bench/bin/amd64/xfta
+options:
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+xfta.combined-and-or
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                           status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------------------
+xfta-config-ft-10-01-and.xml        ERROR                            0.01        0.04        None
+xfta-config-ft-10-01-or.xml         ERROR                            0.01        0.04        None
+xfta-config-ft-10-05-and.xml        ERROR                            0.01        0.04        None
+xfta-config-ft-10-05-or.xml         ERROR                            0.01        0.05        None
+xfta-config-ft-100-01-and.xml       ERROR                            0.01        0.06        None
+xfta-config-ft-100-01-or.xml        ERROR                            0.02        0.05        None
+xfta-config-ft-100-01.xml           ERROR                            0.01        0.06        None
+xfta-config-ft-100-02.xml           ERROR                            0.01        0.06        None
+xfta-config-ft-100-03.xml           ERROR                            0.01        0.06        None
+xfta-config-ft-100-04.xml           ERROR (1)                        0.00        0.03        None
+xfta-config-ft-100-05.xml           ERROR                            0.01        0.04        None
+xfta-config-ft-100-06.xml           ERROR                            0.01        0.05        None
+xfta-config-ft-100-07.xml           ERROR (1)                        0.00        0.02        None
+xfta-config-ft-100-08.xml           ERROR                            0.01        0.06        None
+xfta-config-ft-100-09.xml           ERROR                            0.01        0.05        None
+xfta-config-ft-1000-01-and.xml      ERROR                            1.14        1.17        None
+xfta-config-ft-1000-01-or.xml       ERROR                            1.18        1.21        None
+xfta-config-ft-1000-01.xml          ERROR                            0.07        0.10        None
+xfta-config-ft-1000-02.xml          ERROR                            0.06        0.13        None
+xfta-config-ft-1000-03.xml          ERROR                            0.41        0.47        None
+xfta-config-ft-1000-04.xml          ERROR                            0.07        0.10        None
+xfta-config-ft-1000-05.xml          ERROR                            0.07        0.10        None
+xfta-config-ft-1000-06.xml          ERROR (1)                        0.00        0.03        None
+xfta-config-ft-1000-07.xml          ERROR                            0.08        0.10        None
+xfta-config-ft-1000-08.xml          ERROR                            0.09        0.12        None
+xfta-config-ft-1000-09.xml          ERROR                            0.09        0.15        None
+xfta-config-ft-10000-01-and.xml     KILLED BY SIGNAL 9             260.56      264.21        None
+xfta-config-ft-10000-01-or.xml      KILLED BY SIGNAL 9             234.29      237.27        None
+xfta-config-ft-10000-01.xml         SEGMENTATION FAULT               0.57        1.59        None
+xfta-config-ft-10000-02.xml         ERROR (1)                        0.00        0.03        None
+xfta-config-ft-10000-03.xml         SEGMENTATION FAULT               0.62        0.83        None
+xfta-config-ft-10000-04.xml         SEGMENTATION FAULT               0.65        0.85        None
+xfta-config-ft-10000-05.xml         SEGMENTATION FAULT               0.72        0.93        None
+xfta-config-ft-10000-06.xml         ERROR (1)                        0.00        0.03        None
+xfta-config-ft-10000-07.xml         SEGMENTATION FAULT               0.78        0.99        None
+xfta-config-ft-10000-08.xml         SEGMENTATION FAULT               0.85        1.06        None
+xfta-config-ft-10000-09.xml         SEGMENTATION FAULT               0.89        1.12        None
+xfta-config-ft-100000-01-and.xml    KILLED BY SIGNAL 9             255.59      258.99        None
+xfta-config-ft-100000-01-or.xml     KILLED BY SIGNAL 9             253.34      256.10        None
+xfta-config-ft-100000-01.xml        SEGMENTATION FAULT               6.01        6.97        None
+xfta-config-ft-100000-02.xml        SEGMENTATION FAULT               6.41        6.62        None
+xfta-config-ft-100000-03.xml        SEGMENTATION FAULT               6.62        6.83        None
+xfta-config-ft-100000-04.xml        SEGMENTATION FAULT               7.01        7.21        None
+xfta-config-ft-100000-05.xml        SEGMENTATION FAULT               7.71        7.93        None
+xfta-config-ft-100000-06.xml        SEGMENTATION FAULT               8.26        8.47        None
+xfta-config-ft-100000-07.xml        SEGMENTATION FAULT               8.73        8.94        None
+xfta-config-ft-100000-08.xml        SEGMENTATION FAULT               9.40        9.63        None
+xfta-config-ft-100000-09.xml        SEGMENTATION FAULT              10.20       10.42        None
+xfta-config-ft-2-01-and.xml         ERROR                            0.01        0.05        None
+xfta-config-ft-2-01-or.xml          ERROR                            0.01        0.05        None
+-------------------------------------------------------------------------------------------------
+Run set 1                           done                          1084.75     1160.89           -
+
+Statistics:             50 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              50

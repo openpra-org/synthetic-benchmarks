@@ -1,0 +1,27 @@
+tool	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 
+run set	saphsolve.combined-and-or	saphsolve.combined-and-or	saphsolve.combined-and-or	saphsolve.combined-and-or
+saphsolve/	status	cputime (s)	walltime (s)	memory (MB)
+ft-saphsolve-1000Gates.JSInp	unknown	0.408594829	0.4134596809744835	5.283840
+ft-saphsolve-100Gates.JSInp	unknown	0.047242675	0.0525512620806694	2.871296
+ft-saphsolve-11Gates.JSInp	unknown	0.026878216	0.029295803979039192	2.920448
+ft-saphsolve-1Gates.JSInp	unknown	0.0183658	0.02369069494307041	2.756608
+ft-saphsolve-2000Gates.JSInp	unknown	1.143129851	1.1454144567251205	7.892992
+ft-saphsolve-200Gates.JSInp	unknown	0.078689612	0.08096495643258095	3.096576
+ft-saphsolve-21Gates.JSInp	unknown	0.029342196	0.03171830624341965	2.777088
+ft-saphsolve-3000Gates.JSInp	unknown	1.924236221	1.926757661625743	11.628544
+ft-saphsolve-300Gates.JSInp	unknown	0.10518321	0.11044482327997684	3.358720
+ft-saphsolve-31Gates.JSInp	unknown	0.029184357	0.0341115090996027	2.772992
+ft-saphsolve-4000Gates.JSInp	unknown	2.882002682	2.8921074476093054	15.724544
+ft-saphsolve-400Gates.JSInp	unknown	0.139078477	0.1413612049072981	3.710976
+ft-saphsolve-41Gates.JSInp	unknown	0.031939611	0.03694557212293148	2.768896
+ft-saphsolve-5000Gates.JSInp	unknown	4.046240683	4.051554601639509	20.611072
+ft-saphsolve-500Gates.JSInp	unknown	0.169912272	0.17517122440040112	4.050944
+ft-saphsolve-51Gates.JSInp	unknown	0.034572018	0.039970867335796356	2.760704
+ft-saphsolve-600Gates.JSInp	unknown	0.203828875	0.20930529572069645	4.157440
+ft-saphsolve-61Gates.JSInp	unknown	0.03926654	0.04244090057909489	2.883584
+ft-saphsolve-700Gates.JSInp	unknown	0.240946915	0.24628477171063423	4.505600
+ft-saphsolve-71Gates.JSInp	unknown	0.042203929	0.04447739198803902	3.010560
+ft-saphsolve-800Gates.JSInp	unknown	0.279820641	0.2850116491317749	4.857856
+ft-saphsolve-81Gates.JSInp	unknown	0.042175451	0.047402601689100266	2.879488
+ft-saphsolve-900Gates.JSInp	unknown	0.31989306	0.32488762959837914	5.079040
+ft-saphsolve-91Gates.JSInp	unknown	0.047560116	0.04988151788711548	2.875392

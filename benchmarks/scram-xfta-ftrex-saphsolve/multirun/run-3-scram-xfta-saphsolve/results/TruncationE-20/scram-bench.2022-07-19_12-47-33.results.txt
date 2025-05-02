@@ -1,0 +1,139 @@
+   BENCHMARK INFORMATION
+benchmark definition:    models/models3/scram-bench.xml
+name:                    scram-bench
+run sets:                scram.mocus.trunc.rare-event.combined-and-or, scram.mocus.trunc.mcub.combined-and-or, scram.mocus.trunc.exact.combined-and-or
+date:                    Tue, 2022-07-19 12:47:33 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:                 -l 2000000 --mocus --probability --cut-off 1e-20
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+scram.mocus.trunc.rare-event.combined-and-or
+Run set 1 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-20 --rare-event' and propertyfile 'None'
+
+inputfile                   status                       cpu time   wall time        host
+-----------------------------------------------------------------------------------------
+ft-openpsa-1000Gates.xml    done                             0.54        0.56        None
+ft-openpsa-100Gates.xml     done                             0.10        0.11        None
+ft-openpsa-11Gates.xml      done                             0.09        0.11        None
+ft-openpsa-1Gates.xml       done                             0.08        0.10        None
+ft-openpsa-2000Gates.xml    done                             1.69        1.72        None
+ft-openpsa-200Gates.xml     done                             0.12        0.14        None
+ft-openpsa-21Gates.xml      done                             0.09        0.10        None
+ft-openpsa-3000Gates.xml    done                             3.56        3.59        None
+ft-openpsa-300Gates.xml     done                             0.14        0.17        None
+ft-openpsa-31Gates.xml      done                             0.09        0.11        None
+ft-openpsa-4000Gates.xml    done                             6.14        6.16        None
+ft-openpsa-400Gates.xml     done                             0.18        0.21        None
+ft-openpsa-41Gates.xml      done                             0.09        0.12        None
+ft-openpsa-5000Gates.xml    SEGMENTATION FAULT               0.54        0.76        None
+ft-openpsa-500Gates.xml     done                             0.22        0.25        None
+ft-openpsa-51Gates.xml      done                             0.09        0.11        None
+ft-openpsa-600Gates.xml     done                             0.27        0.29        None
+ft-openpsa-61Gates.xml      done                             0.09        0.11        None
+ft-openpsa-700Gates.xml     done                             0.32        0.35        None
+ft-openpsa-71Gates.xml      done                             0.09        0.11        None
+ft-openpsa-800Gates.xml     done                             0.39        0.42        None
+ft-openpsa-81Gates.xml      done                             0.10        0.12        None
+ft-openpsa-900Gates.xml     done                             0.45        0.49        None
+ft-openpsa-91Gates.xml      done                             0.10        0.12        None
+-----------------------------------------------------------------------------------------
+Run set 1                   done                            16.41       39.30           -
+
+
+scram.mocus.trunc.mcub.combined-and-or
+Run set 2 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-20 --mcub' and propertyfile 'None'
+
+inputfile                   status                       cpu time   wall time        host
+-----------------------------------------------------------------------------------------
+ft-openpsa-1000Gates.xml    done                             0.54        0.56        None
+ft-openpsa-100Gates.xml     done                             0.10        0.11        None
+ft-openpsa-11Gates.xml      done                             0.09        0.10        None
+ft-openpsa-1Gates.xml       done                             0.08        0.10        None
+ft-openpsa-2000Gates.xml    done                             1.70        1.72        None
+ft-openpsa-200Gates.xml     done                             0.12        0.14        None
+ft-openpsa-21Gates.xml      done                             0.09        0.11        None
+ft-openpsa-3000Gates.xml    done                             3.58        3.61        None
+ft-openpsa-300Gates.xml     done                             0.15        0.17        None
+ft-openpsa-31Gates.xml      done                             0.09        0.12        None
+ft-openpsa-4000Gates.xml    done                             6.12        6.15        None
+ft-openpsa-400Gates.xml     done                             0.18        0.21        None
+ft-openpsa-41Gates.xml      done                             0.09        0.12        None
+ft-openpsa-5000Gates.xml    SEGMENTATION FAULT               0.54        0.74        None
+ft-openpsa-500Gates.xml     done                             0.22        0.24        None
+ft-openpsa-51Gates.xml      done                             0.09        0.11        None
+ft-openpsa-600Gates.xml     done                             0.27        0.31        None
+ft-openpsa-61Gates.xml      done                             0.09        0.12        None
+ft-openpsa-700Gates.xml     done                             0.33        0.36        None
+ft-openpsa-71Gates.xml      done                             0.10        0.11        None
+ft-openpsa-800Gates.xml     done                             0.39        0.51        None
+ft-openpsa-81Gates.xml      done                             0.10        0.12        None
+ft-openpsa-900Gates.xml     done                             0.46        0.48        None
+ft-openpsa-91Gates.xml      done                             0.10        0.13        None
+-----------------------------------------------------------------------------------------
+Run set 2                   done                            16.51       39.71           -
+
+
+scram.mocus.trunc.exact.combined-and-or
+Run set 3 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-20' and propertyfile 'None'
+
+inputfile                   status                       cpu time   wall time        host
+-----------------------------------------------------------------------------------------
+ft-openpsa-1000Gates.xml    done                             0.53        0.56        None
+ft-openpsa-100Gates.xml     done                             0.10        0.12        None
+ft-openpsa-11Gates.xml      done                             0.09        0.11        None
+ft-openpsa-1Gates.xml       done                             0.09        0.11        None
+ft-openpsa-2000Gates.xml    done                             1.68        1.70        None
+ft-openpsa-200Gates.xml     done                             0.12        0.14        None
+ft-openpsa-21Gates.xml      done                             0.09        0.11        None
+ft-openpsa-3000Gates.xml    done                             3.52        3.53        None
+ft-openpsa-300Gates.xml     done                             0.15        0.18        None
+ft-openpsa-31Gates.xml      done                             0.09        0.12        None
+ft-openpsa-4000Gates.xml    done                             5.71        5.75        None
+ft-openpsa-400Gates.xml     done                             0.19        0.21        None
+ft-openpsa-41Gates.xml      done                             0.09        0.12        None
+ft-openpsa-5000Gates.xml    SEGMENTATION FAULT               0.54        0.74        None
+ft-openpsa-500Gates.xml     done                             0.22        0.24        None
+ft-openpsa-51Gates.xml      done                             0.09        0.12        None
+ft-openpsa-600Gates.xml     done                             0.27        0.28        None
+ft-openpsa-61Gates.xml      done                             0.10        0.13        None
+ft-openpsa-700Gates.xml     done                             0.32        0.34        None
+ft-openpsa-71Gates.xml      done                             0.10        0.12        None
+ft-openpsa-800Gates.xml     done                             0.39        0.40        None
+ft-openpsa-81Gates.xml      done                             0.10        0.11        None
+ft-openpsa-900Gates.xml     done                             0.46        0.48        None
+ft-openpsa-91Gates.xml      done                             0.10        0.11        None
+-----------------------------------------------------------------------------------------
+Run set 3                   done                            16.03       38.93           -
+
+Statistics:             72 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               3

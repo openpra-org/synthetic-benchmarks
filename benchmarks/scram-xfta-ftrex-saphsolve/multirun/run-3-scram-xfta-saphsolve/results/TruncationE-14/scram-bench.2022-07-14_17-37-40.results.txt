@@ -1,0 +1,274 @@
+   BENCHMARK INFORMATION
+benchmark definition:    models/scram-bench.xml
+name:                    scram-bench
+run sets:                scram.mocus.trunc.rare-event.combined-and-or, scram.mocus.trunc.mcub.combined-and-or, scram.mocus.trunc.exact.combined-and-or
+date:                    Thu, 2022-07-14 17:37:40 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /home/bench/ft-bench/bin/amd64/scram
+options:                 -l 2000000 --mocus --probability --cut-off 1e-14
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+scram.mocus.trunc.rare-event.combined-and-or
+Run set 1 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14 --rare-event' and propertyfile 'None'
+
+inputfile                    status                       cpu time   wall time        host
+------------------------------------------------------------------------------------------
+ft-openpsa-10000Gates.xml    SEGMENTATION FAULT               0.90        1.11        None
+ft-openpsa-1000Gates.xml     done                             0.53        0.55        None
+ft-openpsa-100Gates.xml      done                             0.10        0.11        None
+ft-openpsa-11000Gates.xml    SEGMENTATION FAULT               0.99        1.19        None
+ft-openpsa-11Gates.xml       done                             0.08        0.11        None
+ft-openpsa-12000Gates.xml    SEGMENTATION FAULT               1.08        1.29        None
+ft-openpsa-13000Gates.xml    SEGMENTATION FAULT               1.15        1.36        None
+ft-openpsa-14000Gates.xml    SEGMENTATION FAULT               1.07        1.30        None
+ft-openpsa-15000Gates.xml    SEGMENTATION FAULT               1.14        1.36        None
+ft-openpsa-16000Gates.xml    SEGMENTATION FAULT               1.22        1.41        None
+ft-openpsa-17000Gates.xml    SEGMENTATION FAULT               1.29        1.51        None
+ft-openpsa-18000Gates.xml    SEGMENTATION FAULT               1.38        1.60        None
+ft-openpsa-19000Gates.xml    SEGMENTATION FAULT               1.44        1.65        None
+ft-openpsa-1Gates.xml        done                             0.08        0.11        None
+ft-openpsa-20000Gates.xml    SEGMENTATION FAULT               1.52        1.73        None
+ft-openpsa-2000Gates.xml     done                             1.67        1.69        None
+ft-openpsa-200Gates.xml      done                             0.12        0.16        None
+ft-openpsa-21000Gates.xml    SEGMENTATION FAULT               1.60        1.83        None
+ft-openpsa-21Gates.xml       done                             0.09        0.12        None
+ft-openpsa-22000Gates.xml    SEGMENTATION FAULT               1.67        1.87        None
+ft-openpsa-23000Gates.xml    SEGMENTATION FAULT               1.79        2.00        None
+ft-openpsa-24000Gates.xml    SEGMENTATION FAULT               1.82        2.03        None
+ft-openpsa-25000Gates.xml    SEGMENTATION FAULT               1.91        2.11        None
+ft-openpsa-26000Gates.xml    SEGMENTATION FAULT               2.01        2.21        None
+ft-openpsa-27000Gates.xml    SEGMENTATION FAULT               2.07        2.27        None
+ft-openpsa-28000Gates.xml    SEGMENTATION FAULT               2.15        2.35        None
+ft-openpsa-29000Gates.xml    SEGMENTATION FAULT               2.22        2.43        None
+ft-openpsa-30000Gates.xml    SEGMENTATION FAULT               2.27        2.44        None
+ft-openpsa-3000Gates.xml     done                             3.52        3.56        None
+ft-openpsa-300Gates.xml      done                             0.15        0.17        None
+ft-openpsa-31000Gates.xml    SEGMENTATION FAULT               2.34        2.55        None
+ft-openpsa-31Gates.xml       done                             0.09        0.12        None
+ft-openpsa-32000Gates.xml    SEGMENTATION FAULT               2.40        2.60        None
+ft-openpsa-33000Gates.xml    SEGMENTATION FAULT               2.48        2.69        None
+ft-openpsa-34000Gates.xml    SEGMENTATION FAULT               2.55        2.75        None
+ft-openpsa-35000Gates.xml    SEGMENTATION FAULT               2.61        2.82        None
+ft-openpsa-36000Gates.xml    SEGMENTATION FAULT               2.67        2.89        None
+ft-openpsa-37000Gates.xml    SEGMENTATION FAULT               2.76        2.97        None
+ft-openpsa-38000Gates.xml    SEGMENTATION FAULT               2.85        3.05        None
+ft-openpsa-39000Gates.xml    SEGMENTATION FAULT               2.92        3.12        None
+ft-openpsa-40000Gates.xml    SEGMENTATION FAULT               3.04        3.25        None
+ft-openpsa-4000Gates.xml     done                             6.07        6.10        None
+ft-openpsa-400Gates.xml      done                             0.18        0.20        None
+ft-openpsa-41000Gates.xml    SEGMENTATION FAULT               3.10        3.30        None
+ft-openpsa-41Gates.xml       done                             0.09        0.12        None
+ft-openpsa-42000Gates.xml    SEGMENTATION FAULT               3.13        3.35        None
+ft-openpsa-43000Gates.xml    SEGMENTATION FAULT               3.22        3.42        None
+ft-openpsa-44000Gates.xml    SEGMENTATION FAULT               3.34        3.55        None
+ft-openpsa-45000Gates.xml    SEGMENTATION FAULT               3.45        3.66        None
+ft-openpsa-46000Gates.xml    SEGMENTATION FAULT               3.37        3.59        None
+ft-openpsa-47000Gates.xml    SEGMENTATION FAULT               3.42        3.63        None
+ft-openpsa-48000Gates.xml    SEGMENTATION FAULT               3.62        3.83        None
+ft-openpsa-49000Gates.xml    SEGMENTATION FAULT               3.76        3.96        None
+ft-openpsa-50000Gates.xml    SEGMENTATION FAULT               3.87        4.08        None
+ft-openpsa-5000Gates.xml     SEGMENTATION FAULT               0.53        0.73        None
+ft-openpsa-500Gates.xml      done                             0.22        0.24        None
+ft-openpsa-51Gates.xml       done                             0.09        0.12        None
+ft-openpsa-6000Gates.xml     SEGMENTATION FAULT               0.60        0.80        None
+ft-openpsa-600Gates.xml      done                             0.27        0.29        None
+ft-openpsa-61Gates.xml       done                             0.09        0.12        None
+ft-openpsa-7000Gates.xml     SEGMENTATION FAULT               0.68        0.89        None
+ft-openpsa-700Gates.xml      done                             0.32        0.34        None
+ft-openpsa-71Gates.xml       done                             0.09        0.14        None
+ft-openpsa-8000Gates.xml     SEGMENTATION FAULT               0.76        0.95        None
+ft-openpsa-800Gates.xml      done                             0.39        0.41        None
+ft-openpsa-81Gates.xml       done                             0.10        0.11        None
+ft-openpsa-9000Gates.xml     SEGMENTATION FAULT               0.83        1.03        None
+ft-openpsa-900Gates.xml      done                             0.45        0.47        None
+ft-openpsa-91Gates.xml       done                             0.10        0.12        None
+------------------------------------------------------------------------------------------
+Run set 1                    done                           114.19      177.93           -
+
+
+scram.mocus.trunc.mcub.combined-and-or
+Run set 2 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14 --mcub' and propertyfile 'None'
+
+inputfile                    status                       cpu time   wall time        host
+------------------------------------------------------------------------------------------
+ft-openpsa-10000Gates.xml    SEGMENTATION FAULT               0.92        1.13        None
+ft-openpsa-1000Gates.xml     done                             0.54        0.57        None
+ft-openpsa-100Gates.xml      done                             0.10        0.12        None
+ft-openpsa-11000Gates.xml    SEGMENTATION FAULT               1.01        1.22        None
+ft-openpsa-11Gates.xml       done                             0.09        0.11        None
+ft-openpsa-12000Gates.xml    SEGMENTATION FAULT               1.08        1.30        None
+ft-openpsa-13000Gates.xml    SEGMENTATION FAULT               1.15        1.36        None
+ft-openpsa-14000Gates.xml    SEGMENTATION FAULT               1.09        1.29        None
+ft-openpsa-15000Gates.xml    SEGMENTATION FAULT               1.15        1.36        None
+ft-openpsa-16000Gates.xml    SEGMENTATION FAULT               1.20        1.41        None
+ft-openpsa-17000Gates.xml    SEGMENTATION FAULT               1.32        1.54        None
+ft-openpsa-18000Gates.xml    SEGMENTATION FAULT               1.35        1.55        None
+ft-openpsa-19000Gates.xml    SEGMENTATION FAULT               1.42        1.63        None
+ft-openpsa-1Gates.xml        done                             0.09        0.11        None
+ft-openpsa-20000Gates.xml    SEGMENTATION FAULT               1.53        1.75        None
+ft-openpsa-2000Gates.xml     done                             1.67        1.69        None
+ft-openpsa-200Gates.xml      done                             0.12        0.15        None
+ft-openpsa-21000Gates.xml    SEGMENTATION FAULT               1.61        1.81        None
+ft-openpsa-21Gates.xml       done                             0.09        0.12        None
+ft-openpsa-22000Gates.xml    SEGMENTATION FAULT               1.69        1.89        None
+ft-openpsa-23000Gates.xml    SEGMENTATION FAULT               1.74        1.94        None
+ft-openpsa-24000Gates.xml    SEGMENTATION FAULT               1.84        2.05        None
+ft-openpsa-25000Gates.xml    SEGMENTATION FAULT               1.95        2.16        None
+ft-openpsa-26000Gates.xml    SEGMENTATION FAULT               1.99        2.19        None
+ft-openpsa-27000Gates.xml    SEGMENTATION FAULT               2.07        2.28        None
+ft-openpsa-28000Gates.xml    SEGMENTATION FAULT               2.17        2.38        None
+ft-openpsa-29000Gates.xml    SEGMENTATION FAULT               2.25        2.46        None
+ft-openpsa-30000Gates.xml    SEGMENTATION FAULT               2.27        2.47        None
+ft-openpsa-3000Gates.xml     done                             3.46        3.49        None
+ft-openpsa-300Gates.xml      done                             0.15        0.16        None
+ft-openpsa-31000Gates.xml    SEGMENTATION FAULT               2.33        2.54        None
+ft-openpsa-31Gates.xml       done                             0.09        0.12        None
+ft-openpsa-32000Gates.xml    SEGMENTATION FAULT               2.40        2.61        None
+ft-openpsa-33000Gates.xml    SEGMENTATION FAULT               2.49        2.69        None
+ft-openpsa-34000Gates.xml    SEGMENTATION FAULT               2.52        2.73        None
+ft-openpsa-35000Gates.xml    SEGMENTATION FAULT               2.61        2.82        None
+ft-openpsa-36000Gates.xml    SEGMENTATION FAULT               2.68        2.90        None
+ft-openpsa-37000Gates.xml    SEGMENTATION FAULT               2.78        2.97        None
+ft-openpsa-38000Gates.xml    SEGMENTATION FAULT               2.78        2.99        None
+ft-openpsa-39000Gates.xml    SEGMENTATION FAULT               2.83        3.05        None
+ft-openpsa-40000Gates.xml    SEGMENTATION FAULT               2.94        3.15        None
+ft-openpsa-4000Gates.xml     done                             5.41        5.43        None
+ft-openpsa-400Gates.xml      done                             0.18        0.20        None
+ft-openpsa-41000Gates.xml    SEGMENTATION FAULT               3.10        3.32        None
+ft-openpsa-41Gates.xml       done                             0.09        0.12        None
+ft-openpsa-42000Gates.xml    SEGMENTATION FAULT               3.14        3.35        None
+ft-openpsa-43000Gates.xml    SEGMENTATION FAULT               3.22        3.44        None
+ft-openpsa-44000Gates.xml    SEGMENTATION FAULT               3.37        3.57        None
+ft-openpsa-45000Gates.xml    SEGMENTATION FAULT               3.47        3.67        None
+ft-openpsa-46000Gates.xml    SEGMENTATION FAULT               3.51        3.72        None
+ft-openpsa-47000Gates.xml    SEGMENTATION FAULT               3.61        3.81        None
+ft-openpsa-48000Gates.xml    SEGMENTATION FAULT               3.65        3.85        None
+ft-openpsa-49000Gates.xml    SEGMENTATION FAULT               3.73        3.95        None
+ft-openpsa-50000Gates.xml    SEGMENTATION FAULT               3.68        3.89        None
+ft-openpsa-5000Gates.xml     SEGMENTATION FAULT               0.53        0.73        None
+ft-openpsa-500Gates.xml      done                             0.22        0.24        None
+ft-openpsa-51Gates.xml       done                             0.10        0.12        None
+ft-openpsa-6000Gates.xml     SEGMENTATION FAULT               0.61        0.81        None
+ft-openpsa-600Gates.xml      done                             0.27        0.29        None
+ft-openpsa-61Gates.xml       done                             0.10        0.13        None
+ft-openpsa-7000Gates.xml     SEGMENTATION FAULT               0.69        0.89        None
+ft-openpsa-700Gates.xml      done                             0.32        0.34        None
+ft-openpsa-71Gates.xml       done                             0.10        0.12        None
+ft-openpsa-8000Gates.xml     SEGMENTATION FAULT               0.76        0.98        None
+ft-openpsa-800Gates.xml      done                             0.39        0.41        None
+ft-openpsa-81Gates.xml       done                             0.09        0.11        None
+ft-openpsa-9000Gates.xml     SEGMENTATION FAULT               0.85        1.06        None
+ft-openpsa-900Gates.xml      done                             0.46        0.48        None
+ft-openpsa-91Gates.xml       done                             0.10        0.12        None
+------------------------------------------------------------------------------------------
+Run set 2                    done                           113.83      177.32           -
+
+
+scram.mocus.trunc.exact.combined-and-or
+Run set 3 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14' and propertyfile 'None'
+
+inputfile                    status                       cpu time   wall time        host
+------------------------------------------------------------------------------------------
+ft-openpsa-10000Gates.xml    SEGMENTATION FAULT               0.91        1.11        None
+ft-openpsa-1000Gates.xml     done                             0.53        0.55        None
+ft-openpsa-100Gates.xml      done                             0.10        0.12        None
+ft-openpsa-11000Gates.xml    SEGMENTATION FAULT               0.99        1.19        None
+ft-openpsa-11Gates.xml       done                             0.09        0.10        None
+ft-openpsa-12000Gates.xml    SEGMENTATION FAULT               1.08        1.28        None
+ft-openpsa-13000Gates.xml    SEGMENTATION FAULT               1.16        1.37        None
+ft-openpsa-14000Gates.xml    SEGMENTATION FAULT               1.07        1.27        None
+ft-openpsa-15000Gates.xml    SEGMENTATION FAULT               1.15        1.35        None
+ft-openpsa-16000Gates.xml    SEGMENTATION FAULT               1.22        1.43        None
+ft-openpsa-17000Gates.xml    SEGMENTATION FAULT               1.31        1.52        None
+ft-openpsa-18000Gates.xml    SEGMENTATION FAULT               1.39        1.60        None
+ft-openpsa-19000Gates.xml    SEGMENTATION FAULT               1.48        1.68        None
+ft-openpsa-1Gates.xml        done                             0.09        0.11        None
+ft-openpsa-20000Gates.xml    SEGMENTATION FAULT               1.49        1.70        None
+ft-openpsa-2000Gates.xml     done                             1.70        1.72        None
+ft-openpsa-200Gates.xml      done                             0.12        0.13        None
+ft-openpsa-21000Gates.xml    SEGMENTATION FAULT               1.62        1.82        None
+ft-openpsa-21Gates.xml       done                             0.09        0.10        None
+ft-openpsa-22000Gates.xml    SEGMENTATION FAULT               1.68        1.89        None
+ft-openpsa-23000Gates.xml    SEGMENTATION FAULT               1.80        2.00        None
+ft-openpsa-24000Gates.xml    SEGMENTATION FAULT               1.83        2.05        None
+ft-openpsa-25000Gates.xml    SEGMENTATION FAULT               1.91        2.12        None
+ft-openpsa-26000Gates.xml    SEGMENTATION FAULT               2.01        2.21        None
+ft-openpsa-27000Gates.xml    SEGMENTATION FAULT               2.11        2.31        None
+ft-openpsa-28000Gates.xml    SEGMENTATION FAULT               2.17        2.37        None
+ft-openpsa-29000Gates.xml    SEGMENTATION FAULT               2.26        2.46        None
+ft-openpsa-30000Gates.xml    SEGMENTATION FAULT               2.26        2.46        None
+ft-openpsa-3000Gates.xml     done                             3.54        3.56        None
+ft-openpsa-300Gates.xml      done                             0.15        0.17        None
+ft-openpsa-31000Gates.xml    SEGMENTATION FAULT               2.33        2.53        None
+ft-openpsa-31Gates.xml       done                             0.09        0.13        None
+ft-openpsa-32000Gates.xml    SEGMENTATION FAULT               2.42        2.62        None
+ft-openpsa-33000Gates.xml    SEGMENTATION FAULT               2.47        2.68        None
+ft-openpsa-34000Gates.xml    SEGMENTATION FAULT               2.54        2.75        None
+ft-openpsa-35000Gates.xml    SEGMENTATION FAULT               2.62        2.82        None
+ft-openpsa-36000Gates.xml    SEGMENTATION FAULT               2.70        2.90        None
+ft-openpsa-37000Gates.xml    SEGMENTATION FAULT               2.73        2.94        None
+ft-openpsa-38000Gates.xml    SEGMENTATION FAULT               2.85        3.06        None
+ft-openpsa-39000Gates.xml    SEGMENTATION FAULT               2.93        3.14        None
+ft-openpsa-40000Gates.xml    SEGMENTATION FAULT               2.95        3.16        None
+ft-openpsa-4000Gates.xml     done                             6.13        6.18        None
+ft-openpsa-400Gates.xml      done                             0.18        0.20        None
+ft-openpsa-41000Gates.xml    SEGMENTATION FAULT               2.99        3.21        None
+ft-openpsa-41Gates.xml       done                             0.09        0.11        None
+ft-openpsa-42000Gates.xml    SEGMENTATION FAULT               3.03        3.25        None
+ft-openpsa-43000Gates.xml    SEGMENTATION FAULT               3.21        3.41        None
+ft-openpsa-44000Gates.xml    SEGMENTATION FAULT               3.35        3.56        None
+ft-openpsa-45000Gates.xml    SEGMENTATION FAULT               3.28        3.48        None
+ft-openpsa-46000Gates.xml    SEGMENTATION FAULT               3.50        3.69        None
+ft-openpsa-47000Gates.xml    SEGMENTATION FAULT               3.59        3.79        None
+ft-openpsa-48000Gates.xml    SEGMENTATION FAULT               3.70        3.91        None
+ft-openpsa-49000Gates.xml    SEGMENTATION FAULT               3.75        3.95        None
+ft-openpsa-50000Gates.xml    SEGMENTATION FAULT               3.92        4.15        None
+ft-openpsa-5000Gates.xml     SEGMENTATION FAULT               0.53        0.74        None
+ft-openpsa-500Gates.xml      done                             0.22        0.24        None
+ft-openpsa-51Gates.xml       done                             0.10        0.11        None
+ft-openpsa-6000Gates.xml     SEGMENTATION FAULT               0.61        0.82        None
+ft-openpsa-600Gates.xml      done                             0.27        0.29        None
+ft-openpsa-61Gates.xml       done                             0.10        0.11        None
+ft-openpsa-7000Gates.xml     SEGMENTATION FAULT               0.68        0.90        None
+ft-openpsa-700Gates.xml      done                             0.32        0.35        None
+ft-openpsa-71Gates.xml       done                             0.10        0.11        None
+ft-openpsa-8000Gates.xml     SEGMENTATION FAULT               0.76        0.97        None
+ft-openpsa-800Gates.xml      done                             0.39        0.40        None
+ft-openpsa-81Gates.xml       done                             0.10        0.12        None
+ft-openpsa-9000Gates.xml     SEGMENTATION FAULT               0.85        1.05        None
+ft-openpsa-900Gates.xml      done                             0.47        0.48        None
+ft-openpsa-91Gates.xml       done                             0.10        0.12        None
+------------------------------------------------------------------------------------------
+Run set 3                    done                           114.78      178.37           -
+
+Statistics:            207 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             138

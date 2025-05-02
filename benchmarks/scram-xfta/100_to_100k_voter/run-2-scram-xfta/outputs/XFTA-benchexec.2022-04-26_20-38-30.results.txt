@@ -1,0 +1,49 @@
+   BENCHMARK INFORMATION
+Run XFTA
+benchmark definition:    XFTA-benchexec.xml
+name:                    XFTA-benchexec
+run sets:                xfta-run.ft-generated, ft-generated
+date:                    Tue, 2022-04-26 20:38:30 EDT
+tool:                    XFTA XFTA: an Open-PSA Fault Tree engine
+version 1.0
+Copyrights (c) Antoine B. Rauzy 2011
+bye
+tool executable:         /opt/xftar/xfta
+options:
+parallel runs:           12
+resource limits:
+- memory:                5375.0 MB
+- time:                  3600 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                5375.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+xfta-run.ft-generated
+Run set 1 of 2: skipped because it has no files
+
+
+ft-generated
+Run set 2 of 2: skipped because it has no files
+
+Statistics:              0 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               0

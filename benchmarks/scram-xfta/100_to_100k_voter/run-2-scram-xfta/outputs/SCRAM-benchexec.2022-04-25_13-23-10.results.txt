@@ -1,0 +1,278 @@
+   BENCHMARK INFORMATION
+Run Scram
+benchmark definition:    SCRAM-benchexec.xml
+name:                    SCRAM-benchexec
+run sets:                validate.ft-generated, MCS.mocus.ft-generated, MCS.zbdd.ft-generated, MCS.bdd.ft-generated, MCS.bdd.prob.exact.ft-generated, MCS.bdd.prob.mcub.ft-generated, MCS.bdd.prob.rare.ft-generated, MCS.zbdd.prob.exact.ft-generated, MCS.zbdd.prob.mcub.ft-generated, MCS.zbdd.prob.rare.ft-generated, MCS.mocus.prob.exact.ft-generated, MCS.mocus.prob.mcub.ft-generated, MCS.mocus.prob.rare.ft-generated, ft-generated
+date:                    Mon, 2022-04-25 13:23:10 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:
+parallel runs:           2
+resource limits:
+- memory:                63000.0 MB
+- time:                  3600 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+validate.ft-generated
+Run set 1 of 14 with options '--verbosity 7 --validate' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        ERROR                            0.08        0.11        None
+ft-10-01-or.xml         ERROR                            0.08        0.34        None
+ft-10-05-and.xml        ERROR                            0.08        0.12        None
+ft-10-05-or.xml         ERROR                            0.09        0.38        None
+ft-100-01-and.xml       ERROR                            0.09        0.11        None
+ft-100-01-or.xml        ERROR                            0.09        0.11        None
+ft-100-01.xml           ERROR                            0.09        0.13        None
+ft-100-02.xml           ERROR                            0.09        0.35        None
+ft-100-03.xml           ERROR                            0.09        0.11        None
+ft-100-04.xml           ERROR                            0.09        0.28        None
+ft-100-05.xml           ERROR                            0.09        0.13        None
+ft-100-06.xml           ERROR                            0.09        0.11        None
+ft-100-07.xml           ERROR                            0.09        0.40        None
+ft-100-08.xml           ERROR                            0.09        0.11        None
+ft-100-09.xml           ERROR                            0.09        0.11        None
+ft-1000-01-and.xml      ERROR                            0.12        0.36        None
+ft-1000-01-or.xml       ERROR                            0.12        0.15        None
+ft-1000-01.xml          ERROR                            0.12        0.32        None
+ft-1000-02.xml          ERROR                            0.12        0.13        None
+ft-1000-03.xml          ERROR                            0.13        0.14        None
+ft-1000-04.xml          ERROR                            0.12        0.36        None
+ft-1000-05.xml          ERROR                            0.14        0.16        None
+ft-1000-06.xml          ERROR                            0.13        0.41        None
+ft-1000-07.xml          ERROR                            0.13        0.16        None
+ft-1000-08.xml          ERROR                            0.13        0.33        None
+ft-1000-09.xml          ERROR                            0.14        0.16        None
+ft-10000-01-and.xml     ERROR                            0.47        0.49        None
+ft-10000-01-or.xml      ERROR                            0.48        0.50        None
+ft-10000-01.xml         ERROR                            0.47        0.49        None
+ft-10000-02.xml         ERROR                            0.50        0.52        None
+ft-10000-03.xml         ERROR                            0.49        0.72        None
+ft-10000-04.xml         ERROR                            0.52        0.53        None
+ft-10000-05.xml         ERROR                            0.54        0.80        None
+ft-10000-06.xml         ERROR                            0.56        0.58        None
+ft-10000-07.xml         ERROR                            0.58        0.84        None
+ft-10000-08.xml         ERROR                            0.63        0.67        None
+ft-10000-09.xml         ERROR                            0.67        0.96        None
+ft-100000-01-and.xml    ERROR                            4.10        4.12        None
+ft-100000-01-or.xml     ERROR                            4.27        4.38        None
+ft-100000-01.xml        ERROR                            4.02        4.06        None
+ft-100000-02.xml        ERROR                            4.26        4.32        None
+ft-100000-03.xml        ERROR                            4.29        4.32        None
+ft-100000-04.xml        ERROR                            5.09        5.11        None
+ft-100000-05.xml        ERROR                            4.70        4.71        None
+ft-100000-06.xml        ERROR                            5.19        5.23        None
+ft-100000-07.xml        ERROR                            5.27        5.30        None
+ft-100000-08.xml        ERROR                            5.86        5.89        None
+ft-100000-09.xml        ERROR                            5.89        5.93        None
+ft-2-01-and.xml         ERROR                            0.08        0.11        None
+ft-2-01-or.xml          ERROR                            0.08        0.12        None
+-------------------------------------------------------------------------------------
+Run set 1               done                            63.47       58.08           -
+
+
+MCS.mocus.ft-generated
+Run set 2 of 14 with options '--verbosity 7 -l 1000000 --mocus' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.08        0.11        None
+ft-10-01-or.xml         done                             0.09        0.39        None
+ft-10-05-and.xml        done                             0.09        0.10        None
+ft-10-05-or.xml         done                             0.09        0.38        None
+ft-100-01-and.xml       done                             0.09        0.11        None
+ft-100-01-or.xml        done                             0.10        0.32        None
+ft-100-01.xml           done                             0.10        0.13        None
+ft-100-02.xml           done                             0.11        0.35        None
+ft-100-03.xml           done                             0.10        0.13        None
+ft-100-04.xml           done                             0.10        0.37        None
+ft-100-05.xml           done                             0.09        0.12        None
+ft-100-06.xml           done                             0.10        0.42        None
+ft-100-07.xml           done                             0.10        0.12        None
+ft-100-08.xml           done                             0.12        0.14        None
+ft-100-09.xml           done                             0.13        0.40        None
+ft-1000-01-and.xml      done                             0.17        0.19        None
+ft-1000-01-or.xml       done                             0.17        0.40        None
+ft-1000-01.xml          TIMEOUT                       3600.80     3602.46        None
+ft-1000-02.xml          TIMEOUT                       3600.29     3601.63        None
+ft-1000-03.xml          TIMEOUT                       3602.26     3603.04        None
+ft-1000-04.xml          TIMEOUT                       3601.42     3603.35        None
+ft-1000-05.xml          OUT OF MEMORY                 3551.34     3553.71        None
+ft-1000-06.xml          TIMEOUT                       3600.52     3601.89        None
+ft-1000-07.xml          OUT OF MEMORY                 3574.58     3576.72        None
+ft-1000-08.xml          TIMEOUT                       3600.39     3602.08        None
+ft-1000-09.xml          OUT OF MEMORY                 3273.88     3275.82        None
+ft-10000-01-and.xml     done                             0.97        1.00        None
+ft-10000-01-or.xml      done                             0.96        1.01        None
+ft-10000-01.xml         KILLED BY SIGNAL 9            3398.98     3404.07        None
+ft-10000-02.xml         TIMEOUT                       3602.04     3604.35        None
+ft-10000-03.xml         KILLED BY SIGNAL 9            2406.28     2408.31        None
+ft-10000-04.xml         KILLED BY SIGNAL 9            2312.88     2315.03        None
+ft-10000-05.xml         OUT OF MEMORY                 3529.57     3532.22        None
+ft-10000-06.xml         KILLED BY SIGNAL 9            2692.38     2696.81        None
+ft-10000-07.xml         TIMEOUT                       3602.67     3603.82        None
+ft-10000-08.xml         KILLED BY SIGNAL 9            2898.28     2902.98        None
+ft-10000-09.xml         TIMEOUT                       3601.16     3603.51        None
+ft-100000-01-and.xml    done                            11.02       11.08        None
+ft-100000-01-or.xml     done                            10.94       10.98        None
+ft-100000-01.xml        TIMEOUT                       3601.01     3602.42        None
+ft-100000-02.xml        KILLED BY SIGNAL 9            2369.03     2373.08        None
+ft-100000-03.xml        OUT OF MEMORY                 3322.26     3324.05        None
+ft-100000-04.xml        TIMEOUT                       3601.96     3605.14        None
+ft-100000-05.xml        OUT OF MEMORY                 2724.94     2727.00        None
+ft-100000-06.xml        KILLED BY SIGNAL 9            2653.36     2658.41        None
+ft-100000-07.xml        TIMEOUT                       3601.76     3603.18        None
+ft-100000-08.xml        KILLED BY SIGNAL 9            3539.10     3544.38        None
+ft-100000-09.xml        TIMEOUT                       3601.76     3604.08        None
+ft-2-01-and.xml         done                             0.10        0.37        None
+ft-2-01-or.xml          done                             0.09        0.11        None
+-------------------------------------------------------------------------------------
+Run set 2               done                         89092.62    45258.64           -
+
+
+MCS.zbdd.ft-generated
+Run set 3 of 14 with options '--verbosity 7 -l 1000000 --zbdd' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.11        None
+ft-10-01-or.xml         done                             0.09        0.35        None
+ft-10-05-and.xml        done                             0.09        0.10        None
+ft-10-05-or.xml         done                             0.09        0.39        None
+ft-100-01-and.xml       done                             0.09        0.13        None
+ft-100-01-or.xml        done                             0.10        0.34        None
+ft-100-01.xml           done                             0.10        0.12        None
+ft-100-02.xml           done                             0.11        0.37        None
+ft-100-03.xml           done                             0.09        0.13        None
+ft-100-04.xml           done                             0.10        0.38        None
+ft-100-05.xml           done                             0.09        0.11        None
+ft-100-06.xml           done                             0.10        0.12        None
+ft-100-07.xml           done                             0.10        0.31        None
+ft-100-08.xml           done                             0.12        0.15        None
+ft-100-09.xml           done                             0.12        0.36        None
+ft-1000-01-and.xml      done                             0.18        0.21        None
+ft-1000-01-or.xml       done                             0.17        0.43        None
+ft-1000-01.xml          TIMEOUT                       3601.54     3603.42        None
+ft-1000-02.xml          TIMEOUT                       3600.31     3600.95        None
+ft-1000-03.xml          TIMEOUT                       3602.05     3603.63        None
+ft-1000-04.xml          KILLED BY SIGNAL 9            2060.74     2064.71        None
+ft-1000-05.xml          KILLED BY SIGNAL 9             956.43      959.97        None
+ft-1000-06.xml          TIMEOUT                       3600.56     3601.96        None
+ft-1000-07.xml          OUT OF MEMORY                 1436.00     1436.66        None
+ft-1000-08.xml          TIMEOUT                       3601.03     3601.89        None
+ft-1000-09.xml          KILLED BY SIGNAL 9             992.41      995.13        None
+ft-10000-01-and.xml     done                             1.00        1.27        None
+ft-10000-01-or.xml      done                             0.98        1.01        None
+ft-10000-01.xml         KILLED BY SIGNAL 9             963.73      966.70        None
+ft-10000-02.xml         ABORTED                       1163.00     1165.47        None
+ft-10000-03.xml         OUT OF MEMORY                 1387.79     1388.69        None
+ft-10000-04.xml         KILLED BY SIGNAL 9            1877.85     1881.54        None
+ft-10000-05.xml         OUT OF MEMORY                 1397.34     1398.70        None
+ft-10000-06.xml         OUT OF MEMORY                 1035.81     1036.36        None
+ft-10000-07.xml         KILLED BY SIGNAL 9            1082.19     1085.53        None
+ft-10000-08.xml         OUT OF MEMORY                 1790.71     1792.06        None
+ft-10000-09.xml         KILLED BY SIGNAL 9            3571.35     3574.18        None
+ft-100000-01-and.xml    done                            11.23       11.28        None
+ft-100000-01-or.xml     done                            11.06       11.11        None
+ft-100000-01.xml        OUT OF MEMORY                 1441.60     1442.34        None
+ft-100000-02.xml        OUT OF MEMORY                 1758.53     1759.08        None
+ft-100000-03.xml        KILLED BY SIGNAL 9            1328.71     1332.29        None
+ft-100000-04.xml        OUT OF MEMORY                 3301.12     3303.42        None
+ft-100000-05.xml        TIMEOUT                       3601.55     3604.74        None
+ft-100000-06.xml        OUT OF MEMORY                 1327.91     1329.01        None
+ft-100000-07.xml        TIMEOUT                       3601.59     3604.13        None
+ft-100000-08.xml        TIMEOUT                       3601.95     3603.05        None
+ft-100000-09.xml        TIMEOUT                       3601.61     3604.22        None
+ft-2-01-and.xml         done                             0.09        0.11        None
+ft-2-01-or.xml          done                             0.08        0.11        None
+-------------------------------------------------------------------------------------
+Run set 3               done                         61313.59    32069.17           -
+
+
+MCS.bdd.ft-generated
+Run set 4 of 14 with options '--verbosity 7 -l 1000000 --bdd' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.12        None
+ft-10-01-or.xml         done                             0.09        0.14        None
+ft-10-05-and.xml        done                             0.09        0.37        None
+ft-10-05-or.xml         done                             0.09        0.10        None
+ft-100-01-and.xml       done                             0.09        0.12        None
+ft-100-01-or.xml        done                             0.10        0.33        None
+ft-100-01.xml           done                             0.10        0.13        None
+ft-100-02.xml           done                             0.12        0.33        None
+ft-100-03.xml           done                             0.09        0.11        None
+ft-100-04.xml           done                             0.10        0.35        None
+ft-100-05.xml           done                             0.09        0.13        None
+ft-100-06.xml           done                             0.10        0.37        None
+ft-100-07.xml           done                             0.10        0.13        None
+ft-100-08.xml           done                             0.12        0.36        None
+ft-100-09.xml           done                             0.12        0.13        None
+ft-1000-01-and.xml      done                             0.17        0.37        None
+ft-1000-01-or.xml       done                             0.17        0.19        None
+ft-1000-01.xml          TIMEOUT                       3601.50     3603.20        None
+ft-1000-02.xml          OUT OF MEMORY                  981.95      982.81        None
+ft-1000-03.xml          OUT OF MEMORY                  972.43      973.42        None
+ft-1000-04.xml          OUT OF MEMORY                 1416.69     1417.23        None
+ft-1000-05.xml          OUT OF MEMORY                 1276.68     1277.65        None
+ft-1000-06.xml          KILLED BY SIGNAL 9            1072.93     1074.26        None
+ft-1000-07.xml          OUT OF MEMORY                 1174.53     1175.92        None
+ft-1000-08.xml          KILLED BY SIGNAL 9            1053.34     1057.12        None
+ft-1000-09.xml          KILLED BY SIGNAL 9            1265.23     1268.67        None
+ft-10000-01-and.xml     done                             0.95        1.00        None
+ft-10000-01-or.xml      done                             0.94        0.97        None
+ft-10000-01.xml         OUT OF MEMORY                 1023.46     1023.77        None
+ft-10000-02.xml         OUT OF MEMORY                 1665.39     1666.95        None
+ft-10000-03.xml         KILLED BY SIGNAL 9             927.09      930.47        None
+ft-10000-04.xml         KILLED BY SIGNAL 9            1191.91     1195.44        None
+ft-10000-05.xml         OUT OF MEMORY                 1177.46     1178.53        None
+ft-10000-06.xml         KILLED BY SIGNAL 9            1302.56     1306.24        None
+ft-10000-07.xml         OUT OF MEMORY                  934.60      935.62        None
+ft-10000-08.xml         KILLED BY SIGNAL 9             974.75      978.43        None
+ft-10000-09.xml         OUT OF MEMORY                 1294.22     1295.19        None
+ft-100000-01-and.xml    SEGMENTATION FAULT               6.89        7.88        None
+ft-100000-01-or.xml     SEGMENTATION FAULT               6.67        6.90        None
+ft-100000-01.xml        KILLED BY SIGNAL 9             934.49      937.68        None
+ft-100000-02.xml        
+ft-100000-03.xml        
+ft-100000-04.xml        
+ft-100000-05.xml        
+ft-100000-06.xml        
+ft-100000-07.xml        
+ft-100000-08.xml        
+ft-100000-09.xml        
+ft-2-01-and.xml         
+ft-2-01-or.xml          
+-------------------------------------------------------------------------------------
+Run set 4               done                         24829.23    12452.98           -
+
+Statistics:            190 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             125

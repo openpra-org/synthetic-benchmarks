@@ -1,0 +1,146 @@
+   BENCHMARK INFORMATION
+Run Scram
+benchmark definition:    scram-bench.xml
+name:                    scram-bench
+run sets:                zbdd.deep trees, bdd.deep trees, mocus.deep trees, probability only.deep trees, Rare event probability.deep trees, MCUB probability only.deep trees, deep trees
+date:                    Fri, 2022-04-22 12:17:54 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:
+resource limits:
+- memory:                63000.0 MB
+- time:                  86400 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+zbdd.deep trees
+Run set 1 of 7 with options '--zbdd' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.09        0.12        None
+FT-1000.xml             done                             0.17        0.20        None
+FT-10000.xml            done                            11.31       11.35        None
+FT-100000.xml           unknown                         28.28       28.32        None
+FT-5000.xml             done                             1.82        1.84        None
+FT-9999.xml             done                            11.78       11.82        None
+-------------------------------------------------------------------------------------
+Run set 1               done                            53.69       58.41           -
+
+
+bdd.deep trees
+Run set 2 of 7 with options '--bdd' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.09        0.12        None
+FT-1000.xml             done                           155.05      155.22        None
+FT-10000.xml            OUT OF MEMORY                  996.94      997.94        None
+FT-100000.xml           OUT OF MEMORY                 1721.25     1722.89        None
+FT-5000.xml             OUT OF MEMORY                 1050.78     1051.84        None
+FT-9999.xml             OUT OF MEMORY                 1002.73     1003.76        None
+-------------------------------------------------------------------------------------
+Run set 2               done                          4927.07     4936.38           -
+
+
+mocus.deep trees
+Run set 3 of 7 with options '--mocus' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.09        0.14        None
+FT-1000.xml             done                            45.04       45.07        None
+FT-10000.xml            done                             4.94        4.97        None
+FT-100000.xml           unknown                         23.72       23.76        None
+FT-5000.xml             done                             0.49        0.52        None
+FT-9999.xml             done                             4.88        4.90        None
+-------------------------------------------------------------------------------------
+Run set 3               done                            79.39       84.15           -
+
+
+probability only.deep trees
+Run set 4 of 7 with options '--probability' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.10        0.14        None
+FT-1000.xml             done                           156.67      156.84        None
+FT-10000.xml            OUT OF MEMORY                 1000.94     1001.90        None
+FT-100000.xml           OUT OF MEMORY                 1722.39     1724.28        None
+FT-5000.xml             OUT OF MEMORY                 1050.06     1051.05        None
+FT-9999.xml             OUT OF MEMORY                 1002.24     1003.26        None
+-------------------------------------------------------------------------------------
+Run set 4               done                          4932.62     4942.06           -
+
+
+Rare event probability.deep trees
+Run set 5 of 7 with options '--probability --rare-event' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.10        0.13        None
+FT-1000.xml             done                           155.41      155.58        None
+FT-10000.xml            OUT OF MEMORY                 1000.93     1001.96        None
+FT-100000.xml           OUT OF MEMORY                 1733.23     1734.92        None
+FT-5000.xml             OUT OF MEMORY                 1050.11     1051.41        None
+FT-9999.xml             OUT OF MEMORY                 1002.38     1003.36        None
+-------------------------------------------------------------------------------------
+Run set 5               done                          4942.38     4952.05           -
+
+
+MCUB probability only.deep trees
+Run set 6 of 7 with options '--probability --mcub' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.10        0.12        None
+FT-1000.xml             done                           155.51      155.69        None
+FT-10000.xml            OUT OF MEMORY                 1001.75     1002.92        None
+FT-100000.xml           OUT OF MEMORY                 1732.01     1733.80        None
+FT-5000.xml             OUT OF MEMORY                 1051.46     1052.51        None
+FT-9999.xml             OUT OF MEMORY                 1002.36     1003.35        None
+-------------------------------------------------------------------------------------
+Run set 6               done                          4943.42     4953.10           -
+
+
+deep trees
+Run set 7 of 7 with options '' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+FT-100.xml              done                             0.09        0.14        None
+FT-1000.xml             done                           155.21      155.39        None
+FT-10000.xml            OUT OF MEMORY                 1001.37     1002.35        None
+FT-100000.xml           OUT OF MEMORY                 1718.52     1720.12        None
+FT-5000.xml             OUT OF MEMORY                 1049.45     1050.43        None
+FT-9999.xml             OUT OF MEMORY                 1003.12     1004.11        None
+-------------------------------------------------------------------------------------
+Run set 7               done                          4927.99     4937.19           -
+
+Statistics:             42 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              22

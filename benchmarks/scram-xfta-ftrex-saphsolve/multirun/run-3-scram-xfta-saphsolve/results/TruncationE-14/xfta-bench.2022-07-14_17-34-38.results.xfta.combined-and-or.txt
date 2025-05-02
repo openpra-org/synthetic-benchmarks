@@ -1,0 +1,117 @@
+   BENCHMARK INFORMATION
+benchmark definition:    models/xfta-bench.xml
+name:                    xfta-bench
+run sets:                xfta.combined-and-or
+date:                    Thu, 2022-07-14 17:34:38 EDT
+tool:                    xfta XFTA: an Open-PSA Fault Tree engine
+version 1.0
+Copyrights (c) Antoine B. Rauzy 2011
+bye
+tool executable:         /home/bench/ft-bench/bin/amd64/xfta
+options:
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+xfta.combined-and-or
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                         status                       cpu time   wall time        host
+-----------------------------------------------------------------------------------------------
+xfta-ft-openpsa-10000Gates.xml    SEGMENTATION FAULT               1.06        1.28        None
+xfta-ft-openpsa-1000Gates.xml     ERROR                            0.12        0.15        None
+xfta-ft-openpsa-100Gates.xml      ERROR                            0.02        0.04        None
+xfta-ft-openpsa-11000Gates.xml    SEGMENTATION FAULT               1.18        1.40        None
+xfta-ft-openpsa-11Gates.xml       ERROR                            0.01        0.04        None
+xfta-ft-openpsa-12000Gates.xml    SEGMENTATION FAULT               1.29        1.48        None
+xfta-ft-openpsa-13000Gates.xml    SEGMENTATION FAULT               1.39        1.60        None
+xfta-ft-openpsa-14000Gates.xml    SEGMENTATION FAULT               1.52        1.73        None
+xfta-ft-openpsa-15000Gates.xml    SEGMENTATION FAULT               1.63        1.82        None
+xfta-ft-openpsa-16000Gates.xml    SEGMENTATION FAULT               1.74        1.94        None
+xfta-ft-openpsa-17000Gates.xml    SEGMENTATION FAULT               1.86        2.08        None
+xfta-ft-openpsa-18000Gates.xml    SEGMENTATION FAULT               1.98        2.19        None
+xfta-ft-openpsa-19000Gates.xml    SEGMENTATION FAULT               2.09        2.32        None
+xfta-ft-openpsa-1Gates.xml        ERROR                            0.00        0.03        None
+xfta-ft-openpsa-20000Gates.xml    SEGMENTATION FAULT               2.22        2.42        None
+xfta-ft-openpsa-2000Gates.xml     ERROR                            0.23        0.26        None
+xfta-ft-openpsa-200Gates.xml      ERROR                            0.03        0.07        None
+xfta-ft-openpsa-21000Gates.xml    SEGMENTATION FAULT               2.31        2.53        None
+xfta-ft-openpsa-21Gates.xml       ERROR                            0.01        0.07        None
+xfta-ft-openpsa-22000Gates.xml    SEGMENTATION FAULT               2.43        2.63        None
+xfta-ft-openpsa-23000Gates.xml    SEGMENTATION FAULT               2.55        2.76        None
+xfta-ft-openpsa-24000Gates.xml    SEGMENTATION FAULT               2.67        2.87        None
+xfta-ft-openpsa-25000Gates.xml    SEGMENTATION FAULT               2.81        3.03        None
+xfta-ft-openpsa-26000Gates.xml    SEGMENTATION FAULT               2.90        3.10        None
+xfta-ft-openpsa-27000Gates.xml    SEGMENTATION FAULT               3.03        3.24        None
+xfta-ft-openpsa-28000Gates.xml    SEGMENTATION FAULT               3.13        3.34        None
+xfta-ft-openpsa-29000Gates.xml    SEGMENTATION FAULT               3.27        3.47        None
+xfta-ft-openpsa-30000Gates.xml    SEGMENTATION FAULT               3.35        3.56        None
+xfta-ft-openpsa-3000Gates.xml     ERROR                            0.36        0.40        None
+xfta-ft-openpsa-300Gates.xml      ERROR                            0.04        0.09        None
+xfta-ft-openpsa-31000Gates.xml    SEGMENTATION FAULT               3.47        3.68        None
+xfta-ft-openpsa-31Gates.xml       ERROR                            0.01        0.03        None
+xfta-ft-openpsa-32000Gates.xml    SEGMENTATION FAULT               3.59        3.79        None
+xfta-ft-openpsa-33000Gates.xml    SEGMENTATION FAULT               3.74        3.96        None
+xfta-ft-openpsa-34000Gates.xml    SEGMENTATION FAULT               3.83        4.04        None
+xfta-ft-openpsa-35000Gates.xml    SEGMENTATION FAULT               3.95        4.15        None
+xfta-ft-openpsa-36000Gates.xml    SEGMENTATION FAULT               4.05        4.27        None
+xfta-ft-openpsa-37000Gates.xml    SEGMENTATION FAULT               4.17        4.39        None
+xfta-ft-openpsa-38000Gates.xml    SEGMENTATION FAULT               4.33        4.54        None
+xfta-ft-openpsa-39000Gates.xml    SEGMENTATION FAULT               4.42        4.62        None
+xfta-ft-openpsa-40000Gates.xml    SEGMENTATION FAULT               4.53        4.72        None
+xfta-ft-openpsa-4000Gates.xml     ERROR                            0.51        0.53        None
+xfta-ft-openpsa-400Gates.xml      ERROR                            0.05        0.07        None
+xfta-ft-openpsa-41000Gates.xml    SEGMENTATION FAULT               2.80        3.00        None
+xfta-ft-openpsa-41Gates.xml       ERROR                            0.01        0.04        None
+xfta-ft-openpsa-42000Gates.xml    SEGMENTATION FAULT               2.88        3.09        None
+xfta-ft-openpsa-43000Gates.xml    SEGMENTATION FAULT               2.95        3.15        None
+xfta-ft-openpsa-44000Gates.xml    SEGMENTATION FAULT               3.01        3.21        None
+xfta-ft-openpsa-45000Gates.xml    SEGMENTATION FAULT               3.08        3.28        None
+xfta-ft-openpsa-46000Gates.xml    SEGMENTATION FAULT               3.17        3.38        None
+xfta-ft-openpsa-47000Gates.xml    SEGMENTATION FAULT               3.22        3.43        None
+xfta-ft-openpsa-48000Gates.xml    SEGMENTATION FAULT               2.25        2.45        None
+xfta-ft-openpsa-49000Gates.xml    SEGMENTATION FAULT               2.32        2.52        None
+xfta-ft-openpsa-50000Gates.xml    SEGMENTATION FAULT               2.34        2.54        None
+xfta-ft-openpsa-5000Gates.xml     SEGMENTATION FAULT               0.50        0.71        None
+xfta-ft-openpsa-500Gates.xml      ERROR                            0.06        0.09        None
+xfta-ft-openpsa-51Gates.xml       ERROR                            0.01        0.04        None
+xfta-ft-openpsa-6000Gates.xml     SEGMENTATION FAULT               0.62        0.83        None
+xfta-ft-openpsa-600Gates.xml      ERROR                            0.07        0.11        None
+xfta-ft-openpsa-61Gates.xml       ERROR                            0.01        0.04        None
+xfta-ft-openpsa-7000Gates.xml     SEGMENTATION FAULT               0.73        0.94        None
+xfta-ft-openpsa-700Gates.xml      ERROR                            0.08        0.12        None
+xfta-ft-openpsa-71Gates.xml       ERROR                            0.01        0.04        None
+xfta-ft-openpsa-8000Gates.xml     SEGMENTATION FAULT               0.84        1.04        None
+xfta-ft-openpsa-800Gates.xml      ERROR                            0.09        0.13        None
+xfta-ft-openpsa-81Gates.xml       ERROR                            0.01        0.06        None
+xfta-ft-openpsa-9000Gates.xml     SEGMENTATION FAULT               0.96        1.16        None
+xfta-ft-openpsa-900Gates.xml      ERROR                            0.10        0.14        None
+xfta-ft-openpsa-91Gates.xml       ERROR (1)                        0.00        0.05        None
+-----------------------------------------------------------------------------------------------
+Run set 1                         done                           122.19      180.95           -
+
+Statistics:             69 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              69

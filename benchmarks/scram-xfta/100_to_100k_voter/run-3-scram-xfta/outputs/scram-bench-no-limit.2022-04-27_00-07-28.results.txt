@@ -1,0 +1,54 @@
+   BENCHMARK INFORMATION
+benchmark definition:    scram-bench-no-limit.xml
+name:                    scram-bench-no-limit
+run sets:                scram.mocus.trunc.rare-event.no-limit.combined-and-or, scram.mocus.trunc.mcub.no-limit.combined-and-or, scram.mocus.trunc.exact.no-limit.combined-and-or
+date:                    Wed, 2022-04-27 00:07:28 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /opt/scram/bin/scram
+options:                 -l 2000000 --mocus --probability --cut-off 1e-14
+resource limits:
+- memory:                63000.0 MB
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+scram.mocus.trunc.rare-event.no-limit.combined-and-or
+Run set 1 of 3 with options '-l 2000000 --mocus --probability --cut-off 1e-14 --rare-event' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.10        0.15        None
+ft-10-01-or.xml         done                             0.10        0.11        None
+ft-10-05-and.xml        done                             0.10        0.12        None
+ft-10-05-or.xml         done                             0.10        0.12        None
+ft-100-01-and.xml       done                             0.11        0.12        None
+ft-100-01-or.xml        unknown                          0.11        0.13        None
+ft-100-01.xml           done                             0.12        0.14        None
+ft-100-02.xml           done                             0.14        0.16        None
+ft-100-03.xml           done                             0.11        0.13        None
+ft-100-04.xml           done                             0.11        0.13        None
+ft-100-05.xml           done                             0.11        0.13        None
+ft-100-06.xml           done                             0.12        0.14        None
+ft-100-07.xml           done                             0.12        0.15        None
+ft-100-08.xml           done                             0.15        0.18        None
+ft-100-09.xml           done                             0.16        0.18        None
+ft-1000-01-and.xml      done                             0.17        0.19        None
+ft-1000-01-or.xml       unknown                          0.17        0.19        None

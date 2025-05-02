@@ -1,0 +1,72 @@
+   BENCHMARK INFORMATION
+benchmark definition:    xfta-bench.xml
+name:                    xfta-bench
+run sets:                xfta.combined-and-or
+date:                    Fri, 2022-07-22 12:31:26 EDT
+tool:                    xfta XFTA: an Open-PSA fault tree assessment engine
+version 2.0.0
+Copyrights (c) AltaRica Association 2020
+bye
+tool executable:         /home/bench/ft-bench/bin/amd64/xfta
+options:
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+xfta.combined-and-or
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                        status                       cpu time   wall time        host
+----------------------------------------------------------------------------------------------
+xfta-ft-openpsa-1000Gates.xml    ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-100Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-11Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-1Gates.xml       ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-2000Gates.xml    ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-200Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-21Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-3000Gates.xml    ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-300Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-31Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-4000Gates.xml    ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-400Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-41Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-5000Gates.xml    ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-500Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-51Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-600Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-61Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-700Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-71Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-800Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-81Gates.xml      ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-900Gates.xml     ERROR (1)                        0.01        0.01        None
+xfta-ft-openpsa-91Gates.xml      ERROR (1)                        0.01        0.01        None
+----------------------------------------------------------------------------------------------
+Run set 1                        done                             0.29        3.49           -
+
+Statistics:             24 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              24

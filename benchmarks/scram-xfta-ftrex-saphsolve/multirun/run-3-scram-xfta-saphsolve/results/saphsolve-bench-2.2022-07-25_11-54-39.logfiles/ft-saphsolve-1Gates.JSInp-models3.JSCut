@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "saphireresults": {
+    "projectpath": "\"\"",
+    "resulttype": "faulttree",
+    "resulttreeid": 11,
+    "initevent": 0,
+    "truncparam": {
+      "ettruncopt": "NormalProbCutOff",
+      "fttruncopt": "GlobalProbCutOff",
+      "sizeopt": "ENoTrunc",
+      "ettruncval": 1.000E-20,
+      "fttruncval": 1.000E-20,
+      "sizeval": 99,
+      "transrepl": false,
+      "transzones": false,
+      "translevel": "99",
+      "usedual": false,
+      "dualcutoff": 0.000E+00
+    },
+    "workspacepair": [
+      {
+      "ph": 1,
+      "mt": 1
+      }
+    ],
+    "flagnum": 0,
+    "numcutsets": 1,
+    "valcutsets": 2.50000E-03,
+    "cutsetlist": [
+        {
+          "event": [
+            33816676,
+            33916576
+          ]
+        }
+      ]
+  }
+}

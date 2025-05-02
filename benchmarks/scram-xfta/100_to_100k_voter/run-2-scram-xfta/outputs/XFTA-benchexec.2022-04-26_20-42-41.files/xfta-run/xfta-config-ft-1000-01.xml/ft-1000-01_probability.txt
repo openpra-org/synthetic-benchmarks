@@ -1,0 +1,2 @@
+top-event	mission-time	probability
+root	8760	4.01886e-07

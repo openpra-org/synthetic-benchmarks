@@ -1,0 +1,160 @@
+   BENCHMARK INFORMATION
+Run Scram
+benchmark definition:    SCRAM-benchexec.xml
+name:                    SCRAM-benchexec
+run sets:                validate.ft-generated, MCS.mocus.ft-generated, MCS.zbdd.ft-generated, MCS.bdd.ft-generated, MCS.bdd.prob.exact.ft-generated, MCS.bdd.prob.mcub.ft-generated, MCS.bdd.prob.rare.ft-generated, MCS.zbdd.prob.exact.ft-generated, MCS.zbdd.prob.mcub.ft-generated, MCS.zbdd.prob.rare.ft-generated, MCS.mocus.prob.exact.ft-generated, MCS.mocus.prob.mcub.ft-generated, MCS.mocus.prob.rare.ft-generated, ft-generated
+date:                    Mon, 2022-04-25 13:02:33 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:
+parallel runs:           2
+resource limits:
+- memory:                63000.0 MB
+- time:                  86400 s
+- cpu cores:             10
+hardware requirements:
+- cpu cores:             10
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+validate.ft-generated
+Run set 1 of 14 with options '--verbosity 7 --validate' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        ERROR                            0.09        0.11        None
+ft-10-01-or.xml         ERROR                            0.09        0.11        None
+ft-10-05-and.xml        ERROR                            0.09        0.33        None
+ft-10-05-or.xml         ERROR                            0.08        0.11        None
+ft-100-01-and.xml       ERROR                            0.09        0.35        None
+ft-100-01-or.xml        ERROR                            0.09        0.12        None
+ft-100-01.xml           ERROR                            0.09        0.38        None
+ft-100-02.xml           ERROR                            0.09        0.12        None
+ft-100-03.xml           ERROR                            0.09        0.12        None
+ft-100-04.xml           ERROR                            0.09        0.40        None
+ft-100-05.xml           ERROR                            0.09        0.11        None
+ft-100-06.xml           ERROR                            0.09        0.30        None
+ft-100-07.xml           ERROR                            0.09        0.12        None
+ft-100-08.xml           ERROR                            0.09        0.32        None
+ft-100-09.xml           ERROR                            0.09        0.12        None
+ft-1000-01-and.xml      ERROR                            0.12        0.40        None
+ft-1000-01-or.xml       ERROR                            0.12        0.14        None
+ft-1000-01.xml          ERROR                            0.12        0.39        None
+ft-1000-02.xml          ERROR                            0.12        0.14        None
+ft-1000-03.xml          ERROR                            0.12        0.39        None
+ft-1000-04.xml          ERROR                            0.13        0.15        None
+ft-1000-05.xml          ERROR                            0.13        0.38        None
+ft-1000-06.xml          ERROR                            0.13        0.17        None
+ft-1000-07.xml          ERROR                            0.13        0.40        None
+ft-1000-08.xml          ERROR                            0.14        0.16        None
+ft-1000-09.xml          ERROR                            0.14        0.35        None
+ft-10000-01-and.xml     ERROR                            0.48        0.52        None
+ft-10000-01-or.xml      ERROR                            0.47        0.78        None
+ft-10000-01.xml         ERROR                            0.47        0.49        None
+ft-10000-02.xml         ERROR                            0.49        0.77        None
+ft-10000-03.xml         ERROR                            0.50        0.52        None
+ft-10000-04.xml         ERROR                            0.53        0.77        None
+ft-10000-05.xml         ERROR                            0.55        0.58        None
+ft-10000-06.xml         ERROR                            0.56        0.78        None
+ft-10000-07.xml         ERROR                            0.59        0.61        None
+ft-10000-08.xml         ERROR                            0.63        0.81        None
+ft-10000-09.xml         ERROR                            0.67        0.69        None
+ft-100000-01-and.xml    ERROR                            4.29        4.31        None
+ft-100000-01-or.xml     ERROR                            4.22        4.24        None
+ft-100000-01.xml        ERROR                            4.02        4.04        None
+ft-100000-02.xml        ERROR                            4.27        4.30        None
+ft-100000-03.xml        ERROR                            4.31        4.34        None
+ft-100000-04.xml        ERROR                            4.71        4.75        None
+ft-100000-05.xml        ERROR                            4.69        4.73        None
+ft-100000-06.xml        ERROR                            5.18        5.20        None
+ft-100000-07.xml        ERROR                            5.26        5.29        None
+ft-100000-08.xml        ERROR                            5.91        5.95        None
+ft-100000-09.xml        ERROR                            5.95        5.98        None
+ft-2-01-and.xml         ERROR                            0.08        0.10        None
+ft-2-01-or.xml          ERROR                            0.09        0.11        None
+-------------------------------------------------------------------------------------
+Run set 1               done                            63.40       56.87           -
+
+
+MCS.mocus.ft-generated
+Run set 2 of 14 with options '--verbosity 7 -l 1000000 --mocus' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.12        None
+ft-10-01-or.xml         done                             0.09        0.12        None
+ft-10-05-and.xml        done                             0.11        0.12        None
+ft-10-05-or.xml         done                             0.09        0.37        None
+ft-100-01-and.xml       done                             0.09        0.11        None
+ft-100-01-or.xml        done                             0.10        0.15        None
+ft-100-01.xml           done                             0.10        0.39        None
+ft-100-02.xml           done                             0.11        0.14        None
+ft-100-03.xml           done                             0.10        0.35        None
+ft-100-04.xml           done                             0.10        0.12        None
+ft-100-05.xml           done                             0.09        0.39        None
+ft-100-06.xml           done                             0.10        0.14        None
+ft-100-07.xml           done                             0.10        0.35        None
+ft-100-08.xml           done                             0.12        0.14        None
+ft-100-09.xml           done                             0.12        0.36        None
+ft-1000-01-and.xml      done                             0.17        0.19        None
+ft-1000-01-or.xml       done                             0.17        0.47        None
+ft-1000-01.xml          
+ft-1000-02.xml          
+ft-1000-03.xml          
+ft-1000-04.xml          
+ft-1000-05.xml          
+ft-1000-06.xml          
+ft-1000-07.xml          
+ft-1000-08.xml          
+ft-1000-09.xml          
+ft-10000-01-and.xml     
+ft-10000-01-or.xml      
+ft-10000-01.xml         
+ft-10000-02.xml         
+ft-10000-03.xml         
+ft-10000-04.xml         
+ft-10000-05.xml         
+ft-10000-06.xml         
+ft-10000-07.xml         
+ft-10000-08.xml         
+ft-10000-09.xml         
+ft-100000-01-and.xml    
+ft-100000-01-or.xml     
+ft-100000-01.xml        
+ft-100000-02.xml        
+ft-100000-03.xml        
+ft-100000-04.xml        
+ft-100000-05.xml        
+ft-100000-06.xml        
+ft-100000-07.xml        
+ft-100000-08.xml        
+ft-100000-09.xml        
+ft-2-01-and.xml         
+ft-2-01-or.xml          
+-------------------------------------------------------------------------------------
+Run set 2               done                            25.19       22.88           -
+
+Statistics:             67 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              50

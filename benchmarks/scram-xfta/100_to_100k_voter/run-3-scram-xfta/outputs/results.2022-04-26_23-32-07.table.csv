@@ -1,0 +1,119 @@
+tool	XFTA XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	XFTA XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	XFTA XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	XFTA XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+run set	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or
+trees/ft-generated/	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)
+ft-10-01-and.xml					done	0.137658055	0.15769219491630793	5.758976
+ft-10-01-or.xml					done	0.136616926	0.17274533794261515	5.758976
+ft-10-05-and.xml					done	0.137613995	0.16440236405469477	5.890048
+ft-10-05-or.xml					done	0.137614444	0.16023243800736964	5.890048
+ft-100-01-and.xml					done	0.144997314	0.16447253292426467	6.283264
+ft-100-01-or.xml					unknown	0.144912921	0.16878464701585472	6.283264
+ft-100-01.xml					done	0.154954515	0.18511124094948173	6.676480
+ft-100-02.xml					done	0.185308173	0.20797888189554214	7.856128
+ft-100-03.xml					done	0.146316579	0.16434967215172946	6.283264
+ft-100-04.xml					done	0.152986362	0.1679032000247389	6.414336
+ft-100-05.xml					done	0.145022514	0.16022442118264735	6.021120
+ft-100-06.xml					done	0.156440909	0.17642892012372613	6.414336
+ft-100-07.xml					done	0.153959231	0.1739660589955747	6.283264
+ft-100-08.xml					done	0.192434179	0.2086701060179621	7.725056
+ft-100-09.xml					done	0.200592624	0.21639095293357968	8.249344
+ft-1000-01-and.xml					done	0.215098174	0.23572434880770743	10.739712
+ft-1000-01-or.xml					unknown	0.217614713	0.23978499905206263	10.870784
+ft-1000-01.xml					TIMEOUT	900.501273323	904.3000435181893	4218.019840
+ft-1000-02.xml					TIMEOUT	900.306797977	901.1043727141805	1135.284224
+ft-1000-03.xml					TIMEOUT	900.844770421	901.3442189560737	14939.922432
+ft-1000-04.xml					TIMEOUT	900.642864144	900.7310033959802	7687.491584
+ft-1000-05.xml					TIMEOUT	901.246277574	901.8430276538711	20734.791680
+ft-1000-06.xml					TIMEOUT	900.536471183	901.1309538781643	7382.728704
+ft-1000-07.xml					TIMEOUT	901.119465024	901.2711629599798	18047.684608
+ft-1000-08.xml								
+ft-1000-09.xml								
+ft-10000-01-and.xml								
+ft-10000-01-or.xml								
+ft-10000-01.xml								
+ft-10000-02.xml								
+ft-10000-03.xml								
+ft-10000-04.xml								
+ft-10000-05.xml								
+ft-10000-06.xml								
+ft-10000-07.xml								
+ft-10000-08.xml								
+ft-10000-09.xml								
+ft-100000-01-and.xml								
+ft-100000-01-or.xml								
+ft-100000-01.xml								
+ft-100000-02.xml								
+ft-100000-03.xml								
+ft-100000-04.xml								
+ft-100000-05.xml								
+ft-100000-06.xml								
+ft-100000-07.xml								
+ft-100000-08.xml								
+ft-100000-09.xml								
+ft-2-01-and.xml								
+ft-2-01-or.xml								
+xfta-config-ft-10-01-and.xml	done	0.005385981	0.04337907279841602	1.699840				
+xfta-config-ft-10-01-or.xml	done	0.005963867	0.03135825996287167	1.822720				
+xfta-config-ft-10-05-and.xml	done	0.006027722	0.06006265804171562	1.830912				
+xfta-config-ft-10-05-or.xml	done	0.006020154	0.03146512899547815	1.699840				
+xfta-config-ft-100-01-and.xml	done	0.013665235	0.07192807388491929	2.486272				
+xfta-config-ft-100-01-or.xml	done	0.014562781	0.04725626902654767	2.486272				
+xfta-config-ft-100-01.xml	done	0.011805866	0.06275291997008026	2.093056				
+xfta-config-ft-100-02.xml	done	0.011877666	0.048999307909980416	2.093056				
+xfta-config-ft-100-03.xml	done	0.011774945	0.04392923088744283	2.093056				
+xfta-config-ft-100-04.xml	done	0.012179593	0.04745567683130503	2.211840				
+xfta-config-ft-100-05.xml	done	0.012937988	0.05929616210050881	2.224128				
+xfta-config-ft-100-06.xml	done	0.011631719	0.039292436093091965	2.220032				
+xfta-config-ft-100-07.xml	done	0.01440187	0.04325653403066099	2.355200				
+xfta-config-ft-100-08.xml	done	0.013080615	0.04782574297860265	2.187264				
+xfta-config-ft-100-09.xml	done	0.012059058	0.05173027911223471	2.215936				
+xfta-config-ft-1000-01-and.xml	done	1.13597994	1.1621073679998517	83.742720				
+xfta-config-ft-1000-01-or.xml	done	1.166044734	1.1955602609086782	83.836928				
+xfta-config-ft-1000-01.xml	done	0.06507605	0.11615278595127165	5.484544				
+xfta-config-ft-1000-02.xml	done	0.064458451	0.1033993971068412	5.488640				
+xfta-config-ft-1000-03.xml	done	0.40992371	0.4676408509258181	15.192064				
+xfta-config-ft-1000-04.xml	done	0.06944565	0.09126393403857946	5.619712				
+xfta-config-ft-1000-05.xml	done	0.06981912	0.11537904990836978	5.627904				
+xfta-config-ft-1000-06.xml	done	0.074840953	0.107075055828318	5.754880				
+xfta-config-ft-1000-07.xml	done	0.080283138	0.11189429904334247	6.275072				
+xfta-config-ft-1000-08.xml	done	0.084022204	0.1113928658887744	6.533120				
+xfta-config-ft-1000-09.xml	done	0.093761101	0.1272214949131012	7.057408				
+xfta-config-ft-10000-01-and.xml	OUT OF MEMORY	250.789237791	250.9890785969328	62999.998464				
+xfta-config-ft-10000-01-or.xml	KILLED BY SIGNAL 9	329.012084567	333.35624243388884	62083.899392				
+xfta-config-ft-10000-01.xml	SEGMENTATION FAULT	0.974197963	2.1433629610110074	37.203968				
+xfta-config-ft-10000-02.xml	SEGMENTATION FAULT	0.804774371	0.982764920918271	38.260736				
+xfta-config-ft-10000-03.xml	SEGMENTATION FAULT	0.824513346	1.0060025500133634	39.047168				
+xfta-config-ft-10000-04.xml	SEGMENTATION FAULT	0.859481005	1.040597072802484	39.571456				
+xfta-config-ft-10000-05.xml	SEGMENTATION FAULT	0.962423232	1.140676009003073	42.979328				
+xfta-config-ft-10000-06.xml	SEGMENTATION FAULT	0.964013868	1.1340535851195455	42.323968				
+xfta-config-ft-10000-07.xml	SEGMENTATION FAULT	1.019968115	1.1969716500025243	45.338624				
+xfta-config-ft-10000-08.xml	SEGMENTATION FAULT	1.116191275	1.2982456078752875	48.484352				
+xfta-config-ft-10000-09.xml	SEGMENTATION FAULT	1.183070829	1.360321416053921	50.843648				
+xfta-config-ft-100000-01-and.xml	KILLED BY SIGNAL 9	359.768256502	363.14006479200907	61819.105280				
+xfta-config-ft-100000-01-or.xml	OUT OF MEMORY	337.332018883	337.7364725668449	62999.998464				
+xfta-config-ft-100000-01.xml	SEGMENTATION FAULT	8.037724495	9.2735178261064	342.339584				
+xfta-config-ft-100000-02.xml	SEGMENTATION FAULT	8.369319035	8.548339195083827	349.294592				
+xfta-config-ft-100000-03.xml	SEGMENTATION FAULT	8.800962708	8.992860678816214	361.353216				
+xfta-config-ft-100000-04.xml	SEGMENTATION FAULT	9.309398498	9.504911304917186	376.819712				
+xfta-config-ft-100000-05.xml	SEGMENTATION FAULT	9.989536135	10.173093693098053	391.503872				
+xfta-config-ft-100000-06.xml	SEGMENTATION FAULT	10.776250844	10.956937434151769	412.733440				
+xfta-config-ft-100000-07.xml	SEGMENTATION FAULT	11.421502544	11.593578503932804	432.787456				
+xfta-config-ft-100000-08.xml	SEGMENTATION FAULT	12.179963113	12.368946864036843	459.919360				
+xfta-config-ft-100000-09.xml	SEGMENTATION FAULT	13.215852708	13.399914512876421	489.934848				
+xfta-config-ft-2-01-and.xml	done	0.006989582	0.040631724055856466	1.699840				
+xfta-config-ft-2-01-or.xml	done	0.007001042	0.03334156284108758	1.699840				

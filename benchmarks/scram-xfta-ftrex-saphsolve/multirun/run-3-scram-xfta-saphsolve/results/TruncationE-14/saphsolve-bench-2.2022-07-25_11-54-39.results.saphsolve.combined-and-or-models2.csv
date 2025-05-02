@@ -1,0 +1,27 @@
+tool	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 
+run set	saphsolve.combined-and-or-models2	saphsolve.combined-and-or-models2	saphsolve.combined-and-or-models2	saphsolve.combined-and-or-models2
+../models/models2/saphsolve/	status	cputime (s)	walltime (s)	memory (MB)
+ft-saphsolve-1000Gates.JSInp	unknown	0.746998469	0.7839155718684196	44.285952
+ft-saphsolve-100Gates.JSInp	unknown	0.353072715	0.3918709047138691	42.582016
+ft-saphsolve-11Gates.JSInp	unknown	0.325396741	0.3513922896236181	42.323968
+ft-saphsolve-1Gates.JSInp	unknown	0.022079191	0.04336669109761715	3.141632
+ft-saphsolve-2000Gates.JSInp	unknown	1.373014657	1.3922862391918898	46.120960
+ft-saphsolve-200Gates.JSInp	unknown	0.387620129	0.4308701530098915	42.713088
+ft-saphsolve-21Gates.JSInp	unknown	0.332225961	0.3556321933865547	42.319872
+ft-saphsolve-3000Gates.JSInp	unknown	1.020082613	1.0356651358306408	47.038464
+ft-saphsolve-300Gates.JSInp	unknown	0.436161401	0.4667728468775749	42.975232
+ft-saphsolve-31Gates.JSInp	unknown	0.326771726	0.35953408293426037	42.450944
+ft-saphsolve-4000Gates.JSInp	unknown	1.249577155	1.2709900215268135	48.611328
+ft-saphsolve-400Gates.JSInp	unknown	0.461287116	0.4922980312258005	43.106304
+ft-saphsolve-41Gates.JSInp	unknown	0.330818359	0.35966765880584717	42.450944
+ft-saphsolve-5000Gates.JSInp	unknown	1.494652516	1.5277837123721838	50.184192
+ft-saphsolve-500Gates.JSInp	unknown	0.510575963	0.5469217896461487	43.237376
+ft-saphsolve-51Gates.JSInp	unknown	0.33398503	0.3565936889499426	42.450944
+ft-saphsolve-600Gates.JSInp	unknown	0.551038627	0.5701861139386892	43.499520
+ft-saphsolve-61Gates.JSInp	unknown	0.336423214	0.3520703073590994	42.455040
+ft-saphsolve-700Gates.JSInp	unknown	0.59660568	0.6274837013334036	43.630592
+ft-saphsolve-71Gates.JSInp	unknown	0.343550425	0.3720469828695059	42.450944
+ft-saphsolve-800Gates.JSInp	unknown	0.640756923	0.6553938612341881	43.892736
+ft-saphsolve-81Gates.JSInp	unknown	0.345529014	0.36018882505595684	42.455040
+ft-saphsolve-900Gates.JSInp	unknown	0.693640726	0.7156783640384674	44.023808
+ft-saphsolve-91Gates.JSInp	unknown	0.342141375	0.3715908359736204	42.582016

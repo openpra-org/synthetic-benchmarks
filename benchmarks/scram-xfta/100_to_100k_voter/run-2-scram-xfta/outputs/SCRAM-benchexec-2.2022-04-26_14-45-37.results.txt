@@ -1,0 +1,101 @@
+   BENCHMARK INFORMATION
+Run Scram
+benchmark definition:    SCRAM-benchexec-2.xml
+name:                    SCRAM-benchexec-2
+run sets:                MCS.bdd.ft-generated, MCS.bdd.prob.exact.ft-generated, MCS.bdd.prob.mcub.ft-generated, MCS.bdd.prob.rare.ft-generated, MCS.zbdd.prob.exact.ft-generated, MCS.zbdd.prob.mcub.ft-generated, MCS.zbdd.prob.rare.ft-generated, MCS.mocus.prob.exact.ft-generated, MCS.mocus.prob.mcub.ft-generated, MCS.mocus.prob.rare.ft-generated, ft-generated
+date:                    Tue, 2022-04-26 14:45:37 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:
+parallel runs:           4
+resource limits:
+- memory:                16000.0 MB
+- time:                  3600 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                16000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+MCS.bdd.ft-generated
+Run set 1 of 11 with options '--verbosity 7 -l 1000000 --bdd' and propertyfile 'None'
+
+inputfile               status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------
+ft-10-01-and.xml        done                             0.09        0.29        None
+ft-10-01-or.xml         done                             0.09        0.32        None
+ft-10-05-and.xml        done                             0.09        0.10        None
+ft-10-05-or.xml         done                             0.09        0.46        None
+ft-100-01-and.xml       done                             0.09        0.37        None
+ft-100-01-or.xml        done                             0.09        0.12        None
+ft-100-01.xml           done                             0.10        0.48        None
+ft-100-02.xml           done                             0.11        0.36        None
+ft-100-03.xml           done                             0.09        0.13        None
+ft-100-04.xml           done                             0.10        0.48        None
+ft-100-05.xml           done                             0.09        0.38        None
+ft-100-06.xml           done                             0.10        0.12        None
+ft-100-07.xml           done                             0.10        0.54        None
+ft-100-08.xml           done                             0.12        0.40        None
+ft-100-09.xml           done                             0.12        0.14        None
+ft-1000-01-and.xml      done                             0.17        0.49        None
+ft-1000-01-or.xml       done                             0.17        0.57        None
+ft-1000-01.xml          
+ft-1000-02.xml          
+ft-1000-03.xml          
+ft-1000-04.xml          
+ft-1000-05.xml          
+ft-1000-06.xml          
+ft-1000-07.xml          
+ft-1000-08.xml          
+ft-1000-09.xml          
+ft-10000-01-and.xml     
+ft-10000-01-or.xml      
+ft-10000-01.xml         
+ft-10000-02.xml         
+ft-10000-03.xml         
+ft-10000-04.xml         
+ft-10000-05.xml         
+ft-10000-06.xml         
+ft-10000-07.xml         
+ft-10000-08.xml         
+ft-10000-09.xml         
+ft-100000-01-and.xml    
+ft-100000-01-or.xml     
+ft-100000-01.xml        
+ft-100000-02.xml        
+ft-100000-03.xml        
+ft-100000-04.xml        
+ft-100000-05.xml        
+ft-100000-06.xml        
+ft-100000-07.xml        
+ft-100000-08.xml        
+ft-100000-09.xml        
+ft-2-01-and.xml         
+ft-2-01-or.xml          
+-------------------------------------------------------------------------------------
+Run set 1               done                           781.47      204.27           -
+
+Statistics:             17 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               0

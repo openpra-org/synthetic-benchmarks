@@ -1,0 +1,69 @@
+   BENCHMARK INFORMATION
+benchmark definition:    saphsolve-bench.xml
+name:                    saphsolve-bench
+run sets:                saphsolve.combined-and-or
+date:                    Wed, 2022-07-20 17:21:42 EDT
+tool:                    SaphSolve
+tool executable:         /home/bench/ft-bench/bin/amd64/saphsolve
+options:
+resource limits:
+- memory:                63000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+saphsolve.combined-and-or
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                       status                       cpu time   wall time        host
+---------------------------------------------------------------------------------------------
+ft-saphsolve-1000Gates.JSInp    
+ft-saphsolve-100Gates.JSInp     
+ft-saphsolve-11Gates.JSInp      
+ft-saphsolve-1Gates.JSInp       
+ft-saphsolve-2000Gates.JSInp    
+ft-saphsolve-200Gates.JSInp     
+ft-saphsolve-21Gates.JSInp      
+ft-saphsolve-3000Gates.JSInp    
+ft-saphsolve-300Gates.JSInp     
+ft-saphsolve-31Gates.JSInp      
+ft-saphsolve-4000Gates.JSInp    
+ft-saphsolve-400Gates.JSInp     
+ft-saphsolve-41Gates.JSInp      
+ft-saphsolve-5000Gates.JSInp    
+ft-saphsolve-500Gates.JSInp     
+ft-saphsolve-51Gates.JSInp      
+ft-saphsolve-600Gates.JSInp     
+ft-saphsolve-61Gates.JSInp      
+ft-saphsolve-700Gates.JSInp     
+ft-saphsolve-71Gates.JSInp      
+ft-saphsolve-800Gates.JSInp     
+ft-saphsolve-81Gates.JSInp      
+ft-saphsolve-900Gates.JSInp     
+ft-saphsolve-91Gates.JSInp      
+---------------------------------------------------------------------------------------------
+Run set 1                       done                             0.00        0.05           -
+
+Statistics:              0 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               0

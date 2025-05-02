@@ -1,0 +1,97 @@
+   BENCHMARK INFORMATION
+benchmark definition:    xfta-bench-no-limit.xml
+name:                    xfta-bench-no-limit
+run sets:                xfta.no-limit.combined-and-or
+date:                    Wed, 2022-04-27 00:10:19 EDT
+tool:                    XFTA XFTA: an Open-PSA Fault Tree engine
+version 1.0
+Copyrights (c) Antoine B. Rauzy 2011
+bye
+tool executable:         /opt/xftar/xfta
+options:
+resource limits:
+- memory:                63000.0 MB
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
+
+
+xfta.no-limit.combined-and-or
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                           status                       cpu time   wall time        host
+-------------------------------------------------------------------------------------------------
+xfta-config-ft-10-01-and.xml        done                             0.01        0.10        None
+xfta-config-ft-10-01-or.xml         done                             0.01        0.04        None
+xfta-config-ft-10-05-and.xml        done                             0.01        0.05        None
+xfta-config-ft-10-05-or.xml         done                             0.01        0.06        None
+xfta-config-ft-100-01-and.xml       done                             0.02        0.05        None
+xfta-config-ft-100-01-or.xml        done                             0.02        0.09        None
+xfta-config-ft-100-01.xml           done                             0.01        0.06        None
+xfta-config-ft-100-02.xml           done                             0.02        0.07        None
+xfta-config-ft-100-03.xml           done                             0.01        0.06        None
+xfta-config-ft-100-04.xml           done                             0.03        0.08        None
+xfta-config-ft-100-05.xml           done                             0.02        0.09        None
+xfta-config-ft-100-06.xml           done                             0.01        0.07        None
+xfta-config-ft-100-07.xml           done                             0.02        0.08        None
+xfta-config-ft-100-08.xml           done                             0.02        0.07        None
+xfta-config-ft-100-09.xml           done                             0.01        0.08        None
+xfta-config-ft-1000-01-and.xml      done                             1.48        3.00        None
+xfta-config-ft-1000-01-or.xml       done                             1.51        3.04        None
+xfta-config-ft-1000-01.xml          done                             0.09        0.21        None
+xfta-config-ft-1000-02.xml          done                             0.08        0.18        None
+xfta-config-ft-1000-03.xml          done                             0.50        1.01        None
+xfta-config-ft-1000-04.xml          done                             0.09        0.20        None
+xfta-config-ft-1000-05.xml          done                             0.09        0.19        None
+xfta-config-ft-1000-06.xml          done                             0.09        0.21        None
+xfta-config-ft-1000-07.xml          done                             0.11        0.23        None
+xfta-config-ft-1000-08.xml          done                             0.11        0.24        None
+xfta-config-ft-1000-09.xml          done                             0.12        0.27        None
+xfta-config-ft-10000-01-and.xml     
+xfta-config-ft-10000-01-or.xml      
+xfta-config-ft-10000-01.xml         
+xfta-config-ft-10000-02.xml         
+xfta-config-ft-10000-03.xml         
+xfta-config-ft-10000-04.xml         
+xfta-config-ft-10000-05.xml         
+xfta-config-ft-10000-06.xml         
+xfta-config-ft-10000-07.xml         
+xfta-config-ft-10000-08.xml         
+xfta-config-ft-10000-09.xml         
+xfta-config-ft-100000-01-and.xml    
+xfta-config-ft-100000-01-or.xml     
+xfta-config-ft-100000-01.xml        
+xfta-config-ft-100000-02.xml        
+xfta-config-ft-100000-03.xml        
+xfta-config-ft-100000-04.xml        
+xfta-config-ft-100000-05.xml        
+xfta-config-ft-100000-06.xml        
+xfta-config-ft-100000-07.xml        
+xfta-config-ft-100000-08.xml        
+xfta-config-ft-100000-09.xml        
+xfta-config-ft-2-01-and.xml         
+xfta-config-ft-2-01-or.xml          
+-------------------------------------------------------------------------------------------------
+Run set 1                           done                            34.45       94.88           -
+
+Statistics:             26 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:               0

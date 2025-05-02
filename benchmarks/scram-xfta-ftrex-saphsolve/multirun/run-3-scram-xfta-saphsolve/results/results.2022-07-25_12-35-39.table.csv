@@ -1,0 +1,237 @@
+tool	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 	SaphSolve 	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)  Dependencies:    Boost       1_65_1    libxml2     2.9.4	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye	xfta XFTA: an Open-PSA Fault Tree engine version 1.0 Copyrights (c) Antoine B. Rauzy 2011 bye
+run set	saphsolve-bench-2.saphsolve.combined-and-or-models2	saphsolve-bench-2.saphsolve.combined-and-or-models2	saphsolve-bench-2.saphsolve.combined-and-or-models2	saphsolve-bench-2.saphsolve.combined-and-or-models2	saphsolve-bench-2.saphsolve.combined-and-or-models3	saphsolve-bench-2.saphsolve.combined-and-or-models3	saphsolve-bench-2.saphsolve.combined-and-or-models3	saphsolve-bench-2.saphsolve.combined-and-or-models3	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.exact.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.mcub.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	scram-bench.scram.mocus.trunc.rare-event.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or	xfta-bench.xfta.combined-and-or
+../models/	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)	status	cputime (s)	walltime (s)	memory (MB)
+models3/xfta/xfta-ft-openpsa-1000Gates.xml																																					ERROR	0.117848465	0.14321788400411606	8.376320
+models3/xfta/xfta-ft-openpsa-100Gates.xml																																					ERROR	0.016061591	0.05520612932741642	2.355200
+models3/xfta/xfta-ft-openpsa-11Gates.xml																																					ERROR	0.006415086	0.046930523589253426	1.826816
+models3/xfta/xfta-ft-openpsa-1Gates.xml																																					ERROR	0.004855756	0.03146465681493282	1.699840
+models3/xfta/xfta-ft-openpsa-2000Gates.xml																																					ERROR	0.229216259	0.2637487929314375	15.056896
+models3/xfta/xfta-ft-openpsa-200Gates.xml																																					ERROR	0.02650901	0.054947298020124435	3.010560
+models3/xfta/xfta-ft-openpsa-21Gates.xml																																					ERROR	0.007190597	0.03932077996432781	1.830912
+models3/xfta/xfta-ft-openpsa-3000Gates.xml																																					ERROR	0.358417698	0.3868313003331423	21.741568
+models3/xfta/xfta-ft-openpsa-300Gates.xml																																					ERROR	0.036697452	0.07107224687933922	3.784704
+models3/xfta/xfta-ft-openpsa-31Gates.xml																																					ERROR	0.008178502	0.04272767715156078	1.957888
+models3/xfta/xfta-ft-openpsa-4000Gates.xml																																					ERROR	0.507180177	0.5468226838856936	28.426240
+models3/xfta/xfta-ft-openpsa-400Gates.xml																																					ERROR	0.048091224	0.0873186606913805	4.444160
+models3/xfta/xfta-ft-openpsa-41Gates.xml																																					ERROR	0.009321823	0.04284346662461758	1.961984
+models3/xfta/xfta-ft-openpsa-5000Gates.xml																																					SEGMENTATION FAULT	0.498036497	0.7037356831133366	34.852864
+models3/xfta/xfta-ft-openpsa-500Gates.xml																																					ERROR	0.059885817	0.08721383474767208	5.095424
+models3/xfta/xfta-ft-openpsa-51Gates.xml																																					ERROR	0.010213253	0.05144766345620155	1.961984
+models3/xfta/xfta-ft-openpsa-600Gates.xml																																					ERROR	0.070086158	0.10688540525734425	5.754880
+models3/xfta/xfta-ft-openpsa-61Gates.xml																																					ERROR	0.011312102	0.04718955047428608	2.093056
+models3/xfta/xfta-ft-openpsa-700Gates.xml																																					ERROR	0.083049126	0.12696457654237747	6.410240
+models3/xfta/xfta-ft-openpsa-71Gates.xml																																					ERROR	0.012211426	0.05587315373122692	2.224128
+models3/xfta/xfta-ft-openpsa-800Gates.xml																																					ERROR	0.09309573	0.1394770760089159	7.192576
+models3/xfta/xfta-ft-openpsa-81Gates.xml																																					ERROR	0.013146085	0.05594785138964653	2.224128
+models3/xfta/xfta-ft-openpsa-900Gates.xml																																					ERROR	0.104777756	0.13490689173340797	7.720960
+models3/xfta/xfta-ft-openpsa-91Gates.xml																																					ERROR	0.014407947	0.05900866724550724	2.355200
+models2/xfta/xfta-ft-openpsa-10000Gates.xml																																	SEGMENTATION FAULT	1.064280884	1.2837625797837973	67.883008				
+models2/xfta/xfta-ft-openpsa-1000Gates.xml																																	ERROR	0.115613183	0.15144947916269302	8.376320				
+models2/xfta/xfta-ft-openpsa-100Gates.xml																																	ERROR	0.015612252	0.03612472116947174	2.355200				
+models2/xfta/xfta-ft-openpsa-11000Gates.xml																																	SEGMENTATION FAULT	1.18371129	1.3953733015805483	74.698752				
+models2/xfta/xfta-ft-openpsa-11Gates.xml																																	ERROR	0.005919415	0.04380746930837631	1.699840				
+models2/xfta/xfta-ft-openpsa-12000Gates.xml																																	SEGMENTATION FAULT	1.285404037	1.4798688348382711	81.252352				
+models2/xfta/xfta-ft-openpsa-13000Gates.xml																																	SEGMENTATION FAULT	1.393684576	1.6042608600109816	87.805952				
+models2/xfta/xfta-ft-openpsa-14000Gates.xml																																	SEGMENTATION FAULT	1.517000003	1.7317039854824543	94.490624				
+models2/xfta/xfta-ft-openpsa-15000Gates.xml																																	SEGMENTATION FAULT	1.625909335	1.8231928925961256	101.044224				
+models2/xfta/xfta-ft-openpsa-16000Gates.xml																																	SEGMENTATION FAULT	1.741180733	1.939729019999504	107.728896				
+models2/xfta/xfta-ft-openpsa-17000Gates.xml																																	SEGMENTATION FAULT	1.863945211	2.083792531862855	114.413568				
+models2/xfta/xfta-ft-openpsa-18000Gates.xml																																	SEGMENTATION FAULT	1.984258286	2.191343480721116	120.967168				
+models2/xfta/xfta-ft-openpsa-19000Gates.xml																																	SEGMENTATION FAULT	2.090202972	2.315664265304804	127.520768				
+models2/xfta/xfta-ft-openpsa-1Gates.xml																																	ERROR	0.004969379	0.03155958466231823	1.699840				
+models2/xfta/xfta-ft-openpsa-20000Gates.xml																																	SEGMENTATION FAULT	2.218639584	2.4198699332773685	134.205440				
+models2/xfta/xfta-ft-openpsa-2000Gates.xml																																	ERROR	0.226503304	0.2557929027825594	15.056896				
+models2/xfta/xfta-ft-openpsa-200Gates.xml																																	ERROR	0.026671661	0.07249336130917072	3.010560				
+models2/xfta/xfta-ft-openpsa-21000Gates.xml																																	SEGMENTATION FAULT	2.313726627	2.5311270859092474	140.763136				
+models2/xfta/xfta-ft-openpsa-21Gates.xml																																	ERROR	0.007480694	0.06697920523583889	1.830912				
+models2/xfta/xfta-ft-openpsa-22000Gates.xml																																	SEGMENTATION FAULT	2.428353923	2.627798290923238	147.443712				
+models2/xfta/xfta-ft-openpsa-23000Gates.xml																																	SEGMENTATION FAULT	2.549202838	2.755131348967552	154.132480				
+models2/xfta/xfta-ft-openpsa-24000Gates.xml																																	SEGMENTATION FAULT	2.672002919	2.8749720230698586	160.681984				
+models2/xfta/xfta-ft-openpsa-25000Gates.xml																																	SEGMENTATION FAULT	2.812776654	3.0277274772524834	167.235584				
+models2/xfta/xfta-ft-openpsa-26000Gates.xml																																	SEGMENTATION FAULT	2.899966576	3.095519231632352	173.920256				
+models2/xfta/xfta-ft-openpsa-27000Gates.xml																																	SEGMENTATION FAULT	3.034570602	3.240678971633315	180.473856				
+models2/xfta/xfta-ft-openpsa-28000Gates.xml																																	SEGMENTATION FAULT	3.13215142	3.339591084048152	187.158528				
+models2/xfta/xfta-ft-openpsa-29000Gates.xml																																	SEGMENTATION FAULT	3.271923131	3.4716827496886253	193.843200				
+models2/xfta/xfta-ft-openpsa-30000Gates.xml																																	SEGMENTATION FAULT	3.352909539	3.5551141779869795	200.396800				
+models2/xfta/xfta-ft-openpsa-3000Gates.xml																																	ERROR	0.361670955	0.39548720233142376	21.872640				
+models2/xfta/xfta-ft-openpsa-300Gates.xml																																	ERROR	0.038061804	0.09096139296889305	3.788800				
+models2/xfta/xfta-ft-openpsa-31000Gates.xml																																	SEGMENTATION FAULT	3.473453661	3.6759179942309856	207.081472				
+models2/xfta/xfta-ft-openpsa-31Gates.xml																																	ERROR	0.008463799	0.03498736023902893	1.961984				
+models2/xfta/xfta-ft-openpsa-32000Gates.xml																																	SEGMENTATION FAULT	3.592822861	3.791626362130046	213.635072				
+models2/xfta/xfta-ft-openpsa-33000Gates.xml																																	SEGMENTATION FAULT	3.741681	3.9591902680695057	220.188672				
+models2/xfta/xfta-ft-openpsa-34000Gates.xml																																	SEGMENTATION FAULT	3.833151683	4.042691292241216	227.004416				
+models2/xfta/xfta-ft-openpsa-35000Gates.xml																																	SEGMENTATION FAULT	3.950633945	4.147403942421079	233.558016				
+models2/xfta/xfta-ft-openpsa-36000Gates.xml																																	SEGMENTATION FAULT	4.053572453	4.271818030625582	240.111616				
+models2/xfta/xfta-ft-openpsa-37000Gates.xml																																	SEGMENTATION FAULT	4.173407381	4.3907231986522675	246.796288				
+models2/xfta/xfta-ft-openpsa-38000Gates.xml																																	SEGMENTATION FAULT	4.33454386	4.538911180570722	253.349888				
+models2/xfta/xfta-ft-openpsa-39000Gates.xml																																	SEGMENTATION FAULT	4.417085681	4.618844790384173	259.903488				
+models2/xfta/xfta-ft-openpsa-40000Gates.xml																																	SEGMENTATION FAULT	4.526073879	4.723304083570838	266.719232				
+models2/xfta/xfta-ft-openpsa-4000Gates.xml																																	ERROR	0.512562074	0.534934738650918	28.426240				
+models2/xfta/xfta-ft-openpsa-400Gates.xml																																	ERROR	0.049041061	0.07476788572967052	4.440064				
+models2/xfta/xfta-ft-openpsa-41000Gates.xml																																	SEGMENTATION FAULT	2.803460368	3.003224030137062	273.141760				
+models2/xfta/xfta-ft-openpsa-41Gates.xml																																	ERROR	0.009074455	0.03962801583111286	1.961984				
+models2/xfta/xfta-ft-openpsa-42000Gates.xml																																	SEGMENTATION FAULT	2.880879459	3.090957920998335	279.433216				
+models2/xfta/xfta-ft-openpsa-43000Gates.xml																																	SEGMENTATION FAULT	2.952845018	3.1520366333425045	285.986816				
+models2/xfta/xfta-ft-openpsa-44000Gates.xml																																	SEGMENTATION FAULT	3.009394078	3.2108007110655308	292.278272				
+models2/xfta/xfta-ft-openpsa-45000Gates.xml																																	SEGMENTATION FAULT	3.076965985	3.2826014198362827	298.700800				
+models2/xfta/xfta-ft-openpsa-46000Gates.xml																																	SEGMENTATION FAULT	3.171807964	3.3837694860994816	305.123328				
+models2/xfta/xfta-ft-openpsa-47000Gates.xml																																	SEGMENTATION FAULT	3.215228665	3.427549237385392	311.545856				
+models2/xfta/xfta-ft-openpsa-48000Gates.xml																																	SEGMENTATION FAULT	2.247883044	2.447463357821107	317.968384				
+models2/xfta/xfta-ft-openpsa-49000Gates.xml																																	SEGMENTATION FAULT	2.318869674	2.519565101712942	324.390912				
+models2/xfta/xfta-ft-openpsa-50000Gates.xml																																	SEGMENTATION FAULT	2.339810501	2.5400404650717974	330.682368				
+models2/xfta/xfta-ft-openpsa-5000Gates.xml																																	SEGMENTATION FAULT	0.49558544	0.7099450174719095	34.852864				
+models2/xfta/xfta-ft-openpsa-500Gates.xml																																	ERROR	0.059467142	0.08712858520448208	5.095424				
+models2/xfta/xfta-ft-openpsa-51Gates.xml																																	ERROR	0.010488275	0.03985603712499142	2.093056				
+models2/xfta/xfta-ft-openpsa-6000Gates.xml																																	SEGMENTATION FAULT	0.624721019	0.8277055379003286	41.537536				
+models2/xfta/xfta-ft-openpsa-600Gates.xml																																	ERROR	0.071185014	0.10690652392804623	5.754880				
+models2/xfta/xfta-ft-openpsa-61Gates.xml																																	ERROR	0.011264572	0.043231161311268806	2.093056				
+models2/xfta/xfta-ft-openpsa-7000Gates.xml																																	SEGMENTATION FAULT	0.72658292	0.9400300458073616	48.091136				
+models2/xfta/xfta-ft-openpsa-700Gates.xml																																	ERROR	0.081405725	0.11919865384697914	6.410240				
+models2/xfta/xfta-ft-openpsa-71Gates.xml																																	ERROR	0.012387395	0.04295563884079456	2.093056				
+models2/xfta/xfta-ft-openpsa-8000Gates.xml																																	SEGMENTATION FAULT	0.838667134	1.0442997589707375	54.644736				
+models2/xfta/xfta-ft-openpsa-800Gates.xml																																	ERROR	0.091635063	0.13155315071344376	7.192576				
+models2/xfta/xfta-ft-openpsa-81Gates.xml																																	ERROR	0.013875969	0.06347405910491943	2.224128				
+models2/xfta/xfta-ft-openpsa-9000Gates.xml																																	SEGMENTATION FAULT	0.959611794	1.162918558344245	61.329408				
+models2/xfta/xfta-ft-openpsa-900Gates.xml																																	ERROR	0.10474107	0.13572272844612598	7.720960				
+models2/xfta/xfta-ft-openpsa-91Gates.xml																																	ERROR (1)	0.00458699	0.047482311725616455	1.699840				
+models3/scram/ft-openpsa-1000Gates.xml																					done	0.532215559	0.5574471578001976	37.081088	done	0.536312778	0.5611886084079742	37.081088	done	0.54305806	0.5628919806331396	37.081088								
+models3/scram/ft-openpsa-100Gates.xml																					done	0.099581338	0.12422608025372028	7.196672	done	0.098949062	0.11318956315517426	7.196672	done	0.096451599	0.11488460935652256	7.200768								
+models3/scram/ft-openpsa-11Gates.xml																					done	0.08857501	0.11388568766415119	5.758976	done	0.087133023	0.09684708714485168	5.754880	done	0.088612974	0.1108439564704895	5.885952								
+models3/scram/ft-openpsa-1Gates.xml																					done	0.088378737	0.10889753326773643	5.623808	done	0.084418893	0.10129551589488983	5.623808	done	0.083525015	0.10298512317240238	5.754880								
+models3/scram/ft-openpsa-2000Gates.xml																					done	1.676619096	1.7008190639317036	105.500672	done	1.703985362	1.7219829484820366	105.508864	done	1.692303139	1.7155911661684513	105.500672								
+models3/scram/ft-openpsa-200Gates.xml																					done	0.120780514	0.1394419353455305	9.031680	done	0.119898955	0.1444709338247776	9.031680	done	0.12156548	0.14098064973950386	9.293824								
+models3/scram/ft-openpsa-21Gates.xml																					done	0.088002369	0.10809244960546494	5.885952	done	0.093042963	0.1118923295289278	5.885952	done	0.087080514	0.1021051574498415	5.890048								
+models3/scram/ft-openpsa-3000Gates.xml																					done	3.522247818	3.5325235035270452	212.586496	done	3.577939572	3.605518063530326	212.590592	done	3.560201605	3.585991131141782	212.590592								
+models3/scram/ft-openpsa-300Gates.xml																					done	0.149593342	0.18438838422298431	11.259904	done	0.149908786	0.16843223571777344	11.128832	done	0.144524287	0.16589399985969067	11.259904								
+models3/scram/ft-openpsa-31Gates.xml																					done	0.093450956	0.11992193572223186	6.017024	done	0.092918594	0.1171934250742197	6.017024	done	0.088366617	0.11333990097045898	6.017024								
+models3/scram/ft-openpsa-4000Gates.xml																					done	5.709380896	5.748081421479583	356.376576	done	6.117308146	6.149301532655954	356.241408	done	6.137197618	6.162205183878541	356.241408								
+models3/scram/ft-openpsa-400Gates.xml																					done	0.185933084	0.20818563736975193	13.881344	done	0.182280349	0.20617089979350567	13.881344	done	0.17853472	0.21071057580411434	13.881344								
+models3/scram/ft-openpsa-41Gates.xml																					done	0.094934451	0.11643329448997974	6.152192	done	0.093420021	0.12067911587655544	6.148096	done	0.090317088	0.11884262040257454	6.279168								
+models3/scram/ft-openpsa-5000Gates.xml																					SEGMENTATION FAULT	0.538114223	0.7446901369839907	63.688704	SEGMENTATION FAULT	0.537774237	0.7356673050671816	63.688704	SEGMENTATION FAULT	0.541111141	0.7573199924081564	63.561728								
+models3/scram/ft-openpsa-500Gates.xml																					done	0.219531219	0.23742472007870674	16.633856	done	0.221071661	0.23563998378813267	16.633856	done	0.219082008	0.24621427059173584	16.764928								
+models3/scram/ft-openpsa-51Gates.xml																					done	0.09175362	0.11649030819535255	6.410240	done	0.0917004	0.11234503239393234	6.410240	done	0.089318542	0.11030163615942001	6.410240								
+models3/scram/ft-openpsa-600Gates.xml																					done	0.268875433	0.28417672775685787	20.172800	done	0.270811784	0.30540239810943604	20.172800	done	0.267486493	0.294133422896266	20.172800								
+models3/scram/ft-openpsa-61Gates.xml																					done	0.096367261	0.13218426890671253	6.541312	done	0.093040747	0.12098812870681286	6.541312	done	0.09183899	0.10959816910326481	6.541312								
+models3/scram/ft-openpsa-700Gates.xml																					done	0.323172263	0.3399705272167921	23.842816	done	0.33100199	0.3646261002868414	23.973888	done	0.322153809	0.34633686393499374	23.842816								
+models3/scram/ft-openpsa-71Gates.xml																					done	0.097492399	0.11626672931015491	6.672384	done	0.095810063	0.11363015696406364	6.541312	done	0.093337961	0.10997897014021873	6.672384								
+models3/scram/ft-openpsa-800Gates.xml																					done	0.386105555	0.40020844526588917	28.037120	done	0.385570351	0.5123516842722893	27.910144	done	0.385597993	0.4170679058879614	27.906048								
+models3/scram/ft-openpsa-81Gates.xml																					done	0.096025061	0.11277020908892155	6.803456	done	0.100574101	0.11656977981328964	6.672384	done	0.096960996	0.12182950973510742	7.069696								
+models3/scram/ft-openpsa-900Gates.xml																					done	0.455315954	0.48390550352633	32.362496	done	0.455834695	0.4763954468071461	32.362496	done	0.454810471	0.489310747012496	32.362496								
+models3/scram/ft-openpsa-91Gates.xml																					done	0.097013782	0.11259055882692337	6.938624	done	0.09754792	0.13252853602170944	7.065600	done	0.095476541	0.12111570127308369	7.065600								
+models2/scram/ft-openpsa-10000Gates.xml									SEGMENTATION FAULT	0.910240168	1.1092971935868263	72.998912	SEGMENTATION FAULT	0.917824297	1.128447201102972	73.256960	SEGMENTATION FAULT	0.900866961	1.1117215976119041	73.125888																				
+models2/scram/ft-openpsa-1000Gates.xml									done	0.534554627	0.5486443378031254	37.212160	done	0.535674721	0.5658996067941189	37.081088	done	0.532669643	0.5475706476718187	37.081088																				
+models2/scram/ft-openpsa-100Gates.xml									done	0.098642182	0.12434040382504463	7.196672	done	0.101098034	0.12066433019936085	7.196672	done	0.096945995	0.11487862467765808	7.196672																				
+models2/scram/ft-openpsa-11000Gates.xml									SEGMENTATION FAULT	0.985533269	1.188984801992774	74.829824	SEGMENTATION FAULT	1.007832967	1.2163172867149115	74.829824	SEGMENTATION FAULT	0.985716492	1.1906147692352533	74.829824																				
+models2/scram/ft-openpsa-11Gates.xml									done	0.086739373	0.09605436585843563	5.754880	done	0.086771066	0.11013649590313435	5.758976	done	0.084526875	0.11449147202074528	5.754880																				
+models2/scram/ft-openpsa-12000Gates.xml									SEGMENTATION FAULT	1.077757621	1.2808755189180374	76.664832	SEGMENTATION FAULT	1.082775396	1.3001803401857615	76.668928	SEGMENTATION FAULT	1.075993057	1.2872528787702322	76.664832																				
+models2/scram/ft-openpsa-13000Gates.xml									SEGMENTATION FAULT	1.157802565	1.3722232431173325	78.761984	SEGMENTATION FAULT	1.15249991	1.356031097471714	78.893056	SEGMENTATION FAULT	1.154616915	1.35865218937397	78.761984																				
+models2/scram/ft-openpsa-14000Gates.xml									SEGMENTATION FAULT	1.073160924	1.274004140868783	75.751424	SEGMENTATION FAULT	1.086686339	1.2928602695465088	75.747328	SEGMENTATION FAULT	1.074686434	1.2956963293254375	75.747328																				
+models2/scram/ft-openpsa-15000Gates.xml									SEGMENTATION FAULT	1.148180141	1.3531528674066067	79.941632	SEGMENTATION FAULT	1.150975387	1.3571102246642113	79.945728	SEGMENTATION FAULT	1.144458811	1.3587772212922573	80.072704																				
+models2/scram/ft-openpsa-16000Gates.xml									SEGMENTATION FAULT	1.21601152	1.4331513550132513	84.267008	SEGMENTATION FAULT	1.201429886	1.405435461550951	84.267008	SEGMENTATION FAULT	1.216014992	1.4149623848497868	84.267008																				
+models2/scram/ft-openpsa-17000Gates.xml									SEGMENTATION FAULT	1.310763862	1.5176299680024385	88.330240	SEGMENTATION FAULT	1.319488837	1.5366702005267143	88.199168	SEGMENTATION FAULT	1.287993016	1.5072566103190184	88.203264																				
+models2/scram/ft-openpsa-18000Gates.xml									SEGMENTATION FAULT	1.39104544	1.6022061053663492	92.528640	SEGMENTATION FAULT	1.35496908	1.5533673409372568	92.524544	SEGMENTATION FAULT	1.377005221	1.602178730070591	92.524544																				
+models2/scram/ft-openpsa-19000Gates.xml									SEGMENTATION FAULT	1.477383397	1.6802219320088625	96.718848	SEGMENTATION FAULT	1.422697713	1.6338228024542332	96.718848	SEGMENTATION FAULT	1.44426122	1.646203501150012	96.718848																				
+models2/scram/ft-openpsa-1Gates.xml									done	0.086117095	0.10904310271143913	5.758976	done	0.085631487	0.114162378013134	5.758976	done	0.083562917	0.11141997016966343	5.754880																				
+models2/scram/ft-openpsa-20000Gates.xml									SEGMENTATION FAULT	1.488153137	1.696968112140894	100.913152	SEGMENTATION FAULT	1.532128243	1.7491441518068314	101.044224	SEGMENTATION FAULT	1.515949877	1.7300808113068342	101.044224																				
+models2/scram/ft-openpsa-2000Gates.xml									done	1.695852951	1.7247844524681568	105.500672	done	1.672641841	1.6931075155735016	105.500672	done	1.671972237	1.6902769543230534	105.500672																				
+models2/scram/ft-openpsa-200Gates.xml									done	0.12204729	0.13250641897320747	9.031680	done	0.123067147	0.151995699852705	9.031680	done	0.116650841	0.1591909732669592	8.900608																				
+models2/scram/ft-openpsa-21000Gates.xml									SEGMENTATION FAULT	1.619542706	1.8238988667726517	104.189952	SEGMENTATION FAULT	1.606895268	1.8119680620729923	104.189952	SEGMENTATION FAULT	1.601067755	1.8261679410934448	104.058880																				
+models2/scram/ft-openpsa-21Gates.xml									done	0.086716547	0.10135666280984879	5.885952	done	0.087650318	0.11595112085342407	5.890048	done	0.086083285	0.11785854771733284	5.885952																				
+models2/scram/ft-openpsa-22000Gates.xml									SEGMENTATION FAULT	1.68249822	1.893328009173274	110.481408	SEGMENTATION FAULT	1.689850583	1.8894405793398619	110.481408	SEGMENTATION FAULT	1.669185082	1.8697778284549713	110.612480																				
+models2/scram/ft-openpsa-23000Gates.xml									SEGMENTATION FAULT	1.798491481	2.00451990775764	114.675712	SEGMENTATION FAULT	1.738455304	1.9413235299289227	114.806784	SEGMENTATION FAULT	1.788837199	2.0021175257861614	114.810880																				
+models2/scram/ft-openpsa-24000Gates.xml									SEGMENTATION FAULT	1.82747319	2.045232817530632	119.001088	SEGMENTATION FAULT	1.843880153	2.048004698008299	119.001088	SEGMENTATION FAULT	1.820485794	2.034134754911065	118.870016																				
+models2/scram/ft-openpsa-25000Gates.xml									SEGMENTATION FAULT	1.913621927	2.120334370061755	124.243968	SEGMENTATION FAULT	1.947330297	2.161196978762746	124.243968	SEGMENTATION FAULT	1.912429146	2.110779581591487	124.243968																				
+models2/scram/ft-openpsa-26000Gates.xml									SEGMENTATION FAULT	2.009803653	2.212752627208829	128.307200	SEGMENTATION FAULT	1.987570726	2.1925979517400265	128.438272	SEGMENTATION FAULT	2.005522149	2.2075723968446255	128.307200																				
+models2/scram/ft-openpsa-27000Gates.xml									SEGMENTATION FAULT	2.109417245	2.313107820227742	132.632576	SEGMENTATION FAULT	2.069009084	2.277510205283761	132.632576	SEGMENTATION FAULT	2.068290812	2.2665891088545322	132.632576																				
+models2/scram/ft-openpsa-28000Gates.xml									SEGMENTATION FAULT	2.168885721	2.3684865087270737	135.909376	SEGMENTATION FAULT	2.168870185	2.383783059194684	135.909376	SEGMENTATION FAULT	2.147498932	2.3498413488268852	135.909376																				
+models2/scram/ft-openpsa-29000Gates.xml									SEGMENTATION FAULT	2.258768787	2.4606385976076126	140.103680	SEGMENTATION FAULT	2.250898924	2.4613180700689554	140.103680	SEGMENTATION FAULT	2.218837179	2.4260766841471195	140.107776																				
+models2/scram/ft-openpsa-30000Gates.xml									SEGMENTATION FAULT	2.261956354	2.464771866798401	144.429056	SEGMENTATION FAULT	2.265929887	2.4732370860874653	144.429056	SEGMENTATION FAULT	2.268271819	2.4383286368101835	144.429056																				
+models2/scram/ft-openpsa-3000Gates.xml									done	3.539692001	3.5611632503569126	212.586496	done	3.462975684	3.4894126262515783	212.586496	done	3.524026971	3.558093586936593	212.586496																				
+models2/scram/ft-openpsa-300Gates.xml									done	0.146307682	0.17199081555008888	11.259904	done	0.145382143	0.16487567871809006	11.259904	done	0.14502359	0.165018729865551	11.128832																				
+models2/scram/ft-openpsa-31000Gates.xml									SEGMENTATION FAULT	2.327425255	2.533131802454591	148.492288	SEGMENTATION FAULT	2.330006272	2.537623466923833	148.623360	SEGMENTATION FAULT	2.340163324	2.550126140937209	148.623360																				
+models2/scram/ft-openpsa-31Gates.xml									done	0.090761221	0.12994261644780636	6.152192	done	0.089750888	0.11798867769539356	6.152192	done	0.088305024	0.11735030636191368	6.017024																				
+models2/scram/ft-openpsa-32000Gates.xml									SEGMENTATION FAULT	2.416137115	2.6162484772503376	152.821760	SEGMENTATION FAULT	2.400608509	2.6148117892444134	152.821760	SEGMENTATION FAULT	2.397457036	2.6013935413211584	152.817664																				
+models2/scram/ft-openpsa-33000Gates.xml									SEGMENTATION FAULT	2.466714791	2.6770963426679373	156.098560	SEGMENTATION FAULT	2.490674797	2.688588986173272	155.967488	SEGMENTATION FAULT	2.483108208	2.685040410608053	156.094464																				
+models2/scram/ft-openpsa-34000Gates.xml									SEGMENTATION FAULT	2.543630741	2.752105724066496	160.288768	SEGMENTATION FAULT	2.523864912	2.734725497663021	160.423936	SEGMENTATION FAULT	2.547443674	2.7536539305001497	160.419840																				
+models2/scram/ft-openpsa-35000Gates.xml									SEGMENTATION FAULT	2.615470985	2.824117185547948	164.876288	SEGMENTATION FAULT	2.607480459	2.8165990114212036	164.876288	SEGMENTATION FAULT	2.611334645	2.821224780753255	164.745216																				
+models2/scram/ft-openpsa-36000Gates.xml									SEGMENTATION FAULT	2.697330014	2.8962399885058403	169.332736	SEGMENTATION FAULT	2.684344328	2.897589560598135	169.332736	SEGMENTATION FAULT	2.67125726	2.889182858169079	169.332736																				
+models2/scram/ft-openpsa-37000Gates.xml									SEGMENTATION FAULT	2.730530566	2.9403899256139994	173.658112	SEGMENTATION FAULT	2.775257293	2.9681124929338694	173.527040	SEGMENTATION FAULT	2.759631204	2.9654189571738243	173.527040																				
+models2/scram/ft-openpsa-38000Gates.xml									SEGMENTATION FAULT	2.852596947	3.0563844218850136	177.721344	SEGMENTATION FAULT	2.784577041	2.9857802633196115	177.852416	SEGMENTATION FAULT	2.84947146	3.0492002200335264	177.725440																				
+models2/scram/ft-openpsa-39000Gates.xml									SEGMENTATION FAULT	2.926091732	3.137071006000042	182.046720	SEGMENTATION FAULT	2.832052569	3.0460932292044163	182.050816	SEGMENTATION FAULT	2.919279676	3.117983279749751	182.046720																				
+models2/scram/ft-openpsa-40000Gates.xml									SEGMENTATION FAULT	2.946727601	3.156573822721839	185.065472	SEGMENTATION FAULT	2.940025531	3.145869344472885	184.934400	SEGMENTATION FAULT	3.037443014	3.2458537574857473	184.930304																				
+models2/scram/ft-openpsa-4000Gates.xml									done	6.132373899	6.176440358161926	356.241408	done	5.414505596	5.433980856090784	356.249600	done	6.072656731	6.10142320394516	356.241408																				
+models2/scram/ft-openpsa-400Gates.xml									done	0.179754678	0.196026299148798	13.881344	done	0.182374088	0.20441685616970062	13.750272	done	0.178885335	0.2026116270571947	13.881344																				
+models2/scram/ft-openpsa-41000Gates.xml									SEGMENTATION FAULT	2.98906023	3.208053248003125	189.386752	SEGMENTATION FAULT	3.104845646	3.319367775693536	189.386752	SEGMENTATION FAULT	3.097479777	3.297671537846327	189.255680																				
+models2/scram/ft-openpsa-41Gates.xml									done	0.090430189	0.11211607046425343	6.148096	done	0.089118705	0.12096592970192432	6.279168	done	0.089073074	0.11767275631427765	6.279168																				
+models2/scram/ft-openpsa-42000Gates.xml									SEGMENTATION FAULT	3.027130391	3.2495838943868876	193.716224	SEGMENTATION FAULT	3.137440771	3.346367249265313	193.712128	SEGMENTATION FAULT	3.126332148	3.3461934737861156	193.712128																				
+models2/scram/ft-openpsa-43000Gates.xml									SEGMENTATION FAULT	3.206447875	3.4127297308295965	197.906432	SEGMENTATION FAULT	3.22228306	3.4371820520609617	197.906432	SEGMENTATION FAULT	3.215183891	3.4179795775562525	197.906432																				
+models2/scram/ft-openpsa-44000Gates.xml									SEGMENTATION FAULT	3.352259103	3.5564232375472784	205.246464	SEGMENTATION FAULT	3.373418896	3.5728891398757696	205.246464	SEGMENTATION FAULT	3.336668552	3.545799208804965	205.246464																				
+models2/scram/ft-openpsa-45000Gates.xml									SEGMENTATION FAULT	3.277618514	3.4839381892234087	209.571840	SEGMENTATION FAULT	3.468305661	3.6651417426764965	209.575936	SEGMENTATION FAULT	3.446781366	3.6590886898338795	209.571840																				
+models2/scram/ft-openpsa-46000Gates.xml									SEGMENTATION FAULT	3.495056688	3.6879650875926018	213.766144	SEGMENTATION FAULT	3.514796872	3.717314602807164	213.766144	SEGMENTATION FAULT	3.369517719	3.586975844576955	213.774336																				
+models2/scram/ft-openpsa-47000Gates.xml									SEGMENTATION FAULT	3.585344808	3.7880136985331774	217.960448	SEGMENTATION FAULT	3.60538695	3.8133993707597256	217.960448	SEGMENTATION FAULT	3.417942841	3.630977898836136	217.960448																				
+models2/scram/ft-openpsa-48000Gates.xml									SEGMENTATION FAULT	3.702981206	3.9092066138982773	221.245440	SEGMENTATION FAULT	3.649926802	3.8491032756865025	221.237248	SEGMENTATION FAULT	3.623377729	3.8305198829621077	222.154752																				
+models2/scram/ft-openpsa-49000Gates.xml									SEGMENTATION FAULT	3.748705472	3.9527363646775484	225.431552	SEGMENTATION FAULT	3.72719595	3.945103546604514	225.431552	SEGMENTATION FAULT	3.758453216	3.958986986428499	225.431552																				
+models2/scram/ft-openpsa-50000Gates.xml									SEGMENTATION FAULT	3.920229405	4.149340091273189	232.378368	SEGMENTATION FAULT	3.679706755	3.89032045006752	232.251392	SEGMENTATION FAULT	3.871491841	4.078414883464575	232.378368																				
+models2/scram/ft-openpsa-5000Gates.xml									SEGMENTATION FAULT	0.533020424	0.7399975787848234	63.688704	SEGMENTATION FAULT	0.527625479	0.7250398807227612	63.426560	SEGMENTATION FAULT	0.526551959	0.7340234071016312	63.426560																				
+models2/scram/ft-openpsa-500Gates.xml									done	0.221146535	0.24476129934191704	16.633856	done	0.2201551	0.24033190682530403	16.764928	done	0.219192607	0.24394983425736427	16.633856																				
+models2/scram/ft-openpsa-51Gates.xml									done	0.096391616	0.11249293014407158	6.279168	done	0.096266596	0.12404554337263107	6.279168	done	0.089968899	0.11715536005795002	6.410240																				
+models2/scram/ft-openpsa-6000Gates.xml									SEGMENTATION FAULT	0.611661631	0.8166907466948032	65.785856	SEGMENTATION FAULT	0.610249339	0.8128074277192354	65.916928	SEGMENTATION FAULT	0.599342245	0.7990880589932203	65.916928																				
+models2/scram/ft-openpsa-600Gates.xml									done	0.266992946	0.2851401101797819	20.172800	done	0.274005318	0.28962171636521816	20.041728	done	0.267842037	0.2914872318506241	20.172800																				
+models2/scram/ft-openpsa-61Gates.xml									done	0.097850132	0.1130534652620554	6.541312	done	0.097470122	0.1323232352733612	6.545408	done	0.091650107	0.11739476770162582	6.541312																				
+models2/scram/ft-openpsa-7000Gates.xml									SEGMENTATION FAULT	0.682751216	0.8966624941676855	67.751936	SEGMENTATION FAULT	0.691233011	0.8930222615599632	67.751936	SEGMENTATION FAULT	0.684533379	0.8895179200917482	67.751936																				
+models2/scram/ft-openpsa-700Gates.xml									done	0.322175857	0.34514739364385605	23.842816	done	0.323121946	0.34106220677495	23.711744	done	0.320732628	0.3424367234110832	23.842816																				
+models2/scram/ft-openpsa-71Gates.xml									done	0.098694067	0.11179854162037373	6.541312	done	0.09866519	0.1241882462054491	6.541312	done	0.093443658	0.1377762034535408	6.541312																				
+models2/scram/ft-openpsa-8000Gates.xml									SEGMENTATION FAULT	0.75924983	0.9715923182666302	69.586944	SEGMENTATION FAULT	0.757153096	0.9840250313282013	69.718016	SEGMENTATION FAULT	0.756260078	0.9544868879020214	69.586944																				
+models2/scram/ft-openpsa-800Gates.xml									done	0.385823526	0.404207032173872	27.906048	done	0.386073579	0.4054376520216465	27.906048	done	0.391003388	0.41487819887697697	27.914240																				
+models2/scram/ft-openpsa-81Gates.xml									done	0.097452487	0.1221818346530199	6.811648	done	0.09433141	0.11297642812132835	6.803456	done	0.098620605	0.11272755824029446	6.934528																				
+models2/scram/ft-openpsa-9000Gates.xml									SEGMENTATION FAULT	0.854529409	1.0522743444889784	71.159808	SEGMENTATION FAULT	0.848612794	1.060264453291893	71.426048	SEGMENTATION FAULT	0.827314032	1.025976175442338	71.159808																				
+models2/scram/ft-openpsa-900Gates.xml									done	0.465277742	0.48381758108735085	32.235520	done	0.455352849	0.48084978573024273	32.362496	done	0.45184946	0.4695938788354397	32.362496																				
+models2/scram/ft-openpsa-91Gates.xml									done	0.102320029	0.11972499080002308	7.065600	done	0.096900109	0.12015064805746078	7.065600	done	0.100641645	0.12083089351654053	7.069696																				
+models3/saphsolve/ft-saphsolve-1000Gates.JSInp					unknown	0.750527163	0.7795642595738173	44.285952																																
+models3/saphsolve/ft-saphsolve-100Gates.JSInp					unknown	0.352209305	0.3675011284649372	42.582016																																
+models3/saphsolve/ft-saphsolve-11Gates.JSInp					unknown	0.322912348	0.35943127050995827	42.319872																																
+models3/saphsolve/ft-saphsolve-1Gates.JSInp					unknown	0.021802636	0.047971609979867935	3.141632																																
+models3/saphsolve/ft-saphsolve-2000Gates.JSInp					unknown	1.373865353	1.407229956239462	46.120960																																
+models3/saphsolve/ft-saphsolve-200Gates.JSInp					unknown	0.391015361	0.4196902643889189	42.713088																																
+models3/saphsolve/ft-saphsolve-21Gates.JSInp					unknown	0.326197309	0.3626470398157835	42.450944																																
+models3/saphsolve/ft-saphsolve-3000Gates.JSInp					unknown	1.01694423	1.0475101117044687	47.038464																																
+models3/saphsolve/ft-saphsolve-300Gates.JSInp					unknown	0.429146165	0.4511414244771004	42.975232																																
+models3/saphsolve/ft-saphsolve-31Gates.JSInp					unknown	0.329354384	0.351321991533041	42.450944																																
+models3/saphsolve/ft-saphsolve-4000Gates.JSInp					unknown	1.258594356	1.2997090797871351	48.611328																																
+models3/saphsolve/ft-saphsolve-400Gates.JSInp					unknown	0.471228392	0.49960883148014545	43.106304																																
+models3/saphsolve/ft-saphsolve-41Gates.JSInp					unknown	0.331440332	0.36357839591801167	42.450944																																
+models3/saphsolve/ft-saphsolve-5000Gates.JSInp					unknown	1.494316411	1.5155235547572374	50.184192																																
+models3/saphsolve/ft-saphsolve-500Gates.JSInp					unknown	0.514983492	0.5394998285919428	43.368448																																
+models3/saphsolve/ft-saphsolve-51Gates.JSInp					unknown	0.341347422	0.36789591796696186	42.450944																																
+models3/saphsolve/ft-saphsolve-600Gates.JSInp					unknown	0.549404008	0.5676392521709204	43.499520																																
+models3/saphsolve/ft-saphsolve-61Gates.JSInp					unknown	0.34217764	0.3754936270415783	42.450944																																
+models3/saphsolve/ft-saphsolve-700Gates.JSInp					unknown	0.595692456	0.6236192099750042	43.761664																																
+models3/saphsolve/ft-saphsolve-71Gates.JSInp					unknown	0.343464079	0.364801499992609	42.450944																																
+models3/saphsolve/ft-saphsolve-800Gates.JSInp					unknown	0.651743013	0.6803006734699011	43.892736																																
+models3/saphsolve/ft-saphsolve-81Gates.JSInp					unknown	0.347721926	0.3780900202691555	42.450944																																
+models3/saphsolve/ft-saphsolve-900Gates.JSInp					unknown	0.702152396	0.726888595148921	44.023808																																
+models3/saphsolve/ft-saphsolve-91Gates.JSInp					unknown	0.3482029	0.36414227820932865	42.450944																																
+models2/saphsolve/ft-saphsolve-1000Gates.JSInp	unknown	0.746998469	0.7839155718684196	44.285952																																				
+models2/saphsolve/ft-saphsolve-100Gates.JSInp	unknown	0.353072715	0.3918709047138691	42.582016																																				
+models2/saphsolve/ft-saphsolve-11Gates.JSInp	unknown	0.325396741	0.3513922896236181	42.323968																																				
+models2/saphsolve/ft-saphsolve-1Gates.JSInp	unknown	0.022079191	0.04336669109761715	3.141632																																				
+models2/saphsolve/ft-saphsolve-2000Gates.JSInp	unknown	1.373014657	1.3922862391918898	46.120960																																				
+models2/saphsolve/ft-saphsolve-200Gates.JSInp	unknown	0.387620129	0.4308701530098915	42.713088																																				
+models2/saphsolve/ft-saphsolve-21Gates.JSInp	unknown	0.332225961	0.3556321933865547	42.319872																																				
+models2/saphsolve/ft-saphsolve-3000Gates.JSInp	unknown	1.020082613	1.0356651358306408	47.038464																																				
+models2/saphsolve/ft-saphsolve-300Gates.JSInp	unknown	0.436161401	0.4667728468775749	42.975232																																				
+models2/saphsolve/ft-saphsolve-31Gates.JSInp	unknown	0.326771726	0.35953408293426037	42.450944																																				
+models2/saphsolve/ft-saphsolve-4000Gates.JSInp	unknown	1.249577155	1.2709900215268135	48.611328																																				
+models2/saphsolve/ft-saphsolve-400Gates.JSInp	unknown	0.461287116	0.4922980312258005	43.106304																																				
+models2/saphsolve/ft-saphsolve-41Gates.JSInp	unknown	0.330818359	0.35966765880584717	42.450944																																				
+models2/saphsolve/ft-saphsolve-5000Gates.JSInp	unknown	1.494652516	1.5277837123721838	50.184192																																				
+models2/saphsolve/ft-saphsolve-500Gates.JSInp	unknown	0.510575963	0.5469217896461487	43.237376																																				
+models2/saphsolve/ft-saphsolve-51Gates.JSInp	unknown	0.33398503	0.3565936889499426	42.450944																																				
+models2/saphsolve/ft-saphsolve-600Gates.JSInp	unknown	0.551038627	0.5701861139386892	43.499520																																				
+models2/saphsolve/ft-saphsolve-61Gates.JSInp	unknown	0.336423214	0.3520703073590994	42.455040																																				
+models2/saphsolve/ft-saphsolve-700Gates.JSInp	unknown	0.59660568	0.6274837013334036	43.630592																																				
+models2/saphsolve/ft-saphsolve-71Gates.JSInp	unknown	0.343550425	0.3720469828695059	42.450944																																				
+models2/saphsolve/ft-saphsolve-800Gates.JSInp	unknown	0.640756923	0.6553938612341881	43.892736																																				
+models2/saphsolve/ft-saphsolve-81Gates.JSInp	unknown	0.345529014	0.36018882505595684	42.455040																																				
+models2/saphsolve/ft-saphsolve-900Gates.JSInp	unknown	0.693640726	0.7156783640384674	44.023808																																				
+models2/saphsolve/ft-saphsolve-91Gates.JSInp	unknown	0.342141375	0.3715908359736204	42.582016																																				

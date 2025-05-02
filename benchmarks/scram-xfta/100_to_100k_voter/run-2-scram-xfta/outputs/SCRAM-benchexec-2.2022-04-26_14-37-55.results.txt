@@ -1,0 +1,33 @@
+   BENCHMARK INFORMATION
+Run Scram
+benchmark definition:    SCRAM-benchexec-2.xml
+name:                    SCRAM-benchexec-2
+run sets:                MCS.bdd.ft-generated, MCS.bdd.prob.exact.ft-generated, MCS.bdd.prob.mcub.ft-generated, MCS.bdd.prob.rare.ft-generated, MCS.zbdd.prob.exact.ft-generated, MCS.zbdd.prob.mcub.ft-generated, MCS.zbdd.prob.rare.ft-generated, MCS.mocus.prob.exact.ft-generated, MCS.mocus.prob.mcub.ft-generated, MCS.mocus.prob.rare.ft-generated, ft-generated
+date:                    Tue, 2022-04-26 14:37:55 EDT
+tool:                    SCRAM SCRAM 0.16.2 (0.16.2-197-g47526915)
+
+Dependencies:
+   Boost       1_65_1
+   libxml2     2.9.4
+tool executable:         /usr/bin/scram
+options:
+parallel runs:           12
+resource limits:
+- memory:                63000.0 MB
+- time:                  3600 s
+- cpu cores:             2
+hardware requirements:
+- cpu cores:             2
+- memory:                63000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    Eros
+os:                      Linux-4.15.0-175-generic-x86_64-with-Ubuntu-18.04-bionic
+cpu:                     Intel Xeon CPU           L5640  @ 2.27GHz
+- cores:                 24
+- max frequency:         2262.0 MHz
+- turbo boost enabled:   True
+ram:                     135182.393344 MB
+------------------------------------------------------------
+
